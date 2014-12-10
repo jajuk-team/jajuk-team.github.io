@@ -3,8 +3,9 @@ title: Java Jukebox
 layout: default
 ---
 <h3>Prerequisites</h3>
-<p>Pour participer, s'inscrire sur la <a href="http://lists.sourceforge.net/mailman/listinfo/jajuk-developers">mailing liste</a> des développeurs</p>
+<p>
 Jajuk requires Java Runtime Environment (JRE) 1.6 and above to run. Get it for free at http://www.java.com
+</p>
 
 <h3>Download latest version 1.10.7 alias &lt;Gute Laune&gt;</h3>
 

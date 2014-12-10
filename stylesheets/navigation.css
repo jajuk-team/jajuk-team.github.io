@@ -1,0 +1,25 @@
+#main-navigation {
+    margin-bottom: 25px;
+}
+#main-navigation li {
+    border: 1px solid #ccc;
+    float: left;
+    margin: 2px 6px 0 0;
+}
+#main-navigation a {
+    color: #222;
+    display: block;
+    padding: 12px 30px;
+    text-decoration: none;
+}
+#main-navigation a:hover {
+    background-color: #dedede;
+}
+.back-up-link {
+    color: #ddd;
+    font-size: 14px;
+    position: absolute;
+    right: 0;
+    text-decoration: none;
+    top: 10px;
+}
