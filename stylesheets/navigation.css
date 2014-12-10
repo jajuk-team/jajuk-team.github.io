@@ -15,11 +15,4 @@
 #main-navigation a:hover {
     background-color: #dedede;
 }
-.back-up-link {
-    color: #ddd;
-    font-size: 14px;
-    position: absolute;
-    right: 0;
-    text-decoration: none;
-    top: 10px;
-}
+
