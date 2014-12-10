@@ -38,7 +38,7 @@ layout: default
 	<td>Mac OS X native package
 	<p>Check out <a href="/index.php/Mac_OS_installation_guide" title="Mac OS installation guide">Mac OS installation guide</a>
 	</p>
-	</td><td><a href="/index.php/File:Osx.png" class="image" title="Image:osx.png"><img alt="Image:osx.png" src="/images/Download_osx.png" width="41" height="48" border="0" /></a> <a href="http://sourceforge.net/projects/jajuk/files/jajuk/1.10.7/jajuk-macos-1.10.7.zip" class="external text" title="http://sourceforge.net/projects/jajuk/files/jajuk/1.10.7/jajuk-macos-1.10.7.zip" rel="nofollow">download</a>
+	</td><td><a href="/index.php/File:Osx.png" class="image" title="Image:Download_osx.png"><img alt="Image:osx.png" src="/images/Download_osx.png" width="41" height="48" border="0" /></a> <a href="http://sourceforge.net/projects/jajuk/files/jajuk/1.10.7/jajuk-macos-1.10.7.zip" class="external text" title="http://sourceforge.net/projects/jajuk/files/jajuk/1.10.7/jajuk-macos-1.10.7.zip" rel="nofollow">download</a>
 	</td>
 </tr>
 <tr>
