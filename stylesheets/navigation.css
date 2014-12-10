@@ -15,7 +15,7 @@
 #main-navigation a:hover {
     background-color: #dedede;
 }
-#main-navigation nav ul, #main-navigation nav ol {
+#main-navigation ul, #main-navigation ol {
     list-style: outside none none;
     margin: 0;
     padding: 0;
