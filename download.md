@@ -2,20 +2,15 @@
 title: Java Jukebox
 layout: default
 ---
-
 <h3>Prerequisites</h3>
 <p>Pour participer, s'inscrire sur la <a href="http://lists.sourceforge.net/mailman/listinfo/jajuk-developers">mailing liste</a> des développeurs</p>
-Jajuk requires Java Runtime Environment (JRE) 1.6 and above to run. Get it for free at <a href="http://www.java.com">http://www.java.com</a>
+Jajuk requires Java Runtime Environment (JRE) 1.6 and above to run. Get it for free at http://www.java.com
 
-<h3>Download</h3>
-
-<p>Last version</p>
-<p>Last stable version is : 1.10.7 alias <Gute Laune></p>
-<p>See also <a href="new_features.html">New Features Highlights</a></p>
+<h3>Download latest version 1.10.7 alias &lt;Gute Laune&gt;</h3>
 
 <table border="1" cellpadding="20" cellspacing="5">
 <tr>
-	<th width="50%">System</th><th>File</th><th>Guide</th>
+	<th width="30%">System</th><th>File</th><th>Guide</th>
 </tr>
 <tr>
 	<td>Microsoft Windows executable</td>
@@ -43,3 +38,6 @@ Jajuk requires Java Runtime Environment (JRE) 1.6 and above to run. Get it for f
 	<td></td>
 </tr>
 </table>
+
+<p>See also <a href="new_features.html">New Features Highlights</a></p>
+
