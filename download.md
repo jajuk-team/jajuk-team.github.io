@@ -4,7 +4,7 @@ layout: default
 ---
 <h3>Prerequisites</h3>
 <p>
-Jajuk requires Java Runtime Environment (JRE) 1.6 and above to run. Get it for free at http://www.java.com
+Jajuk requires Java Runtime Environment (JRE) 1.6 and above to run. Get it for free at [www.java.com](http://www.java.com)
 </p>
 
 <h3>Download latest version 1.10.7 alias &lt;Gute Laune&gt;</h3>
