@@ -7,7 +7,7 @@ layout: default
 
 Jajuk leverages Git SCM since jan 2011. This page centralizes information dealing with developing Jajuk with Git.
 
-    1 Quick guide for new developers
+    1 [Quick guide for new developers](#quickguide)
     2 Documentation
     3 Public Git Repository
     4 Git and Eclipse
