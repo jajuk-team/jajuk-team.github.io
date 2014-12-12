@@ -6,8 +6,6 @@ layout: default
 <h3>Git</h3>
 
 Jajuk leverages Git SCM since jan 2011. This page centralizes information dealing with developing Jajuk with Git.
-Contents
-[hide]
 
     1 Quick guide for new developers
     2 Documentation
