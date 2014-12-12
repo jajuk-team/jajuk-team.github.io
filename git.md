@@ -14,7 +14,7 @@ Jajuk leverages Git SCM since jan 2011. This page centralizes information dealin
     5 Branching workflow
     6 Social coding
 
-Quick guide for new developers
+###Quick guide for new developers
 
 (Ask on the list if you need help with Git)
 
@@ -27,7 +27,7 @@ Quick guide for new developers
     Discuss on your request using the GitHub wiki
     Pull your commits when it's ok 
 
-Documentation
+###Documentation
 
 Git is very powerful and innovative but also very different from Subversion we used previously and is also more complex. We assume that you understand basic concepts of Git. If it is not the case, please read first (by preference order) :
 
@@ -36,18 +36,18 @@ Git is very powerful and innovative but also very different from Subversion we u
     Git community book
     Egit manual 
 
-Public Git Repository
+###Public Git Repository
 
 The Git URL for clone/push is
 
  ssh://git@github.com:jajuk-team/jajuk.git or https://github.com/jajuk-team/jajuk.git
 
-Git and Eclipse
+###Git and Eclipse
 
 Most Jajuk developers currently use Eclipse (but it is not mandatory) and Jajuk is Eclipse-ready (.project and .classpath Eclipse configuration files are provided out of the box). Eclipse recent releases comes with the eGIT plugin enabled.
 
 
-Branching workflow
+###Branching workflow
 Branching workflow (CC-BY-SA Vincent Driessen)
 
     We use this worflow, please make sure to read it carefully. To sum up :
@@ -62,7 +62,7 @@ Branching workflow (CC-BY-SA Vincent Driessen)
 
     ↑ See http://progit.org/book/ch3-6.html
 
- Social coding
+###Social coding
 
 We use GitHub. The most prominent features brought by GitHub to our project are :
 
