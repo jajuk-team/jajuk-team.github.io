@@ -1,5 +1,5 @@
 ---
-title: Java Jukebox
+title: Download - Jajuk
 layout: default
 ---
 
@@ -18,7 +18,7 @@ Download latest version 1.10.7 alias <Gute Laune>
 </tr>
 <tr>
 	<td>Microsoft Windows executable</td>
-	<td><a href="/index.php/File:Download_win.png" class="image" title="Image:download_win.png"><img alt="Image:download_win.png" src="/images/Download_win.png" width="48" height="48" border="0" /></a> <a href="http://sourceforge.net/projects/jajuk/files/jajuk/1.10.7/jajuk-1.10.7-setup.exe" class="external text" title="http://sourceforge.net/projects/jajuk/files/jajuk/1.10.7/jajuk-1.10.7-setup.exe" rel="nofollow">download</a>	</td>
+	<td><a href="/index.php/File:Download_win.png" class="image" title="Image:download_win.png"><img alt="Image:download_win.png" src="/images/Download_win.png" width="48" height="48" border="0" /></a> <a href="http://sourceforge.net/projects/jajuk/files/jajuk/1.10.7/jajuk-1.10.7-setup.exe" class="external text" title="http://sourceforge.net/projects/jajuk/files/jajuk/1.10.7/jajuk-1.10.7-setup.exe" rel="nofollow">download</a></td>
 	<td><p><a href="/index.php/Windows_installation_guide" title="Windows installation guide">Windows installation guide</a></p></td>
 </tr>
 <tr>
@@ -37,8 +37,8 @@ Download latest version 1.10.7 alias <Gute Laune>
 	<td><p><a href="/index.php/Mac_OS_installation_guide" title="Mac OS installation guide">Mac OS installation guide</a></p></td>
 </tr>
 <tr>
-	<td>Source (Full Jajuk sources repository)</td><td><a href="/index.php/File:Download_sources.png" class="image" title="Image:download_sources.png"><img alt="Image:Download_sources.png" src="/images/Download_sources.png" width="48" height="48" border="0" /></a> <a href="http://sourceforge.net/projects/jajuk/files/jajuk/1.10.7/jajuk-sources-1.10.7.zip" class="external text" title="http://sourceforge.net/projects/jajuk/files/jajuk/1.10.7/jajuk-sources-1.10.7.zip" rel="nofollow">download</a></td>
-	<td></td>
+	<td>Source (Full Jajuk sources repository)</td>
+	<td><a href="/index.php/File:Download_sources.png" class="image" title="Image:download_sources.png"><img alt="Image:Download_sources.png" src="/images/Download_sources.png" width="48" height="48" border="0" /></a> <a href="http://sourceforge.net/projects/jajuk/files/jajuk/1.10.7/jajuk-sources-1.10.7.zip" class="external text" title="http://sourceforge.net/projects/jajuk/files/jajuk/1.10.7/jajuk-sources-1.10.7.zip" rel="nofollow">download</a></td>
 	<td></td>
 </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: Java Jukebox
+title: Jajuk Team - Jajuk
 layout: default
 ---
 

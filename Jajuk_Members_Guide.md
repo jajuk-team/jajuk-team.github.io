@@ -1,5 +1,5 @@
 ---
-title: Jajuk Members Guide
+title: Jajuk Members Guide - Jajuk
 layout: default
 ---
 
