@@ -1,6 +1,7 @@
 ---
 title: Jajuk Members Guide
 permalink: /Jajuk_Members_Guide/
+layout: default
 ---
 
 ''Welcome to new Jajuk members, have fun ! ''
