@@ -9,7 +9,7 @@ Prerequisites
 Jajuk requires Java Runtime Environment (JRE) 1.6 and above to run. Get it for free at [www.java.com](http://www.java.com)
 
 
-Download latest version 1.10.7 alias <Gute Laune>
+Download latest version 1.10.7 alias ''Gute Laune''
 -------------------------------------------------
 
 <table border="1" cellpadding="20" cellspacing="5">

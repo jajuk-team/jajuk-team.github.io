@@ -3,7 +3,7 @@ title: Jajuk Members Guide - Jajuk
 layout: default
 ---
 
-''Welcome to new Jajuk members, have fun ! ''
+
 
 Executive summary
 -----------------
