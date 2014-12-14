@@ -3,7 +3,7 @@ title: Java Advanced Jukebox
 layout: default
 ---
 
-<img src="/images/Jajuk_screenshot.png" style="width:300px; float:right" title="Jajuk screenshot" alt="Jajuk_screenshot"/>
+<img src="/images/jajuk_screenshot.png" style="width:300px; float:right" title="Jajuk screenshot" alt="Jajuk_screenshot"/>
 
 **Jajuk** is a Java music organizer for all platforms. The main goal of this project is to provide a fully-featured application to advanced users with large or scattered music collections.
 
