@@ -24,3 +24,7 @@ h2 a {
 	text-decoration:none;
 	color : #373737;
 }
+
+#screenshots td {
+	text-align:center;
+}

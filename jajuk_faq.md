@@ -80,6 +80,8 @@ Jajuk Frequently Asked Questions
 </li>
 </ol>
 
+<a name="General"></a>
+
 ## General
 
 <a name="What_is_Jajuk.3F" id="What_is_Jajuk.3F"></a>
@@ -238,7 +240,7 @@ Check out <a href="/index.php/Using_devices#Collection_backup_and_restore" title
 
 <a name="Windows_Only" id="Windows_Only"></a>
 
-###Windows Only
+### Windows Only
 
 <a name="Need_admin_rights_to_install" id="Need_admin_rights_to_install"></a>
 
@@ -247,7 +249,9 @@ Check out <a href="/index.php/Using_devices#Collection_backup_and_restore" title
 Under Vista and Seven, we would need to be administrator or to know the administrator password to install Jajuk. From Jajuk 1.9.6, you can install jajuk into one of your local directory (even if it's not recommended) by renaming the installer file name from jajuk-&lt;version&gt;<b>-setup</b>.exe to jajuk-&lt;version&gt;.exe.
 </p>
 
-<a name="32.2F64_bits_JVM_mess-up" id="32.2F64_bits_JVM_mess-up"></a><h4> 32/64 bits JVM mess-up </h4>
+<a name="32.2F64_bits_JVM_mess-up" id="32.2F64_bits_JVM_mess-up"></a>
+
+#### 32/64 bits JVM mess-up
 
 <p>See <a href="https://github.com/jajuk-team/jajuk/issues/1738" class="external text" title="https://github.com/jajuk-team/jajuk/issues/1738" rel="nofollow">#1738</a>
 In some special cases including switch from a 32 to a 64 bits JVM, you get this message when launching Jajuk from the shortcut&nbsp;:
@@ -259,7 +263,10 @@ In some special cases including switch from a 32 to a 64 bits JVM, you get this 
 <pre>C:\Windows\SysWOW64\javaw.exe
 </pre>
 
-<a name="Some_parts_of_the_screen_are_not_refreshed" id="Some_parts_of_the_screen_are_not_refreshed"></a><h4> Some parts of the screen are not refreshed </h4>
+<a name="Some_parts_of_the_screen_are_not_refreshed" id="Some_parts_of_the_screen_are_not_refreshed"></a>
+
+#### Some parts of the screen are not refreshed
+
 <p>(see <a href="https://github.com/jajuk-team/jajuk/issues/1652" class="external text" title="https://github.com/jajuk-team/jajuk/issues/1652" rel="nofollow">#1652</a>)
 This may happen with some JRE 1.6 releases along with some video drivers. A workaround is change the windows shortcut that launches jajuk (the -Dsun.java2d.d3d=false option disables double buffering)&nbsp;:
 </p><p>from&nbsp;:
@@ -273,12 +280,16 @@ This may happen with some JRE 1.6 releases along with some video drivers. A work
 -XX:MinHeapFreeRatio=5 -XX:MaxHeapFreeRatio=10 -jar "C:\Program Files\Jajuk-1.9dev/bin/jajuk.jar" -test
 </pre>
 
-<a name="Cannot_play_files_on_a_Network_drive_.28NAS.29" id="Cannot_play_files_on_a_Network_drive_.28NAS.29"></a><h4> Cannot play files on a Network drive (NAS) </h4>
+<a name="Cannot_play_files_on_a_Network_drive_.28NAS.29" id="Cannot_play_files_on_a_Network_drive_.28NAS.29"></a>
+
+#### Cannot play files on a Network drive (NAS)
 <p>It is caused by the use of windows shortnames by mplayer (that are required to fix non-European filenames issues beside this). From 1.7, Jajuk automatically try both modes (short and long names) in case of failure.
 </p><p>See also <a href="https://github.com/jajuk-team/jajuk/issues/1267" class="external free" title="https://github.com/jajuk-team/jajuk/issues/1267" rel="nofollow">https://github.com/jajuk-team/jajuk/issues/1267</a>
 </p>
 
-<a name="A_.22pop.22_.28think_.22standard_windows_.27pop.27_sound.22.29_is_heard_between_tracks" id="A_.22pop.22_.28think_.22standard_windows_.27pop.27_sound.22.29_is_heard_between_tracks"></a><h4> A "pop" (think "standard windows 'pop' sound") is heard between tracks</h4>
+<a name="A_.22pop.22_.28think_.22standard_windows_.27pop.27_sound.22.29_is_heard_between_tracks" id="A_.22pop.22_.28think_.22standard_windows_.27pop.27_sound.22.29_is_heard_between_tracks"></a>
+
+#### A "pop" (think "standard windows 'pop' sound") is heard between tracks
 
 <p>It's a sound emitted by the system when opening the systray balloons. We can't disable this sound as it is managed by Windows itself. You can:
 </p>
@@ -286,7 +297,9 @@ This may happen with some JRE 1.6 releases along with some video drivers. A work
 </li><li> Or disable it manually from Windows Sounds Parameters wizards (Parameters / sound and multimedia / disable "notify new messages" sound)
 </li></ul>
 
-<a name="Firefox_is_set_as_default_browser.2C_I_use_JRE_1.6_Sun_and_I_regularly_get_this_message:_.22java.net.MalformedURLException:_unknown_protocol:_socket.22" id="Firefox_is_set_as_default_browser.2C_I_use_JRE_1.6_Sun_and_I_regularly_get_this_message:_.22java.net.MalformedURLException:_unknown_protocol:_socket.22"></a><h4> Firefox is set as default browser, I use JRE 1.6 Sun and I regularly get this message: "java.net.MalformedURLException: unknown protocol: socket" </h4>
+<a name="Firefox_is_set_as_default_browser.2C_I_use_JRE_1.6_Sun_and_I_regularly_get_this_message:_.22java.net.MalformedURLException:_unknown_protocol:_socket.22" id="Firefox_is_set_as_default_browser.2C_I_use_JRE_1.6_Sun_and_I_regularly_get_this_message:_.22java.net.MalformedURLException:_unknown_protocol:_socket.22"></a>
+
+#### Firefox is set as default browser, I use JRE 1.6 Sun and I regularly get this message: "java.net.MalformedURLException: unknown protocol: socket"
 
 <ul><li> See <a href="http://forum.java.sun.com/thread.jspa?threadID=5127788" class="external free" title="http://forum.java.sun.com/thread.jspa?threadID=5127788" rel="nofollow">http://forum.java.sun.com/thread.jspa?threadID=5127788</a>
 </li><li> This is a Sun JRE 1.6 issue dealing with proxy settings. To fix it&nbsp;:
@@ -296,12 +309,16 @@ This may happen with some JRE 1.6 releases along with some video drivers. A work
 3) Select Direct Connection, and click ok a couple of times to exit
 </p>
 
-<a name="Cannot_run_Jajuk_on_Vista_64_bits_.28cannot_execute_32_bits_dll.29" id="Cannot_run_Jajuk_on_Vista_64_bits_.28cannot_execute_32_bits_dll.29"></a><h4> Cannot run Jajuk on Vista 64 bits (cannot execute 32 bits dll) </h4>
+<a name="Cannot_run_Jajuk_on_Vista_64_bits_.28cannot_execute_32_bits_dll.29" id="Cannot_run_Jajuk_on_Vista_64_bits_.28cannot_execute_32_bits_dll.29"></a>
+
+#### Cannot run Jajuk on Vista 64 bits (cannot execute 32 bits dll)
 
 <p>(Thanks elefkof) You need to install both a 32-bit and 64-bits JRE. It will allow you to have a 64-bit and 32-bit versions alongside each other. It will use the 32-bit JRE for 32 bit apps and 64 bit JRE for 64 bit apps. See <a href="http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=4802695" class="external free" title="http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=4802695" rel="nofollow">http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=4802695</a>
 </p>
 
-<a name="Access_is_denied_under_Vista" id="Access_is_denied_under_Vista"></a><h4> Access is denied under Vista </h4>
+<a name="Access_is_denied_under_Vista" id="Access_is_denied_under_Vista"></a>
+
+#### Access is denied under Vista
 
 <ul><li> I get this error message:  java.io.FileNotFoundException: C:\Program Files (x86)\Jajuk\bin\JIntellitype.dll (Access is denied) when launching java installer under a Vista 64 bit
 </li><li> Workaround: Run the installer as an administrator. That should work. (thanks kawayanuuc )
@@ -318,74 +335,113 @@ This may happen with some JRE 1.6 releases along with some video drivers. A work
 </p><p>More details on <a href="https://github.com/jajuk-team/jajuk/issues/1820" class="external text" title="https://github.com/jajuk-team/jajuk/issues/1820" rel="nofollow">ticket #1820</a>
 </p>
 
-<a name=".5BKDE_only.5D_External_browser_features_not_available_under_KDE" id=".5BKDE_only.5D_External_browser_features_not_available_under_KDE"></a><h4>[KDE only] External browser features not available under KDE</h4>
+<a name=".5BKDE_only.5D_External_browser_features_not_available_under_KDE" id=".5BKDE_only.5D_External_browser_features_not_available_under_KDE"></a>
+
+#### [KDE only] External browser features not available under KDE
+
 <p>Under KDE, some jajuk features like "Help-&gt;Report an issue" or opening the Lastfm artist page from the suggestion view are disabled.
 It's due to Sun bug 6486393 (see <a href="https://github.com/jajuk-team/jajuk/issues/1612" class="external free" title="https://github.com/jajuk-team/jajuk/issues/1612" rel="nofollow">https://github.com/jajuk-team/jajuk/issues/1612</a> for details).
 </p>
 
-<a name="No_systray_under_XFCE_.28and_potentially_others_window_manager.29" id="No_systray_under_XFCE_.28and_potentially_others_window_manager.29"></a><h4>No systray under XFCE (and potentially others window manager) </h4>
+<a name="No_systray_under_XFCE_.28and_potentially_others_window_manager.29" id="No_systray_under_XFCE_.28and_potentially_others_window_manager.29"></a>
+
+#### No systray under XFCE (and potentially others window manager)
 <p>Upgrade to JRE 1.6u10 or 1.7, check <a href="http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6528437" class="external free" title="http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6528437" rel="nofollow">http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6528437</a>
 </p>
 
-<a name="Some_Japanese_fonts_are_not_displayed_correctly_.28squares.29_in_some_part_of_the_screen" id="Some_Japanese_fonts_are_not_displayed_correctly_.28squares.29_in_some_part_of_the_screen"></a><h4>Some Japanese fonts are not displayed correctly (squares) in some part of the screen</h4>
+<a name="Some_Japanese_fonts_are_not_displayed_correctly_.28squares.29_in_some_part_of_the_screen" id="Some_Japanese_fonts_are_not_displayed_correctly_.28squares.29_in_some_part_of_the_screen"></a>
+
+#### Some Japanese fonts are not displayed correctly (squares) in some part of the screen
+
 <p>See: <a href="https://github.com/jajuk-team/jajuk/issues/799" class="external free" title="https://github.com/jajuk-team/jajuk/issues/799" rel="nofollow">https://github.com/jajuk-team/jajuk/issues/799</a> or <a href="https://help.ubuntu.com/community/Japanese_in_Java" class="external free" title="https://help.ubuntu.com/community/Japanese_in_Java" rel="nofollow">https://help.ubuntu.com/community/Japanese_in_Java</a>
 </p><p>Update: As of version 1.7.1, the above modification is NOT necessary for correct display of CJK (Chinese Japanese Korean) characters.  As long as you have appropriate CJK fonts installed, Java should be able to pick the right one to use.
 Reference: <a href="https://github.com/jajuk-team/jajuk/issues/799" class="external free" title="https://github.com/jajuk-team/jajuk/issues/799" rel="nofollow">https://github.com/jajuk-team/jajuk/issues/799</a>
 </p>
 
-<a name="After_setting_a_cross-fade.2C_the_next_track_cannot_start" id="After_setting_a_cross-fade.2C_the_next_track_cannot_start"></a><h4>After setting a cross-fade, the next track cannot start</h4>
+<a name="After_setting_a_cross-fade.2C_the_next_track_cannot_start" id="After_setting_a_cross-fade.2C_the_next_track_cannot_start"></a>
+
+#### After setting a cross-fade, the next track cannot start
+
 <p>This can be caused by a wrong mplayer configuration that uses OSS or ALSA and not the sound engine that prevents from playing several songs together. Edit ~/.mplayer/conf and add a line like 'ao=esd' under Gnome or 'ao=arts' under KDE.
 </p>
 
-<a name="I_get_totally_or_partially_blank_screens_when_using_XGL" id="I_get_totally_or_partially_blank_screens_when_using_XGL"></a><h4>I get totally or partially blank screens when using XGL </h4>
+<a name="I_get_totally_or_partially_blank_screens_when_using_XGL" id="I_get_totally_or_partially_blank_screens_when_using_XGL"></a>
+
+#### I get totally or partially blank screens when using XGL
+
 <p>Try (not tested) using xnest (install it if required). That should start Jajuk using a generic X configuration using 'Xnest&nbsp;:1 &amp; DISPLAY=":1" jajuk'
 (Feedbacks are welcomed)
 </p>
 
-<a name="My_frame_position_and_size_is_not_kept_between_sessions_or_the_frame_is_displayed_at_wrong_position" id="My_frame_position_and_size_is_not_kept_between_sessions_or_the_frame_is_displayed_at_wrong_position"></a><h4>My frame position and size is not kept between sessions or the frame is displayed at wrong position</h4>
+<a name="My_frame_position_and_size_is_not_kept_between_sessions_or_the_frame_is_displayed_at_wrong_position" id="My_frame_position_and_size_is_not_kept_between_sessions_or_the_frame_is_displayed_at_wrong_position"></a>
+
+#### My frame position and size is not kept between sessions or the frame is displayed at wrong position
 <ul><li> Under some new Window Manager or graphical environments like XGL, frame size and position cannot be set properly due to various bugs in them. In these cases, we ignore previous session sizes and we set a fixed one that should fit most screen. If it is not the case, you can set a custom forced size by editing (jajuk closed) the &lt;home&gt;/.jajuk/conf.properties file and set a value in the jajuk.frame.forced_position line (format:x,y,width,height, example: jajuk.frame.forced_position=50,50,1350,1000 ).
 </li><li> This should <i>not</i> append under Windows, OSX and Linux with Xorg/Xfree, otherwise, please open a ticket
 </li></ul>
 
-<a name="Jajuk_blank_frame_and_other_various_graphical_issues_using_Beryl_WM" id="Jajuk_blank_frame_and_other_various_graphical_issues_using_Beryl_WM"></a><h4>Jajuk blank frame and other various graphical issues using Beryl WM</h4>
+<a name="Jajuk_blank_frame_and_other_various_graphical_issues_using_Beryl_WM" id="Jajuk_blank_frame_and_other_various_graphical_issues_using_Beryl_WM"></a>
+
+#### Jajuk blank frame and other various graphical issues using Beryl WM
 <p>This is caused by an incompatibility between Sun JRE and Beryl. If under JRE 1.6, you can use&nbsp;:
 </p>
 <ul><li> Either <a href="http://wiki.beryl-project.org/wiki/Java" class="external text" title="http://wiki.beryl-project.org/wiki/Java" rel="nofollow">this fix</a>
 </li><li> Or <a href="http://www.vikrammohan.com/blog/2006/12/31/how-to-make-java-swing-work-on-beryl-with-aiglx/|using" class="external text" title="http://www.vikrammohan.com/blog/2006/12/31/how-to-make-java-swing-work-on-beryl-with-aiglx/|using" rel="nofollow">nested X servers</a>
 </li></ul>
 
-<a name="Cross_fade_doesn.27t_work_under_Linux_.28two_mplayer_processes_cannot_be_launched_concurrently.29" id="Cross_fade_doesn.27t_work_under_Linux_.28two_mplayer_processes_cannot_be_launched_concurrently.29"></a><h4>Cross fade doesn't work under Linux (two mplayer processes cannot be launched concurrently)</h4>
+<a name="Cross_fade_doesn.27t_work_under_Linux_.28two_mplayer_processes_cannot_be_launched_concurrently.29" id="Cross_fade_doesn.27t_work_under_Linux_.28two_mplayer_processes_cannot_be_launched_concurrently.29"></a>
+
+#### Cross fade doesn't work under Linux (two mplayer processes cannot be launched concurrently)
+
 <ul><li> Under KDE, enable the sound server (artsd) from the KDE control center. Under Gnome, add this line in the ~/.mplayer/config file: "ao=esd" to use the Gnome sound server
 </li></ul>
 
-<a name="Mplayer_is_not_available_and_I_get_an_.22audio_line_occupied.22_message" id="Mplayer_is_not_available_and_I_get_an_.22audio_line_occupied.22_message"></a><h4>Mplayer is not available and I get an "audio line occupied" message</h4>
+<a name="Mplayer_is_not_available_and_I_get_an_.22audio_line_occupied.22_message" id="Mplayer_is_not_available_and_I_get_an_.22audio_line_occupied.22_message"></a>
+
+#### Mplayer is not available and I get an "audio line occupied" message
+
 <p>Try stopping all audio apps, check mute mode is not enable, check nothing users /dev/dsp (fuser /dev/dsp as root). If you still have the issue, it is probably an Alsa deamon problem, please read <a href="http://forum.ubuntu-fr.org/viewtopic.php?id=12019" class="external text" title="http://forum.ubuntu-fr.org/viewtopic.php?id=12019" rel="nofollow"><span class="icon">http://forum.ubuntu-fr.org/viewtopic.php?id=12019</a> this doc.
 </p>
 
-<a name="Problems_displaying_non-latin_characters" id="Problems_displaying_non-latin_characters"></a><h4>Problems displaying non-latin characters</h4>
+<a name="Problems_displaying_non-latin_characters" id="Problems_displaying_non-latin_characters"></a>
+
+#### Problems displaying non-latin characters
 <p>The problem may be with with xorg's locales (see <a href="http://ubuntuforums.org/showthread.php?t=301467&amp;highlight=java+text+input" class="external text" title="http://ubuntuforums.org/showthread.php?t=301467&amp;highlight=java+text+input" rel="nofollow">this thread</a>). For russian for ie, the cure is:
 </p>
 <pre>sudo ln -s /usr/share/X11/locale/en_US.UTF-8 /usr/share/X11/locale/ru_RU.UTF-8
 </pre>
 
-<a name="I_experience_sound_skips_2" id="I_experience_sound_skips_2"></a><h4>I experience sound skips</h4>
+<a name="I_experience_sound_skips_2" id="I_experience_sound_skips_2"></a>
+
+#### I experience sound skips
+
 <p>Make sure to use mplayer if under Linux or Mac OSX
 </p>
 
-<a name="I_have_some_trouble_getting_D-Bus_to_work" id="I_have_some_trouble_getting_D-Bus_to_work"></a><h4>I have some trouble getting D-Bus to work </h4>
+<a name="I_have_some_trouble_getting_D-Bus_to_work" id="I_have_some_trouble_getting_D-Bus_to_work"></a>
+
+#### I have some trouble getting D-Bus to work
+
 <p>Look at the items described at <a href="/index.php/D-Bus#Troubleshooting" title="D-Bus">D-Bus#Troubleshooting</a>.
 </p>
 
 <a name="MAC_OSX_only" id="MAC_OSX_only"></a> MAC OSX only 
 --------------
 
-<a name=".5BOSX_.3E.3D_10.8.5D_Message_:_.22Jajuk_can.27t_be_opened_because_it_is_from_an_unidentified_developer..22" id=".5BOSX_.3E.3D_10.8.5D_Message_:_.22Jajuk_can.27t_be_opened_because_it_is_from_an_unidentified_developer..22"></a><h4> [OSX &gt;= 10.8] Message&nbsp;: "Jajuk can't be opened because it is from an unidentified developer."</h4>
+<a name=".5BOSX_.3E.3D_10.8.5D_Message_:_.22Jajuk_can.27t_be_opened_because_it_is_from_an_unidentified_developer..22" id=".5BOSX_.3E.3D_10.8.5D_Message_:_.22Jajuk_can.27t_be_opened_because_it_is_from_an_unidentified_developer..22"></a>
+
+#### [OSX &gt;= 10.8] Message&nbsp;: "Jajuk can't be opened because it is from an unidentified developer."
 <p>From Montain Lion, Apple forces developers to be "verified". You can still launch Jajuk using several workarounds, see <a href="http://www.wikihow.com/Install-Software-from-Unsigned-Developers-on-a-Mac" class="external text" title="http://www.wikihow.com/Install-Software-from-Unsigned-Developers-on-a-Mac" rel="nofollow">this page</a> for instance. Note that Jajuk is a Free software (as in "Free speech" but also as in "Free beer") and that we don't plan to deal with this kind of software restriction policy nor to pay or spend time and privacy to be 'identified' by Apple. 
 </p>
 
-<a name="I_use_OS_X_10.4_and_I_have_no_Java_6_available_for_my_system.2C_what.27s_the_last_supported_version_of_jajuk_running_under_Java_5_.3F" id="I_use_OS_X_10.4_and_I_have_no_Java_6_available_for_my_system.2C_what.27s_the_last_supported_version_of_jajuk_running_under_Java_5_.3F"></a><h4> I use OS X 10.4 and I have no Java 6 available for my system, what's the last supported version of jajuk running under Java 5&nbsp;? </h4>
+<a name="I_use_OS_X_10.4_and_I_have_no_Java_6_available_for_my_system.2C_what.27s_the_last_supported_version_of_jajuk_running_under_Java_5_.3F" id="I_use_OS_X_10.4_and_I_have_no_Java_6_available_for_my_system.2C_what.27s_the_last_supported_version_of_jajuk_running_under_Java_5_.3F"></a>
+
+#### I use OS X 10.4 and I have no Java 6 available for my system, what's the last supported version of jajuk running under Java 5&nbsp;?
+
 <p>The last Jajuk version to run under Java 5 is 1.5.3. Please check <a href="http://downloads.sourceforge.net/jajuk/jajuk-macos-1.5.3.zip" class="external free" title="http://downloads.sourceforge.net/jajuk/jajuk-macos-1.5.3.zip" rel="nofollow">http://downloads.sourceforge.net/jajuk/jajuk-macos-1.5.3.zip</a> . This version is no more supported by the Jajuk team.
 </p>
+
 <hr />
-<p>Go back to <a href="/index.php/Table_of_contents" title="Table of contents">table of contents</a>
+
+<p>Go back to <a href="#General" title="Table of contents">the top</a>
 </p>
