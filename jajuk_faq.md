@@ -145,7 +145,7 @@ No, Jajuk doesn't currently support Audio CDs read nor encode. Jajuk goal is pri
 
 ### How much resources does Jajuk use?
 
-<ul><li> Please read the <a href="/index.php/Performance_tips" title="Performance tips">Performance tips</a> in the embedded help system
+<ul><li> Please read the <a href="/jajuk_manual_performance_tips.html" title="Performance tips">Performance tips</a> in the embedded help system
 </li><li> On a recently manufactured PC, Jajuk uses less than 1 or 2&nbsp;% CPU and typically from 40 to 70 MB of memory for a 50 GB collection
 </li></ul>
 
@@ -161,7 +161,7 @@ No, Jajuk doesn't currently support Audio CDs read nor encode. Jajuk goal is pri
 
 ### I would like to remote control Jajuk 
 
-If you are running Linux, look at the functionality described at <a href="/index.php/D-Bus" title="D-Bus">D-Bus</a>.
+If you are running Linux, look at the functionality described at <a href="/jajuk_manual_d_bus.html" title="D-Bus">D-Bus</a>.
 
 <a name="Troubleshooting" id="Troubleshooting"></a>
 
@@ -175,7 +175,7 @@ If you are running Linux, look at the functionality described at <a href="/index
 
 #### Some webradios doesn't play with mplayer but do with VLC
 
-See <a href="https://github.com/jajuk-team/jajuk/issues/1824" class="external text" title="https://github.com/jajuk-team/jajuk/issues/1824" rel="nofollow">Issue 1824</a>, a workaround is provided.
+See <a href="https://github.com/jajuk-team/jajuk/issues/1824" class="external text" title="issue #1824" rel="nofollow">issue #1824</a>, a workaround is provided.
 
 <a name="Jajuk_stops_after_selection_has_been_played" id="Jajuk_stops_after_selection_has_been_played"></a>
 
@@ -204,14 +204,14 @@ You need to know that in Jajuk, albums are disambiguated by&nbsp;:
 </p><p><u>Notes</u>&nbsp;:
 </p>
 <ul><li> If you change one of these properties on a duplicated album, both albums will be merged.
-</li><li> If you feel something is wrong and that these rules are not applied, it may be a bug, please <a href="/index.php/Bug_Report_Wishes" title="Bug Report Wishes"> create a ticket</a> and provide details on the albums and associated tracks.
+</li><li> If you feel something is wrong and that these rules are not applied, it may be a bug, please <a href="https://github.com/jajuk-team/jajuk/issues" title="Github issues">create an issue</a> and provide details on the albums and associated tracks.
 </li></ul>
 
 <a name="Cannot_play_some_APE" id="Cannot_play_some_APE"></a>
 
 #### Cannot play some APE
 
-If under MacOS or Linux, try to upgrade mplayer to recent releases (a 2009 build or later). See bug #<a href="https://github.com/jajuk-team/jajuk/issues/1279" class="external text" title="https://github.com/jajuk-team/jajuk/issues/1279" rel="nofollow">1279</a>
+If under MacOS or Linux, try to upgrade mplayer to recent releases (a 2009 build or later). See <a href="https://github.com/jajuk-team/jajuk/issues/1279" class="external text" title="issue #1279" rel="nofollow">issue #1279</a>
 
 <a name="I_experience_sound_skips" id="I_experience_sound_skips"></a>
 
@@ -225,18 +225,18 @@ If under MacOS or Linux, try to upgrade mplayer to recent releases (a 2009 build
 
 #### I experience Out Of Memory issues
 
-By default, Jajuk can use from 35MB to 512MB of physical memory. That should be large enough for most users. If you have a really huge collection and experience out-of-memory problems, increase the -Xmx value in the Jajuk launch script (open a support ticket if you need help)
+By default, Jajuk can use from 35MB to 512MB of physical memory. That should be large enough for most users. If you have a really huge collection and experience out-of-memory problems, increase the -Xmx value in the Jajuk launch script (open a support issue if you need help)
 
 <a name="What_can_I_do_if_my_collection_looks_.2Areally.2A_corrupted_.3F" id="What_can_I_do_if_my_collection_looks_.2Areally.2A_corrupted_.3F"></a>
 
 #### What can I do if my collection looks *really* corrupted&nbsp;?
-Check out <a href="/index.php/Using_devices#Collection_backup_and_restore" title="Using devices">Using_devices#Collection_backup_and_restore</a> the device page of the jajuk manual. Note that this case has never been reported so far as Jajuk provides an efficient built-in recovery system.
+Check out <a href="/jajuk_manul_using_devices.html#Collection_backup_and_restore" title="Using devices">Using_devices#Collection_backup_and_restore</a> the device page of the jajuk manual. Note that this case has never been reported so far as Jajuk provides an efficient built-in recovery system.
 
 <a name="Jajuk_cannot_read_files_with_non-ASCII_characters" id="Jajuk_cannot_read_files_with_non-ASCII_characters"></a>
 
 #### Jajuk cannot read files with non-ASCII characters
 
-(Characters different from [a to z] like 'é' 'ç', Asian ideograms...). This is a filename encoding problem due to a wrong file system mounting option, a quick fix is to rename your filenames to utf-8 see <a href="https://github.com/jajuk-team/jajuk/issues/955" class="external text" title="https://github.com/jajuk-team/jajuk/issues/955" rel="nofollow">Bug #955</a> for details.
+(Characters different from [a to z] like 'é' 'ç', Asian ideograms...). This is a filename encoding problem due to a wrong file system mounting option, a quick fix is to rename your filenames to utf-8 see <a href="https://github.com/jajuk-team/jajuk/issues/955" class="external text" title="issue #955" rel="nofollow">issue #955</a> for details.
 
 <a name="Windows_Only" id="Windows_Only"></a>
 
@@ -245,7 +245,7 @@ Check out <a href="/index.php/Using_devices#Collection_backup_and_restore" title
 <a name="Need_admin_rights_to_install" id="Need_admin_rights_to_install"></a>
 
 #### Need admin rights to install
-<p>See <a href="https://github.com/jajuk-team/jajuk/issues/1815" class="external text" title="https://github.com/jajuk-team/jajuk/issues/1815" rel="nofollow">#1815</a>
+<p>See <a href="https://github.com/jajuk-team/jajuk/issues/1815" class="external text" title="issue #1815" rel="nofollow">issue #1815</a>
 Under Vista and Seven, we would need to be administrator or to know the administrator password to install Jajuk. From Jajuk 1.9.6, you can install jajuk into one of your local directory (even if it's not recommended) by renaming the installer file name from jajuk-&lt;version&gt;<b>-setup</b>.exe to jajuk-&lt;version&gt;.exe.
 </p>
 
@@ -253,7 +253,7 @@ Under Vista and Seven, we would need to be administrator or to know the administ
 
 #### 32/64 bits JVM mess-up
 
-<p>See <a href="https://github.com/jajuk-team/jajuk/issues/1738" class="external text" title="https://github.com/jajuk-team/jajuk/issues/1738" rel="nofollow">#1738</a>
+<p>See <a href="https://github.com/jajuk-team/jajuk/issues/1738" class="external text" title="issue #1738" rel="nofollow">issue #1738</a>
 In some special cases including switch from a 32 to a 64 bits JVM, you get this message when launching Jajuk from the shortcut&nbsp;:
 </p>
 <pre>The item 'javaw.exe' that this shortcut refers to has been changed or moved, so this shortcut will no longer work properly. Do you want to delete this shortcut?
@@ -267,7 +267,7 @@ In some special cases including switch from a 32 to a 64 bits JVM, you get this 
 
 #### Some parts of the screen are not refreshed
 
-<p>(see <a href="https://github.com/jajuk-team/jajuk/issues/1652" class="external text" title="https://github.com/jajuk-team/jajuk/issues/1652" rel="nofollow">#1652</a>)
+<p>(see <a href="https://github.com/jajuk-team/jajuk/issues/1652" class="external text" title="issue #1652" rel="nofollow">issue #1652</a>)
 This may happen with some JRE 1.6 releases along with some video drivers. A workaround is change the windows shortcut that launches jajuk (the -Dsun.java2d.d3d=false option disables double buffering)&nbsp;:
 </p><p>from&nbsp;:
 </p>
@@ -284,7 +284,7 @@ This may happen with some JRE 1.6 releases along with some video drivers. A work
 
 #### Cannot play files on a Network drive (NAS)
 <p>It is caused by the use of windows shortnames by mplayer (that are required to fix non-European filenames issues beside this). From 1.7, Jajuk automatically try both modes (short and long names) in case of failure.
-</p><p>See also <a href="https://github.com/jajuk-team/jajuk/issues/1267" class="external free" title="https://github.com/jajuk-team/jajuk/issues/1267" rel="nofollow">https://github.com/jajuk-team/jajuk/issues/1267</a>
+</p><p>See also <a href="https://github.com/jajuk-team/jajuk/issues/1267" class="external free" title="issue #1267" rel="nofollow">issue #1267</a>
 </p>
 
 <a name="A_.22pop.22_.28think_.22standard_windows_.27pop.27_sound.22.29_is_heard_between_tracks" id="A_.22pop.22_.28think_.22standard_windows_.27pop.27_sound.22.29_is_heard_between_tracks"></a>
@@ -293,7 +293,7 @@ This may happen with some JRE 1.6 releases along with some video drivers. A work
 
 <p>It's a sound emitted by the system when opening the systray balloons. We can't disable this sound as it is managed by Windows itself. You can:
 </p>
-<ul><li> Either change from balloon to none or Toast notification mode in Jajuk (<a href="/index.php/View_preferences" title="View preferences"> Preferences view</a> / GUI tab/ Notification). 
+<ul><li> Either change from balloon to none or Toast notification mode in Jajuk (<a href="/jajuk_manual_view_preferences.html" title="Preferences view"> Preferences view</a> / GUI tab/ Notification). 
 </li><li> Or disable it manually from Windows Sounds Parameters wizards (Parameters / sound and multimedia / disable "notify new messages" sound)
 </li></ul>
 
@@ -332,7 +332,7 @@ This may happen with some JRE 1.6 releases along with some video drivers. A work
 ### Some webradios don't work
 
 <p>If some webradios doesn't work, try to upgrade your mplayer version. For example, version SVN-r34777-snapshot-4.6.1 from feb 2012 is known to work. Note that if you can't get a newer mplayer version package for your distro, you can still build mplayer yourself in a directory and use this mplayer executable from Jajuk Preferences view / Advanced tab / Mplayer path (full path to the executable).
-</p><p>More details on <a href="https://github.com/jajuk-team/jajuk/issues/1820" class="external text" title="https://github.com/jajuk-team/jajuk/issues/1820" rel="nofollow">ticket #1820</a>
+</p><p>More details on <a href="https://github.com/jajuk-team/jajuk/issues/1820" class="external text" title="https://github.com/jajuk-team/jajuk/issues/1820" rel="nofollow">issue #1820</a>
 </p>
 
 <a name=".5BKDE_only.5D_External_browser_features_not_available_under_KDE" id=".5BKDE_only.5D_External_browser_features_not_available_under_KDE"></a>
@@ -340,7 +340,7 @@ This may happen with some JRE 1.6 releases along with some video drivers. A work
 #### [KDE only] External browser features not available under KDE
 
 <p>Under KDE, some jajuk features like "Help-&gt;Report an issue" or opening the Lastfm artist page from the suggestion view are disabled.
-It's due to Sun bug 6486393 (see <a href="https://github.com/jajuk-team/jajuk/issues/1612" class="external free" title="https://github.com/jajuk-team/jajuk/issues/1612" rel="nofollow">https://github.com/jajuk-team/jajuk/issues/1612</a> for details).
+It's due to Sun bug 6486393 (see <a href="https://github.com/jajuk-team/jajuk/issues/1612" class="external free" title="issue #1612" rel="nofollow">issue #1612</a> for details).
 </p>
 
 <a name="No_systray_under_XFCE_.28and_potentially_others_window_manager.29" id="No_systray_under_XFCE_.28and_potentially_others_window_manager.29"></a>
@@ -353,9 +353,9 @@ It's due to Sun bug 6486393 (see <a href="https://github.com/jajuk-team/jajuk/is
 
 #### Some Japanese fonts are not displayed correctly (squares) in some part of the screen
 
-<p>See: <a href="https://github.com/jajuk-team/jajuk/issues/799" class="external free" title="https://github.com/jajuk-team/jajuk/issues/799" rel="nofollow">https://github.com/jajuk-team/jajuk/issues/799</a> or <a href="https://help.ubuntu.com/community/Japanese_in_Java" class="external free" title="https://help.ubuntu.com/community/Japanese_in_Java" rel="nofollow">https://help.ubuntu.com/community/Japanese_in_Java</a>
+<p>See: <a href="https://github.com/jajuk-team/jajuk/issues/799" class="external free" title="issue #799" rel="nofollow">issue #799</a> or <a href="https://help.ubuntu.com/community/Japanese_in_Java" class="external free" title="https://help.ubuntu.com/community/Japanese_in_Java" rel="nofollow">https://help.ubuntu.com/community/Japanese_in_Java</a>
 </p><p>Update: As of version 1.7.1, the above modification is NOT necessary for correct display of CJK (Chinese Japanese Korean) characters.  As long as you have appropriate CJK fonts installed, Java should be able to pick the right one to use.
-Reference: <a href="https://github.com/jajuk-team/jajuk/issues/799" class="external free" title="https://github.com/jajuk-team/jajuk/issues/799" rel="nofollow">https://github.com/jajuk-team/jajuk/issues/799</a>
+See <a href="https://github.com/jajuk-team/jajuk/issues/799" class="external free" title="issue #799" rel="nofollow">issue #799</a>
 </p>
 
 <a name="After_setting_a_cross-fade.2C_the_next_track_cannot_start" id="After_setting_a_cross-fade.2C_the_next_track_cannot_start"></a>
@@ -377,7 +377,7 @@ Reference: <a href="https://github.com/jajuk-team/jajuk/issues/799" class="exter
 
 #### My frame position and size is not kept between sessions or the frame is displayed at wrong position
 <ul><li> Under some new Window Manager or graphical environments like XGL, frame size and position cannot be set properly due to various bugs in them. In these cases, we ignore previous session sizes and we set a fixed one that should fit most screen. If it is not the case, you can set a custom forced size by editing (jajuk closed) the &lt;home&gt;/.jajuk/conf.properties file and set a value in the jajuk.frame.forced_position line (format:x,y,width,height, example: jajuk.frame.forced_position=50,50,1350,1000 ).
-</li><li> This should <i>not</i> append under Windows, OSX and Linux with Xorg/Xfree, otherwise, please open a ticket
+</li><li> This should <i>not</i> append under Windows, OSX and Linux with Xorg/Xfree, otherwise, please open an issue
 </li></ul>
 
 <a name="Jajuk_blank_frame_and_other_various_graphical_issues_using_Beryl_WM" id="Jajuk_blank_frame_and_other_various_graphical_issues_using_Beryl_WM"></a>
@@ -393,36 +393,37 @@ Reference: <a href="https://github.com/jajuk-team/jajuk/issues/799" class="exter
 
 #### Cross fade doesn't work under Linux (two mplayer processes cannot be launched concurrently)
 
-<ul><li> Under KDE, enable the sound server (artsd) from the KDE control center. Under Gnome, add this line in the ~/.mplayer/config file: "ao=esd" to use the Gnome sound server
-</li></ul>
+- Under KDE, enable the sound server (artsd) from the KDE control center. Under Gnome, add this line in the ~/.mplayer/config file: "ao=esd" to use the Gnome sound server
 
 <a name="Mplayer_is_not_available_and_I_get_an_.22audio_line_occupied.22_message" id="Mplayer_is_not_available_and_I_get_an_.22audio_line_occupied.22_message"></a>
 
 #### Mplayer is not available and I get an "audio line occupied" message
 
-<p>Try stopping all audio apps, check mute mode is not enable, check nothing users /dev/dsp (fuser /dev/dsp as root). If you still have the issue, it is probably an Alsa deamon problem, please read <a href="http://forum.ubuntu-fr.org/viewtopic.php?id=12019" class="external text" title="http://forum.ubuntu-fr.org/viewtopic.php?id=12019" rel="nofollow"><span class="icon">http://forum.ubuntu-fr.org/viewtopic.php?id=12019</a> this doc.
+<p>Try stopping all audio apps, check mute mode is not enable, check nothing users /dev/dsp (fuser /dev/dsp as root).
+If you still have the issue, it is probably an Alsa deamon problem, please read <a href="http://forum.ubuntu-fr.org/viewtopic.php?id=12019" class="external text" title="http://forum.ubuntu-fr.org/viewtopic.php?id=12019" rel="nofollow">http://forum.ubuntu-fr.org/viewtopic.php?id=12019</a> this doc.
 </p>
 
 <a name="Problems_displaying_non-latin_characters" id="Problems_displaying_non-latin_characters"></a>
 
 #### Problems displaying non-latin characters
+
 <p>The problem may be with with xorg's locales (see <a href="http://ubuntuforums.org/showthread.php?t=301467&amp;highlight=java+text+input" class="external text" title="http://ubuntuforums.org/showthread.php?t=301467&amp;highlight=java+text+input" rel="nofollow">this thread</a>). For russian for ie, the cure is:
 </p>
-<pre>sudo ln -s /usr/share/X11/locale/en_US.UTF-8 /usr/share/X11/locale/ru_RU.UTF-8
-</pre>
+
+    sudo ln -s /usr/share/X11/locale/en_US.UTF-8 /usr/share/X11/locale/ru_RU.UTF-8
+
 
 <a name="I_experience_sound_skips_2" id="I_experience_sound_skips_2"></a>
 
 #### I experience sound skips
 
-<p>Make sure to use mplayer if under Linux or Mac OSX
-</p>
+Make sure to use mplayer if under Linux or Mac OSX
 
 <a name="I_have_some_trouble_getting_D-Bus_to_work" id="I_have_some_trouble_getting_D-Bus_to_work"></a>
 
 #### I have some trouble getting D-Bus to work
 
-<p>Look at the items described at <a href="/index.php/D-Bus#Troubleshooting" title="D-Bus">D-Bus#Troubleshooting</a>.
+<p>Look at the items described at <a href="/jajuk_manual_d_bus.html#Troubleshooting" title="D-Bus">D-Bus#Troubleshooting</a>.
 </p>
 
 <a name="MAC_OSX_only" id="MAC_OSX_only"></a> MAC OSX only 

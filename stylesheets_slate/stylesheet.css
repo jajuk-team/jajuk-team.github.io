@@ -295,6 +295,18 @@ Full-Width Styles
   background: url(../images/sprite_download.png) no-repeat top right;
 }
 
+p.download {
+  text-indent: 66px;
+  background: url(../images/download_button.png) no-repeat;
+  height:76px;
+  color:white;
+  font-size:24px;
+  padding-top:18px;
+}
+p.download a {
+  color:white;
+}
+
 #main_content_wrap {
   background: #f2f2f2;
   border-top: 1px solid #111;

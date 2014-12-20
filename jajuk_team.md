@@ -27,7 +27,7 @@ Main websites at a glance
 
 <table id="screenshots">
 <tr>
-	<td><img src="/images/website_main.png" style="width:350px;" title="Main website" alt="Main website"/> <a href="https://jajuk-team.github.io/jajuk">Main website</a></td>
+	<td><img src="/images/website_main.png" style="width:350px;" title="Main website" alt="Main website"/> <a href="http://www.jajuk.info">Main website</a></td>
 	<td><img src="/images/website_github.png" style="width:350px;" title="Github" alt="Github"/> <a href="https://github.com/jajuk-team/jajuk">Github</a></td>
 </tr>
 <tr>

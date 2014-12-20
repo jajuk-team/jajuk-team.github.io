@@ -55,7 +55,7 @@ This is the Jajuk help manual. Note that you also have tooltips on nearly every 
 - Lyrics view
 - Queue view
 - Playlists view
-- Preferences view
+- [Preferences view](/jajuk_manual_view_preferences.html)
 - Statistics view
 - Suggestions view
 - Title view
@@ -67,9 +67,9 @@ This is the Jajuk help manual. Note that you also have tooltips on nearly every 
 ## Technical
 
 - [FAQ](/jajuk_faq.html)
-- Using D-Bus (hotkeys / remote controls for Linux)
+- [Using D-Bus (hotkeys / remote controls for Linux)](jajuk_manual_d_bus.html)
 - Hidden options
-- Performance tips
+- [Performance tips](/jajuk_manual_performance_tips.html)
 - Supported formats 
 
 ## Legals

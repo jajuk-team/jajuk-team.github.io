@@ -14,9 +14,11 @@ Others great cross-platform players part of the [common-jukebox](http://www.asse
 -    Maximum features - Jajuk is made firstly for advanced users looking for powerful functionalities;
 -    Maximum usability - Jajuk is designed to be intuitive, fast and provide multiple ways to perform the same operation;
 -    Maximum portability and desktop integration. 
-    
-[Download Jajuk](download.html)
--------------------------------
+
+<p class="download">
+<a href="download.html">Download !</a>
+</p>
+
 **Jajuk** is a Free Software published under the GPL license and downloads are available for any Java capable systems.
 
 Help make Jajuk rock!
