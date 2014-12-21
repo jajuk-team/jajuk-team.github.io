@@ -3,8 +3,7 @@ title: Release Notes 1.10 - Jajuk
 layout: default
 ---
 
-Important Release notes
------------------------
+# Release Notes - Jajuk 1.10
 
 -    [Windows only] If upgrading to 1.10.4 from earlier release : please uninstall Jajuk first as the installer changed (your collection will remain unchanged).
 -    Jajuk requires Java 1.6 to run
@@ -12,6 +11,10 @@ Important Release notes
 -    [Windows or OSX in Web Start mode] The first startup will take a while (in the "Initial checkups" step), as the required mplayer executable is downloaded
 -    [Linux] It is strongly recommended to install mplayer if not already done to support every audio formats and to get a better sound. 
  
-Known issues database
----------------------
+## New Features Highlights
+
+See [New Features Highlights](/new_features.html)
+
+## Known issues database
+
 Check this [link](https://github.com/jajuk-team/jajuk/issues) 

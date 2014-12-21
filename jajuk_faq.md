@@ -230,7 +230,7 @@ By default, Jajuk can use from 35MB to 512MB of physical memory. That should be 
 <a name="What_can_I_do_if_my_collection_looks_.2Areally.2A_corrupted_.3F" id="What_can_I_do_if_my_collection_looks_.2Areally.2A_corrupted_.3F"></a>
 
 #### What can I do if my collection looks *really* corrupted&nbsp;?
-Check out <a href="/jajuk_manul_using_devices.html#Collection_backup_and_restore" title="Using devices">Using_devices#Collection_backup_and_restore</a> the device page of the jajuk manual. Note that this case has never been reported so far as Jajuk provides an efficient built-in recovery system.
+Check out <a href="/jajuk_manual_using_devices.html#Collection_backup_and_restore" title="Using devices">Using_devices#Collection_backup_and_restore</a> the device page of the jajuk manual. Note that this case has never been reported so far as Jajuk provides an efficient built-in recovery system.
 
 <a name="Jajuk_cannot_read_files_with_non-ASCII_characters" id="Jajuk_cannot_read_files_with_non-ASCII_characters"></a>
 

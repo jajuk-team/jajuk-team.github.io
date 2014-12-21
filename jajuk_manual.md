@@ -13,7 +13,6 @@ This is the Jajuk help manual. Note that you also have tooltips on nearly every 
 
 - [Features](/jajuk_manual_features.html)
 - [New features highlights](/new_features.html)
-- Installation Guides
 - Perspectives and views
 - Devices
 - Files and tracks
