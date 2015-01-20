@@ -11,6 +11,19 @@ layout: default
 
 Others great cross-platform players part of the [common-jukebox](http://www.assembla.com/wiki/show/common-jukebox) collaboration: [aTunes](http://atunes.org/), [Jukes](http://melloware.com/products/jukes/index.html) Other good audio tagger : Jaikoz
 
+<div style='margin:5px;float: right;'>
+<script type="text/javascript">
+    google_ad_client = "ca-pub-8198721431533387";
+    google_ad_slot = "2765018948";
+    google_ad_width = 300;
+    google_ad_height = 600;
+</script>
+<!-- jajuk-vert -->
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+
 **Jajuk** main principles are:
 
 -    Maximum features - Jajuk is made firstly for advanced users looking for powerful functionalities;
@@ -23,14 +36,11 @@ Others great cross-platform players part of the [common-jukebox](http://www.asse
     google_ad_width = 728;
     google_ad_height = 90;
 </script>
-<!-- jajuk-horiz -->
-<script type="text/javascript"
-src="//pagead2.googlesyndication.com/pagead/show_ads.js">
-</script>
 
 <p class="download">
 <a href="download.html">Download !</a>
 </p>
+
 
 **Jajuk** is a Free Software published under the GPL license and downloads are available for any Java capable systems.
 
@@ -66,3 +76,13 @@ Major events
     8 bug fixes 
     [Release notes 1.10](/release_notes_1.10.html) 
 
+<script type="text/javascript">
+    google_ad_client = "ca-pub-8198721431533387";
+    google_ad_slot = "7195218542";
+    google_ad_width = 728;
+    google_ad_height = 90;
+</script>
+<!-- jajuk-horiz -->
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
