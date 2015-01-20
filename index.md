@@ -3,6 +3,17 @@ title: Java Advanced Jukebox
 layout: default
 ---
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- jajuk-vert -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:600px"
+     data-ad-client="ca-pub-8198721431533387"
+     data-ad-slot="2765018948"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
 <img src="/images/jajuk_screenshot.png" style="width:300px; float:right" title="Jajuk screenshot" alt="Jajuk_screenshot"/>
 
 **Jajuk** is a Java music organizer for all platforms. The main goal of this project is to provide a fully-featured application to advanced users with large or scattered music collections.
