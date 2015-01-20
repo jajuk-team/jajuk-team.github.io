@@ -8,6 +8,29 @@ using this currency. Dollars are converted to euros using the operation
 day value*
 
 
+Year 2014
+=========
+Closed, last update : 2015/01/20. All times balance : **-1261.21€**.
+
+------------------------------------------------------------------------
+
+-   Revenues : 8.06€
+    -   Google Ad Sense (actually paid): 0€ 
+    -   Donations:  (9.31 USD = 8.06€,  donation)
+    -   Flattr: O€ (total 31 flattrs)
+    -   Bitcoin : 0 ubits
+
+------------------------------------------------------------------------
+
+-   Expenses :  197.855 €
+    -   jajuk.info dedicated server (OVH, for 3 months until 31 dec 2014)
+        : 53.78 �~B�
+    -   jajuk.info domain renewal (gandi.fr, 9 years) : 144.07 €
+------------------------------------------------------------------------
+
+-   Year net income: **-189.80 �~B�**
+
+
 Year 2013
 =========
 
@@ -149,11 +172,24 @@ Closed, last update : 2009/12/30. All times balance : **-326.23 €**
 Year 2007
 =========
 
-Closed, last update: 2007/11/10. All times balance : **-244.20 €**
+Closed, last update: 2007/11/10. All times balance : **-244.20 �\~B�**
 
 ------------------------------------------------------------------------
 
--   Revenues : 152.3
+-   Revenues : 152.33 �\~B�
+    -   Google Ad Sense (actually paid):
+        -   82.33 �\~B� (2007/07/24, 107.04 USD, 1 �\~B� = 1.3 USD)
+    -   Donations: 70 �\~B�
+        -   70�\~B� from \*\*\* (2007/10/30)
 
+------------------------------------------------------------------------
 
+-   Expenses : 396.53 �\~B�
+    -   jajuk.info dedicated server (Dedibox, 35.87 �\~B� / month):
+        352.91 �\~B�
+    -   jajuk.info domain name reservation (OVH): 1.04 �\~B� first year
+    -   jajuk.info domain name reservation (OVH): 42,58 �\~B� / 4 years
 
+------------------------------------------------------------------------
+
+-   Year net income: **-244.20 �\~B�**
