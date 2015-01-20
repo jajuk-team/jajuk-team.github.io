@@ -22,13 +22,19 @@ The team is comprised of Members and Contributors. Members have direct access to
 
 - Follow [Git instructions](/git.html)
 
-<references/>
 Main websites at a glance
 -------------------------
 
-|---|---|
-|<img src="/images/website_main.png" style="width:350px;" title="Main website" alt="Main website"/> [Main website](https://jajuk-team.github.io/jajuk)|<img src="/images/website_github.png" style="width:350px;" title="Github" alt="Github"/> [Github](https://github.com/jajuk-team/jajuk)|
-|<img src="/images/website_hudson.png" style="width:350px;" title="Integration server" alt="Integration server"/> [Integration server](http://integration.jajuk.info)|<img src="/images/website_quality.png" style="width:350px;" title="Quality Center" alt="Quality Center"/> [Quality Center](http://nemo.sonar.codehaus.org/project/index/org.jajuk:jajuk)|
+<table id="screenshots">
+<tr>
+	<td><img src="/images/website_main.png" style="width:350px;" title="Main website" alt="Main website"/> <a href="http://www.jajuk.info">Main website</a></td>
+	<td><img src="/images/website_github.png" style="width:350px;" title="Github" alt="Github"/> <a href="https://github.com/jajuk-team/jajuk">Github</a></td>
+</tr>
+<tr>
+	<td><img src="/images/website_hudson.png" style="width:350px;" title="Integration server" alt="Integration server"/> <a href="http://integration.jajuk.info">Integration server</a></td>
+	<td><img src="/images/website_quality.png" style="width:350px;" title="Quality Center" alt="Quality Center"/> <a href="http://nemo.sonar.codehaus.org/project/index/org.jajuk:jajuk">Quality Center</a></td>
+</tr>
+</table>
 
 Project General Rules
 ---------------------
@@ -163,7 +169,7 @@ The Jajuk release process usually takes from 8 to 10 weeks.
 User documentation
 ------------------
 
-Jajuk is now a pretty large software using a few relatively advanced concepts like perspectives & views, custom properties or devices. As a developer, you will obviously have to know and understand the application concepts. All of them are described in the [User guide](http://jajuk.info/manuals.html), please make sure to read it in depth.
+Jajuk is now a pretty large software using a few relatively advanced concepts like perspectives & views, custom properties or devices. As a developer, you will obviously have to know and understand the application concepts. All of them are described in the [User guide](/jajuk_manual.html), please make sure to read it in depth.
 
 
 <a name="donation">Donate</a>
