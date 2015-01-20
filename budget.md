@@ -24,7 +24,7 @@ Closed, last update : 2015/01/20. All times balance : **-1261.21€**.
 
 -   Expenses :  197.855 €
     -   jajuk.info dedicated server (OVH, for 3 months until 31 dec 2014)
-        : 53.78 �~B�
+        : 53.78 €
     -   jajuk.info domain renewal (gandi.fr, 9 years) : 144.07 €
 ------------------------------------------------------------------------
 
