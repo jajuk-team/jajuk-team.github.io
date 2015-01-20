@@ -32,7 +32,7 @@ Main websites at a glance
 </tr>
 <tr>
 	<td><img src="/images/website_hudson.png" style="width:350px;" title="Integration server" alt="Integration server"/> <a href="http://integration.jajuk.info">Integration server</a></td>
-	<td><img src="/images/website_quality.png" style="width:350px;" title="Quality Center" alt="Quality Center"/> <a href="http://nemo.sonar.codehaus.org/project/index/org.jajuk:jajuk">Quality Center</a></td>
+	<td><img src="/images/website_quality.png" style="width:350px;" title="Quality Center" alt="Quality Center"/> <a href="http://nemo.sonarqube.org/dashboard/index/org.jajuk:jajuk">Quality Center</a></td>
 </tr>
 </table>
 
