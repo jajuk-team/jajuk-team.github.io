@@ -17,16 +17,16 @@ Others great cross-platform players part of the [common-jukebox](http://www.asse
 -    Maximum usability - Jajuk is designed to be intuitive, fast and provide multiple ways to perform the same operation;
 -    Maximum portability and desktop integration. 
 
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- jajuk-horiz -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:728px;height:90px"
-     data-ad-client="ca-pub-8198721431533387"
-     data-ad-slot="7195218542"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
+<script type="text/javascript">
+    google_ad_client = "ca-pub-8198721431533387";
+    google_ad_slot = "7195218542";
+    google_ad_width = 728;
+    google_ad_height = 90;
 </script>
-
+<!-- jajuk-horiz -->
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
 
 <p class="download">
 <a href="download.html">Download !</a>
