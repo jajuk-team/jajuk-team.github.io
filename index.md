@@ -7,8 +7,6 @@ layout: default
 
 **Jajuk** is a Java music organizer for all platforms. The main goal of this project is to provide a fully-featured application to advanced users with large or scattered music collections.
 
-[![Flattr Button](http://api.flattr.com/button/button-static-50x60.png "Flattr This!")](http://flattr.com/thing/88017/Jajuk-advanced-jukebox "Flattr donation to Jajuk project")
-
 Others great cross-platform players part of the [common-jukebox](http://www.assembla.com/wiki/show/common-jukebox) collaboration: [aTunes](http://atunes.org/), [Jukes](http://melloware.com/products/jukes/index.html) Other good audio tagger : Jaikoz
 
 **Jajuk** main principles are:
@@ -20,6 +18,7 @@ Others great cross-platform players part of the [common-jukebox](http://www.asse
 
 <p class="download">
 <a href="download.html">Download !</a>
+[![Flattr Button](http://api.flattr.com/button/button-static-50x60.png "Flattr This!")](http://flattr.com/thing/88017/Jajuk-advanced-jukebox "Flattr donation to Jajuk project")
 </p>
 
 **Jajuk** is a Free Software published under the GPL license and downloads are available for any Java capable systems.
