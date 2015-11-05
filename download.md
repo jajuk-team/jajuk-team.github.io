@@ -11,6 +11,7 @@ Jajuk requires Java Runtime Environment (JRE) 1.6 and above to run. Get it for f
 
 Download latest version 1.10.7 alias ''Gute Laune''
 -------------------------------------------------
+See the [New Features Highlights](/new_features.html)
 
 <a name="installation_guides"></a>
 
@@ -60,5 +61,4 @@ Download latest version 1.10.7 alias ''Gute Laune''
 </tr>
 </table>
 
-See also [New Features Highlights](/new_features.html)
 
