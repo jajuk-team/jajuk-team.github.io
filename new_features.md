@@ -13,7 +13,7 @@ layout: default
 
 ![New Web Radio View](/images/jajuk_webradio_view.png)
 
-- Presets and custom webradios are listed in a table and can be launched by double-cliking
+- Presets and custom webradios are listed in a table and can be launched by double-clicking
 - New wizard to add custom radio
 - Shows a genre for each webradio
 - Supports radio filtering by any radio property (genre, name...)
