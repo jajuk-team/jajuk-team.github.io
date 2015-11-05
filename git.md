@@ -66,3 +66,5 @@ We use GitHub. The most prominent features brought by GitHub to our project are 
 - Allows easy forking : non members are encouraged to fork Jajuk (done in a single click in GitHub !) and to push "Pull requests" afterwards that the Jajuk members can integrate easily. 
 
 GitHub repositories interactions are summed up bellow
+
+![Jajuk Git interactions](/images/Jajuk_github.png)
