@@ -234,6 +234,7 @@ Full-Width Styles
 
 #header_wrap {
   background: #212121;
+  height: 230px;
 }
 
 #header_wrap .inner {
