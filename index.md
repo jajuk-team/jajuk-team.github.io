@@ -5,10 +5,8 @@ layout: default
 
 <img src="/images/jajuk_screenshot.png" style="width:300px; float:right" title="Jajuk screenshot" alt="Jajuk_screenshot"/>
 
-**Jajuk** is a Java music organizer for all platforms. The main goal of this project is to provide a fully-featured application to advanced users with large or scattered music collections.
-This is a Free Software published under the GPL license and downloads are available for any Java capable systems
-
-[![Flattr Button](http://api.flattr.com/button/button-static-50x60.png "Flattr This!")](http://flattr.com/thing/88017/Jajuk-advanced-jukebox "Flattr donation to Jajuk project")
+[![Flattr Button](http://api.flattr.com/button/button-static-50x60.png "Flattr This!")](http://flattr.com/thing/88017/Jajuk-advanced-jukebox "Flattr donation to Jajuk project") **Jajuk** is a Java music organizer for all platforms. 
+The main goal of this project is to provide a fully-featured application to advanced users with large or scattered music collections.
 
 <div style='margin:5px;float: right;'>
 <script type="text/javascript">
@@ -25,9 +23,9 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 
 **Jajuk** main principles are:
 
--    Maximum features - Jajuk is made firstly for advanced users looking for powerful functionalities;
--    Maximum usability - Jajuk is designed to be intuitive, fast and provide multiple ways to perform the same operation;
--    Maximum portability and desktop integration. 
+* Maximum features - Jajuk is made firstly for advanced users looking for powerful functionalities;
+* Maximum usability - Jajuk is designed to be intuitive, fast and provide multiple ways to perform the same operation;
+* Maximum portability and desktop integration. 
 
 <script type="text/javascript">
     google_ad_client = "ca-pub-8198721431533387";
