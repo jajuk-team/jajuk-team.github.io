@@ -172,15 +172,4 @@ User documentation
 Jajuk is now a pretty large software using a few relatively advanced concepts like perspectives & views, custom properties or devices. As a developer, you will obviously have to know and understand the application concepts. All of them are described in the [User guide](/jajuk_manual.html), please make sure to read it in depth.
 
 
-<a name="donation">Donate</a>
-------
-If you use Jajuk and want to help the project to be financially balanced, please use the donate SourceForge page to send money to the project. See the [project budget](/budget.html).
-
-If you are a Flattr user, you may want to flattr this project (see the Flattr icon on every page of this website)
-
-Bitcoin donation : 1M1hLxNbKux81DQjdK9mTbMZv54vPvYDB5 
-
-
-
-
 [3] Note that a daily digest of the gitorious activity is also send on the developer mailing list.

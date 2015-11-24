@@ -3,7 +3,7 @@ title: Screenshots
 layout: default
 ---
 
-# Tracks perspective :
+# Tracks perspective : 
 ![Tracks perspective](images/800px-1_8_tracks_perspective.png)
 
 # Files perspective (Raven theme) :

@@ -6,10 +6,9 @@ layout: default
 <img src="/images/jajuk_screenshot.png" style="width:300px; float:right" title="Jajuk screenshot" alt="Jajuk_screenshot"/>
 
 **Jajuk** is a Java music organizer for all platforms. The main goal of this project is to provide a fully-featured application to advanced users with large or scattered music collections.
+This is a Free Software published under the GPL license and downloads are available for any Java capable systems
 
 [![Flattr Button](http://api.flattr.com/button/button-static-50x60.png "Flattr This!")](http://flattr.com/thing/88017/Jajuk-advanced-jukebox "Flattr donation to Jajuk project")
-
-Others great cross-platform players part of the [common-jukebox](http://www.assembla.com/wiki/show/common-jukebox) collaboration: [aTunes](http://atunes.org/), [Jukes](http://melloware.com/products/jukes/index.html) Other good audio tagger : Jaikoz
 
 <div style='margin:5px;float: right;'>
 <script type="text/javascript">
@@ -37,20 +36,14 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
     google_ad_height = 90;
 </script>
 
-<p class="download">
-<a href="download.html">Download !</a>
-</p>
+# Help make Jajuk rock!
 
+This project is open for any type of contribution. To lend a hand, visit the [Team Page](/jajuk_team.html) 
+or make [a donation](/donation.html). 
 
-**Jajuk** is a Free Software published under the GPL license and downloads are available for any Java capable systems.
+Others great cross-platform players part of the [common-jukebox](http://www.assembla.com/wiki/show/common-jukebox) collaboration: [aTunes](http://atunes.org/), [Jukes](http://melloware.com/products/jukes/index.html) Other good audio tagger : Jaikoz
 
-Help make Jajuk rock!
-
-This project is open for any type of contribution. To lend a hand, visit the [Team Page](/jajuk_team.html) or make [a donation](/jajuk_team.html#donation). 
-
-
-What's Being Said About Jajuk
------------------------------
+# What's Being Said About Jajuk
 
 > Jajuk is suitable both for playing various music formats [...] and as a powerful iTunes replacement.
 — Thomas Hartfeld, c't magazine (translated from German)
@@ -61,8 +54,7 @@ What's Being Said About Jajuk
 >I've had love affairs with almost all of these players at one point or another, but Jajuk is looking really good at the moment.
 — Adam Pash, Lifehacker
 
-Major events
-------------
+# Major events
 
 **Jajuk 1.10.7 released !** – August 25 2014
     15 bug fixes, better shuffling, hotkeys support under 64bits Windows systems, Spanish langpack updated, new "Delete" option from the queue 
