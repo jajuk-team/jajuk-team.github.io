@@ -4,7 +4,7 @@ layout: default
 ---
 
 # Past and current contributors (since 2004)
-* Bertrand Florat (bflorat)	: Project Admin, developer
+* Bertrand Florat (bflorat)	: Project Admin, developer, doc writer
 * Gwen Kerdal (gkerdal) : Developer, doc writer, website 
 * Dominik Stadler (centic) : Developer
 * Josep Carles Collazos	(jespo) Spanish translator / developer
@@ -49,23 +49,23 @@ See also the [Translator Guide](/translator_guide.html) for current translation 
 # Thanks to
 The following additional people have contributed to this project through the way of suggestions, patches or documentation. Please contact us if you feel you should be listed.
 
- * Alexandre Lucazeau	Doc translation
- * Aurelien Pedron	Bug reports, qualification
- * Christian Laireiter (Liree)	Added Jaudiotagger support to Jajuk
- * Christine Thel	Parts of French doc translation
- * Darsa	Bug reports
- * Daniel Hiller	Patches and support for OS X
- * Dugland Bob	Swing optimization tips
- * itoijala	Many excellent patches and code : most of the Toast code, enhancements in Tree views sorting, patches for mplayer player and many more.
- * Jean-Yves Durand-Daubin	Code on HTTP client through a proxy to get covers
- * Jerome Fortain	Many suggestions, Bug reports, qualification
- * Kevin Tangning	Chinese translation (partial)
- * Laurent Witkowski	Tester, RFE
- * Martial Braux	One patch on Cover
- * Mmcmar	OSX help on packaging
- * Neoclust	RPM Packaging, testing
- * Nicolas Richard (kournikola)	Bug reports, RFE, news reporting
- * Omazaram	Testing 
- * Raymond Martin	Legals advices
- * Romain Herault	Mac integration code
- * Sylvain Gaudard	Jukebox Powerpack, Common-jukebox, various suggestions, patches and bug reports
+ * Alexandre Lucazeau :	Doc translation
+ * Aurelien Pedron :	Bug reports, qualification
+ * Christian Laireiter (Liree) :	Added Jaudiotagger support to Jajuk
+ * Christine Thel :	Parts of French doc translation
+ * Darsa :	Bug reports
+ * Daniel Hiller :	Patches and support for OS X
+ * Dugland Bob :	Swing optimization tips
+ * itoijala	: Many excellent patches and code : most of the Toast code, enhancements in Tree views sorting, patches for mplayer player and many more.
+ * Jean-Yves Durand-Daubin :	Code on HTTP client through a proxy to get covers
+ * Jerome Fortain :	Many suggestions, Bug reports, qualification
+ * Kevin Tangning :	Chinese translation (partial)
+ * Laurent Witkowski :	Tester, RFE
+ * Martial Braux :	One patch on Cover
+ * Mmcmar :	OSX help on packaging
+ * Neoclust :	RPM Packaging, testing
+ * Nicolas Richard (kournikola) :	Bug reports, RFE, news reporting
+ * Omazaram	: Testing 
+ * Raymond Martin :	Legals advices
+ * Romain Herault :	Mac integration code
+ * Sylvain Gaudard : Jukebox Powerpack, Common-jukebox, various suggestions, patches and bug reports
