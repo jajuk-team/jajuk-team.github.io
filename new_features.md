@@ -3,8 +3,6 @@ title: New features - Jajuk
 layout: default
 ---
 
-<a name="top"></a>
-
 # New Features Highlights in Jajuk <Gute Laune> 1.10
 
 ## Webradios enhancements

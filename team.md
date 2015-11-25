@@ -3,19 +3,12 @@ title: Jajuk Team - Jajuk
 layout: default
 ---
 
-''Welcome to new Jajuk members, have fun ! ''
-
-A successful project requires many people to play many roles. Some members write code or documentation, while others are valuable as testers, submitting patches and suggestions.
-
-Contact us on :
-
- - [Twitter](http://twitter.com/jajukproject)
-
- - [Google+](https://plus.google.com/116653776869968419005)
 
 Want to help : subscribe to [mailing list](http://lists.sourceforge.net/mailman/listinfo/jajuk-developers)
 
-The team is comprised of Members and Contributors. Members have direct access to the source of a project and actively evolve the code-base. Contributors improve the project through submission of patches and suggestions to the Members. The number of Contributors to the project is unbounded. Get involved today. All contributions to the project are greatly appreciated.
+# Team members
+Check the [list of contributors](/members.html) 
+
 
 <a name="Executive summary">Executive summary</a>
 -----------------

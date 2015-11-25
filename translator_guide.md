@@ -2,15 +2,16 @@
 title: Translator guide
 layout: default
 ---
+# Translator guide
 
-# Target
+## Target
 Anyone can translate Jajuk, no computer science is required. Note this is a voluntary work. 
 
 For any question or comments, please contact us. 
 
 Current Jajuk version translation should take few hours and upgrade only few minutes.
 
-# Jajuk translation
+## Jajuk translation
   * Jajuk uses a custom internationalization (i18n) system based on a XML file that allow translators to edit directly text files even when using non-european characters. 
   Langpack files are named ``jajuk_{locale}.properties`` where {locale} is a ISO language code. 
   ``jajuk.properties`` contains default resource bundle (English) and you have a property file for each language.
@@ -54,7 +55,7 @@ ParameterView.75=Fixez un mot de passe à votre machine.
   * Some lines are under comments like "limited size". In this case, make sure to keep your translation short to ensure correct display.
   * Send us your work as a property file with your local ( ex: ``jajuk_ru.properties`` for Russian ).
 
-# Optional, for translators with developer skills
+## Optional, for translators with developer skills
 If you want to test your work (ant must be installed):
 
   * Edit ``{jajuk installation path}/src/org/jajuk/util/Messages.java`` file and search for line :
@@ -68,7 +69,7 @@ Go in the ``{jajuk installation path}`` directory where you can find the build.x
   * Launch Jajuk and set language in the parameter view of the configuration perspective.
   * Check your work.
 
-# Translation upgrades
+## Translation upgrades
 As you can imagine, Jajuk evolves and new releases brings new labels or change them. Before new releases, 
 the packager sends messages to the project mailing list to request translation upgrade. 
 Note that if some new labels are not translated, they will simply be displayed in English. Hence, a partial langpack is not critical. 
@@ -83,7 +84,7 @@ You can upgrade your translation whenever you want. What you have to do when upg
   * Upgrade the #FROM comment with the translated release.
   * Commit your file or contact us.
 
-# Tips
+## Tips
   * Do not modify keys but only values. In ``Label.1=foo``, ``Label.1`` is the key and ``foo`` is the value.
   * If a value contains a ``\ ``, do not drop it, it means there is a space at line start.
   * Blanks at the end of a line are usually on-purpose to have some space in the combined text when it is concatenated with some value, don't cut them off.
