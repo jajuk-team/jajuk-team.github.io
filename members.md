@@ -9,26 +9,22 @@ layout: default
 * Dominik Stadler (centic) : Developer
 * Josep Carles Collazos	(jespo) Spanish translator / developer
 * Michael Kebede (mikematic) :	Developer
-* Selectus	Vitaliy Tamm	Russian translator, graphics
+* Selectus	Vitaliy Tamm :	Russian translator, graphics
 * Florian Strienz (sesamstrasse) :	Developer, translator
 * Antonis Thomas (iorulezz) :	Developer
 * Nicolas Schudel (Nick) : Graphics and Web Designer
 * fsck222	: Infrastructure, analyst, doc writer
-* Varun	Varun Hiremath	Debian packager, Developer
-* Eleftherios Spyromitros (lefman)	Developer, Greek translator, tester
-* Bart Cremers	Keyboard controls feature, Tips of the day, Action engine refactoring, patches, Dutch translation
-* David Hadley	Bug fixes, observer engine refactoring, patches, code cleanup
-* dhalsim44 / Erwan Richard	Many developments including CDDB retagger and reorganizer
-* Fabrice Dutron	First docking implementation using infonode API
-* Gerhard Dietrichsteiner	German translation
-* Laurent "haylem" Malvert	Code refactoring, works on Lyrics
-* Marc-Siebren Kwadijk	Dutch translation
-* Masiar Farahani	Some patches and design
-* Mike Kelp	Documentation/English labels review
-* Oscar Appelgren	Swedish translation
-* Riccardo Capecchi	Italian translation
-* Ronak Patel	Reporting feature initial implementation
-* Sebastien Gringoire	Design, some early developments
+* Varun	Varun Hiremath	: Debian packager, Developer
+* Eleftherios Spyromitros (lefman) :	Developer, Greek translator, tester
+* Bart Cremers	: Keyboard controls feature, Tips of the day, Action engine refactoring, patches, Dutch translation
+* David Hadley	: Bug fixes, observer engine refactoring, patches, code cleanup
+* dhalsim44 / Erwan Richard	: Many developments including CDDB retagger and reorganizer
+* Fabrice Dutron :	First docking implementation using infonode API
+* Laurent "haylem" Malvert	: Code refactoring, works on Lyrics
+* Masiar Farahani :	Some patches and design
+* Mike Kelp	: Documentation/English labels review
+* Ronak Patel :	Reporting feature initial implementation
+* Sebastien Gringoire :	Design, some early developments
 
 # Translators
 * Catalan : Josep Carles Collazos
