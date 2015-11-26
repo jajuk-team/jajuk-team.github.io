@@ -9,6 +9,9 @@ layout: default
 # Jajuk Manual
 * [Jajuk Manual](/jajuk_manual.html)
 
+# Legals
+* Find [here](/legals.html) licenses and dependencies
+
 # Contact us 
   * [Bugs / feature requests](https://github.com/jajuk-team/jajuk/issues) (see How to report a bug below)
   * [Developers mailing List](http://lists.sourceforge.net/mailman/listinfo/jajuk-developers)

@@ -132,7 +132,6 @@ Jajuk supports following tags formats:
   * Java 1.6 +
   * MPlayer (auto-installed under Windows and OSX) 
 
-
 ## Supported languages
 
 (Last update : Jajuk 1.10)
@@ -154,5 +153,3 @@ Jajuk supports following tags formats:
 (*): outdated (**) : very outdated
 
 [Want to translate ?](/translator_guide.html)
-
-# Jajuk Dependencies 
