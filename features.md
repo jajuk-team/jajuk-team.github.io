@@ -13,6 +13,9 @@ Jajuk fundamental principles are :
 # Features
 Check out [new features highlights](/new_features.html).
 
+# Media coverage
+Check out the [Jajuk media coverage](/media_coverage.html)
+
 ## Player functions
 
   * Digital DJ: Let Jajuk make your playlist based on your own rules

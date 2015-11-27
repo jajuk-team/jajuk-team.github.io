@@ -6,7 +6,7 @@ layout: default
 Prerequisites
 -------------
 
-Jajuk requires Java Runtime Environment (JRE) 1.6 and above to run. Get it for free at [www.java.com](http://www.java.com)
+Jajuk requires Java Runtime Environment (JRE) 1.6 and above to run. Get it for free at [www.java.com](http://www.java.com). 
 
 
 Download latest version 1.10.7 alias ''Gute Laune''

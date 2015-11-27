@@ -6,6 +6,9 @@ layout: default
 # Team members
 Check the [list of contributors](/members.html) 
 
+# Want to donate ?
+Check the [Donation page](/donation.html) 
+
 # Main websites at a glance
 
 <table id="screenshots">
