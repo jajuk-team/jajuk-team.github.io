@@ -44,13 +44,13 @@ QDWizard specific :
 [RC] applies to release candidates
 </div>
 
-## [major] Legals
+### [major] Legals
 - Update the Dependencies and Derivative sections in [Legals](/legals.html)
 - Paste the Dependencies and Derivative sections into ``src/legals`` txt files
 - Update ``AUTHORS.txt`` file sorted by commits numbers using :
 ``git log --format='%aN <%aE>' | awk '{arr[$0]++} END{for (i in arr){print arr[i], i;}}' | sort -rn | cut -d\  -f2-``
 
-## Code
+### Code
 <div class='info'>We assume that we are about to release branches created using [git-flow](http://jeffkreeftmeijer.com/2010/why-arent-you-using-git-flow/).</div>
 
 - [all] Refresh workspace, make sure to pull every commit
@@ -89,7 +89,6 @@ build. Version check from users (if enabled) then uses our own server and doesn'
  
 - [minor,major] Release on SF
   - Add files (6 files) from jajuk server :
-
 <pre>
 cd /tmp/jajuk-dist/packages
 sftp bflorat,jajuk@frs.sourceforge.net
@@ -107,8 +106,30 @@ exit
 - [minor,major] Check website (links, pages...)
 - [all] Close bugs, known issues and Features
 
-## Others
+### Others
 - [all] Check pad url to the .exe ( http://repository.jajuk.info/jajuk_pad.xml )
 - [all] Make annonce on G+ and twitter
 - [all] Send a message in the developer list
 - [major] If ``default_webradios.xml`` list changed, update file at [http://svn2.assembla.com/svn/common-jukebox/common-jukebox/src/main/resources/preset_radios.xml](http://svn2.assembla.com/svn/common-jukebox/common-jukebox/src/main/resources/preset_radios.xml)
+
+## Prepare the next version after a release
+These actions should be done before or just after a major release to create a new major version environment.
+ 
+- Create a maintenance branch
+- Update ``Const.TEST_VERSION`` and ``Const.JAJUK_CODENAME`` constants
+- Change the POM version
+
+### Updating development server to keep automatic build working
+You need to create the new maintenance branch prior doing these steps.
+- Update branch in CI server maintenance branch SCM configuration
+- From the CI server :
+<pre>
+ login as tomcat55
+ cd /data/hudson/jobs/Jajuk Daily Build - Maintenance/workspace
+ rm -rf *
+ mkdir jajuk tests
+</pre>
+- Change the maintenance  branch ``build.xml`` files
+  - change version: ``<property name='version' value='1.5.1_b1' />``
+  - change test value to "test":  ``<property name='test' value='test' />``
+  - Commit changes
