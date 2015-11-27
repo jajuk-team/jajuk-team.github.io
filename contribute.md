@@ -35,14 +35,16 @@ General contract is :
 -   No remuneration, Jajuk is a benevolent work
 -   Every work is copyrighted under GPL license and due to 'Jajuk team', no individual copyrighting
 
+## Code contribution
+Please provide your contributions from GitHub through pull requests. Ask us before implementing large features.
+Please read the [developer guide](/developer_guide.html).
+
 ## Daily builds
 
 Jajuk daily builds and test coverage/results are available from the [Jajuk Continuous Integration website](http://integration.jajuk.info). 
 Please make sure you didn't broke the build. All unit tests should pass as well or fix them. 
 
-Version rules
--------------
-
+### Version rules
 -   Jajuk releases follow this version scheme: <major>.<minor>.<fix>. Example: 1.1.4 : Fourth fix release of second minor release of first major release.
 -   When starting a minor release testing process (about one or two months), we create a specific branch used for fixes (during this time, commiters can continue to work in the trunk). Example: one month before 1.1 official release, a "1.1" branch is created. All fixable bugs found against minor version are double-fixed in the release and in the trunk branches (fix against maintenance branch, then fixes are merged into trunk). For example, an issue discovered in 1.1 is fixed in the ''1_1 ''branch AND in the trunk (1.2 development release).
 -   Major and minor releases are maintained during a single minor releases (for example, 1.1 is maintained until 1.2 is released) and a fix pack release (x.y.z) is released ASAP if critical bug found or about every one or two weeks for minor issues.
