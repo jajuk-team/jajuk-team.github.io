@@ -341,8 +341,9 @@ background-image:url('success.png');
 }
 .warning {
 color: #9F6000;
+padding:15px 50px 35px 80px;
 background-color: #FEEFB3;
-background-image: url('warning.png');
+background-image: url('../images/warning.png');
 }
 .error {
 color: #D8000C;

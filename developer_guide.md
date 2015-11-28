@@ -6,17 +6,14 @@ layout: default
 # Developer guide
 
 # Source Code Management
-Jajuk uses GIT since 2011. All inscriptions can be found at the [Git](git.html) page.
-
-### Natural Language
-Jajuk team communication, code and comments have to be in English natural language only.
+See the [Git](git.html) page.
 
 ### Copyright
-- A single moral entity named "The Jajuk Team" owns the copyright on all sources, please do not set your name in the file headers (BTW, make sure to use the provided code generation template, see bellow).
-- Note that your credits are still available from various members lists and from the SCM system anyway.
+- We have a single moral entity named "The Jajuk Team" that owns the copyright on all sources, please do not set your name in the file headers (BTW, make sure to use the provided code generation template, see bellow).
+- Note that your credits are still available from various members lists, from the SCM system anyway and from [this page](/members.html).
 
 ### Developers mailing Lists
-- [Jajuk developer mailing list](mailto:jajuk-developers@lists.sourceforge.net) is the project main communication stream. Subscription form is[here](http://lists.sourceforge.net/mailman/listinfo/jajuk-developers). Note that the Reply-to is directed to the original sender, not the list so please use the "Reply all" button from you e-mail client to reply to the list.
+- [Jajuk developer mailing list](mailto:jajuk-developers@lists.sourceforge.net) is the project main communication stream. Note that the Reply-to is directed to the original sender, not the list so please use the "Reply all" button from you e-mail client to reply to the list.
 
 ### Java version
 - Jajuk has to run on every JVM &gt;= 1.6
@@ -62,9 +59,6 @@ To launch jajuk from Eclipse, create a run configuration with :
 - Make sure to cleanup useless labels to reduce translators work.
 - Debug logs are not externalized string but raw English strings.
 
-#### Interfaces
-Begin interfaces with a upper ' I '. The 'i' is not taken into account for variables naming: ``IPerspectiveManager pm;``
-
 #### XML
 - Avoid to use PCDATA values, use attributes instead : it's faster to parse and easier to code
 - Use single quotes, not double quotes.
@@ -84,3 +78,165 @@ Tip : install the [http://www.ucdetector.org](http://www.ucdetector.org) ecli
 Please keep Eclipse standard level of warnings (imports, static context...) and make sure to cleanup imports (Control-Alt-o).
 Check the [Sonar analysis](http://nemo.sonarqube.org/dashboard/index/org.jajuk:jajuk), you may want to install the local Sonar plugin as well.
 
+#### GUI threading conventions
+- Every widget creation or change has to be done inside the EDT (Event Dispatching Thread). For more details, check [|1](https://trac.jajuk.info/ticket/1422)] and [[2](http://en.wikipedia.org/wiki/Event_dispatching_thread)]. This is currently endorsed through the Substance look and feel.
+- Tasks that takes half a second or more to run (for a large collection) have to be done outside the EDT.
+- When an operation requires long operations (done outside the EDT) and GUI updates afterwards (like downloading a picture and then displaying it), you have to use a the SwingWorker class.
+- For views that provides a populate mechanism, use the Jajuk "TwoStepsDisplayable" pattern that abstracts the SwingWorker and makes code easier :
+    - Your view shall implement the ``TwoStepsDisplayable`` interface and provide ``longCall()`` and ``shortCall()`` methods for actions done respectively outside and inside the EDT.
+    - Use the ``UtilGUI.populate(TwoStepsDisplayable)`` method to populate the view and run the underlying SwingWorker.
+
+#### Documentation
+- Please document your features in English on this website.
+- You may want to add new tips of the day in ``jajuk_properties`` file.
+
+#### Layout Manager
+- Jajuk official layout manager is the excellent [MigLayout](http://www.miglayout.com/). Please read the quick start guide and the [cheat sheet](http://www.migcalendar.com/miglayout/cheatsheet.html).
+- Please use MigLayout in priority for every layout need, even simple cases as the resulting code is extremely simple to write, read and maintain. There are very few cases where you have to use others layout managers (like an Horizontal alignment between two items) or special cases (FlowLayout in CatalogView for ie)
+- An excellent [Cheat Sheet](http://www.migcalendar.com/miglayout/cheatsheet.html) is available.
+- Please read the Tutorial at [http://www.miglayout.com/](http://www.miglayout.com/)
+- MigLayout is *really* powerful and simple. Even if it supports cell-kind layout management (like grid bag or TableLayout), Please try avoid to use them when possible (what happens when you want to add a widgets among existing elements in the future ?) but use the regular ``wrap`` mode instead (tell explicitly that you reached the end of a row), ``split`` and ``span``.
+- In 99% of cases you don't need any inner panel
+- MigLayout saves a lot of swing code like ``insets``, ``setMaxSize``, set horizontal/vertical gaps with Box etc... All of these information have to be set as MigLayout string constraints mainly within its constructor.
+
+#### Validation
+- To validation fields in forms, we use [Simple-validation](http://kenai.com/projects/simplevalidation), that's pretty good and non-intrusive.
+
+#### Wizards
+- Use [QDWizard](http://github.com/bflorat/qdwizard) to write complex wizards (see ``DJWizard`` as a example)
+- Note that QDWizard contains its own error messages and validation scheme, we normally don't have to use an external validation lib when writing a wizard.
+
+### Unit Testing
+- Jajuk uses JUnit unit testing which is well integrated into Eclipse (Development IDE), [Jenkins (Continuous integration server)](http://integration.jajuk.info/) and Sonar (Code Quality Checking tool)
+
+#### General Guidelines
+The following guidelines should be observed when committing code changes:
+
+- Each class ``src/main/java/...`` should have its corresponding test case in the same Java package under ``src/test/java/...``
+- When implementing new features, please also create corresponding unit test cases or even better, follow [Test Driven Development principles](http://en.wikipedia.org/wiki/Test-driven_development).
+- When changing existing classes, run related unit tests before checking in.
+- It is not mandatory to run all tests manually on your machine, however please take a look at the [Jenkins build server](http://integration.jajuk.info/) after the next automated build and test run (usually done overnight) to ensure that no other test is broken now.
+- Fix any unit test broken by your commit ASAP to avoid lengthy periods of broken Jenkins builds!
+
+#### Utility classes/Helper methods
+There is one class available as part of the current tests that provides basic helper methods: ``JUnitHelpers``. This class can be used for a number of small tasks that are often necessary when writing Unit Tests, it provides the following:
+
+- ``createSessionDirectory()``: Creates a temporary working directory for Jajuk which can then be used for Workspace related tests.
+- ``testPrivateConstructor()``: In some cases we add a private constuctor to classes that only have static members to prevent this class from being instantiated (which makes no sense at all). In order to get coverage for this constructor, we have a small helper:
+
+{% highlight java %}
+   // helper method to emma-coverage of the unused constructor
+   public void testPrivateConstructor() throws Exception {
+     JUnitHelpers.executePrivateConstructor([yourclass].class); 
+   }
+{% endhighlight %}
+- ``EqualsTest()/CompareToTest()/ToStringTest()/CloneTest()/HashCodeTest()/EnumTest()``: These are helpers for testing the standard methods that are available in many classes, e.g. EqualsTest will verify many general "rules" on equalness that are specified by the Java language definition and which can have side effects if not implemented correctly.
+- ``clearSwingUtilitiesQueue()/waitForThreadToFinish()/waitForAllWorkToFinishAndCleanup()``: Helpers when testing Swing-related code. They allow to clean out the queue of asynchronous events and also to wait for threads and other things that are started. This avoid hard to trace errors in tests when things are started in the background by some classes.
+- ``getFile()``: creates and registers a music-file.
+- ``getTrack()``: creates and registers a music-track.
+- ``MockPlayer``: A helper class that implements the Player interface.
+
+Additionally we provide a class ``JajukTestCase`` which calls the ``waitForAllWorkToFinishAndCleanup()``. This is useful when testing classes that always require cleanup before starting tests.
+
+#### Headless mode
+- In order to have Unit tests running on Continuous Integration platforms like Jenkins, all unit tests must run without UI interaction and without accessing any of the UI functionality from AWT/Swing. Naturally this prevents some things from being tested via unit tests, but on the other hand it ensures that all tests execute without popping up a message box and waiting endlessly for the user to press a button, something that is not useful for unit tests at all.
+- In order to run the unit tests locally with the same setting to disable UI support in Java, please add the following setting to the run-configuration of Eclipse or any tool used to execute unit tests: ``-Djava.awt.headless=true`` 
+As result of this, any place where UI is used will throw an "HeadlessException" that we need to ignore for tests, i.e. the test should still succeed, even if the HeadlessException is thrown.
+
+### Development hits and available features
+
+#### Guava
+We use Guava, the excellent toolbox from Google. Don't hesitate to use features from Guava (Jajuk 1.9 uses Guava R11) to reduce the number of code lines and increase the code quality. Check [Guava javadoc](http://code.google.com/p/guava-libraries/).
+
+#### Using managers
+Managers are the only way to access (list or change) items (Track, File, Type, Directory, Playlist, PlaylistFile, Device, Artist, album and Genre). For example, listing devices is done this way:
+
+{% highlight java %}
+DeviceManager.getInstance.getDevices()
+{% endhighlight %}
+
+Note that ``getXXXs()`` methods return copies that can be changed safely.
+
+#### Anonymizer
+- For any private data (track name, user info...), use double braces in logs. Example for Cover URL search:
+{% highlight java %}
+Log.debug({% raw %}"Search URL: {{" + sURL + "}}");{% endraw %}
+{% endhighlight %}
+
+- All strings between ``{{`` and ``}}`` are automatically replaced by ``***`` in quality agent.
+- Use this method to get a list of tracks for a given item like an artist or an album : ``TrackManager.getAssociatedTracks()``
+
+#### Utilities features
+- The ``org.jajuk.utils.Util*`` classes contain many useful methods. Please check it to avoid reinventing the wheel but don't hesitate to add new features by yourself.
+
+#### Files filters
+- Jajuk provides a powerful ``JajukFileFilter`` class to filter files. Example: to keep only audio files or directories:
+
+{% highlight java %}
+new JajukFilter(false,JajukFileFilter.DirectoryFilter.getInstance(),
+   JajukFileFilter.AudioFilter.getInstance());
+{% endhighlight %}
+- Jajuk provides several predefined filters: ``Audio``, ``NotAudio``, ``Playlist``, ``Directory``, ``KnownType``, ``AnyFile`` than can be used in conjunction using a ``AND`` or an ``OR`` between them.
+
+#### Collection filters
+- Jajuk uses Jakarta Commons-Collections features to filter collections. Filtering is done by using decorated iterators using Predicates. Example:
+{% highlight java %}
+Iterator it = new FilterIterator(tracks.iterator(),
+  new JajukPredicates.AgePredicate(ConfigurationManager.getInt(CONF_OPTIONS_NOVELTIES_AGE)));
+{% endhighlight %}
+
+allows to iterate only on items of given age.
+
+- New predicates should be centralized into the ``JajukPredicates`` class
+
+#### Accessing to configuration files
+- The Jajuk workspace (the directory where Jajuk stores all configuration files and indexes) is variable (by default ~/.jajuk in production and ~/.jajuk_test_&lt;version&gt; in developement mode - ie using the -test option). This is why you have to access configuration files this way:
+
+{% highlight java %}
+File fConfig = Util.getConfFileByPath(FILE_xxx);
+{% endhighlight %}
+
+and not trying to build the file path on your own
+
+#### Design patterns
+
+##### Singleton [GOF]
+- Some Jajuk classes (mainly in ``org.jajuk.base``) are singletons, most of the time for serious reasons.
+- Please avoid making a class a singleton if you have no good reason for that
+
+##### Observer [GOF]
+- Jajuk provides a full featured observer pattern implementation (supports details, is fully asynchronous, has a cache, an overflow controller, etc.)
+- To register to events, a view has to implement Observer interface and provide a list of observed events this way:
+
+{% highlight java %}
+public Set<JajukEvents> getRegistrationKeys() {
+  HashSet<EventSubject> eventSubjectSet = new HashSet<JajukEvents>();
+  eventSubjectSet.add(JajukEvents.EVENT_DEVICE_MOUNT);
+  eventSubjectSet.add(JajukEvents.EVENT_DEVICE_UNMOUNT);
+  return eventSubjectSet;
+}
+{% endhighlight %}
+
+- To handle events, look at this sample :
+{% highlight java %}
+public void update(JajukEvent event) {
+  JajukEvents subject = event.getSubject();
+  if (JajukEvents.EVENT_DEVICE_MOUNT.equals(subject)) {
+    SwingUtilities.invokeLater(new Runnable() {
+      public void run() {
+	Util.waiting();
+	refreshDevices();
+	Util.stopWaiting();
+    }
+  });
+}
+{% endhighlight %}
+- To notify an event :
+{% highlight java %}
+ObservationManager.notify(new JajukEvent(JajukEvents.DEVICE_MOUNT));
+{% endhighlight %}
+
+- If you want to make sure that a observer is updated before others, implements ``HighPriorityObserver`` instead of ``Observer`` (of course, you can set only a single high priority observer per subject).
+<div class='warning'>
+Do not notify more than a single event for one action (for performances and to avoid difficult concurrency issues in views that registrated all these events, we cannot ensure events ordering)
+</div>

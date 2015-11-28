@@ -9,6 +9,13 @@ Check the [list of contributors](/members.html)
 # Want to donate ?
 Check the [Donation page](/donation.html) 
 
+# Want to translate Jajuk ?
+Check the [Translation guide](/translator_guide.html) 
+
+# Want to hack Jajuk ?
+Please provide your contributions from GitHub through pull requests. Ask us before implementing large features.
+Please read the [developer guide](/developer_guide.html).
+
 # Main websites at a glance
 
 <table id="screenshots">
@@ -23,21 +30,14 @@ Check the [Donation page](/donation.html)
 </table>
 
 ## Team rules
-
 We ask members to follow these basic rules:
 
 - Members have to communicate in English
 - Subscribe to [mailing list](http://lists.sourceforge.net/mailman/listinfo/jajuk-developers)
 - Follow [Git instructions](/git.html)
+- No remuneration, Jajuk is a benevolent work
+- Every work is copyrighted under GPL license and due to 'Jajuk team', no individual copyrighting
 
-General contract is :
-
--   No remuneration, Jajuk is a benevolent work
--   Every work is copyrighted under GPL license and due to 'Jajuk team', no individual copyrighting
-
-## Code contribution
-Please provide your contributions from GitHub through pull requests. Ask us before implementing large features.
-Please read the [developer guide](/developer_guide.html).
 
 ## Daily builds
 

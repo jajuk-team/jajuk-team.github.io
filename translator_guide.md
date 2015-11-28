@@ -12,12 +12,14 @@ For any question or comments, please contact us.
 Current Jajuk version translation should take few hours and upgrade only few minutes.
 
 ## Jajuk translation
-  * Jajuk uses a custom internationalization (i18n) system based on a XML file that allow translators to edit directly text files even when using non-european characters. 
-  Langpack files are named ``jajuk_{locale}.properties`` where {locale} is a ISO language code. 
-  ``jajuk.properties`` contains default resource bundle (English) and you have a property file for each language.
+* Jajuk uses a custom internationalization (i18n) system based on a XML file that allow translators to edit directly text files even when using non-european characters. 
+Langpack files are named ``jajuk_{locale}.properties`` where {locale} is a ISO language code.
+ These files are located in the ``src/main/resources/org/jajuk/i18n`` directory.
+``jajuk.properties`` contains default resource bundle (English) and you have a property file for each language.
 
-  * Get the property file of your choice as a source language. Example: take last release of ``jajuk.properties`` as English source language or any other property file in this directory.
-Create your text file. It should begin with:
+* Get the property file of your choice as a source language. Example: take last release of ``jajuk.properties`` as English source language or any other property file in this directory.
+* The simplest way to translate Jajuk is using the Github integrated file editor. You just need a GitHub account, to fork the [jajuk-team/jajuk project](https://github.com/jajuk-team/jajuk), to edit existing files or to add a new file to the ``src/main/resources/org/jajuk/i18n directory`` and to perform a pull request (ask if you need help). 
+* Create your text file. It should begin with:
 
 <pre>
 #Jajuk {your language} langpack.
@@ -35,7 +37,7 @@ Example:
 #FROM en 2012/06/11
 </pre>
 
-  * You have to write your files in Unicode UTF-8 encoding. If you don't know how to set the encoding, please contact us. Under Windows, we suggest using Eclipse (see developer manual for eclipse i18n configuration) or Ultraedit. Under Linux, we suggest using Eclipse (see developer manual for eclipse i18n configuration) or Kate. If you didn't used UTF-8, we will convert it for you but please give us the encoding you used. If you don't know which encoding you used, start Jajuk, go to Help perspective/About view, click on the system tab and your encoding is given by file.encoding property.
+  * You have to write your files in Unicode UTF-8 encoding. If you don't know how to set the encoding, please contact us. This is handled correctly by the GitHub code editor so we advice to use it to create of update your files.  
   * Look at file structure: It is a simple key=value format. Example:
 <pre>
 ParameterView.73=Check this if you allow others people to come read music from your box
@@ -65,7 +67,7 @@ public static final String[] locales = { "en", "fr", "de", ...};
   * Then, add your your own locale.
   * Copy your properties file in the ``{jajuk installation path}/src/org/jajuk/i18n`` directory
 Go in the ``{jajuk installation path}`` directory where you can find the build.xml file
-  * Rebuild Jajuk typing ``ant``
+  * Rebuild Jajuk typing ``ant -lib . package_jar``
   * Launch Jajuk and set language in the parameter view of the configuration perspective.
   * Check your work.
 
