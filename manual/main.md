@@ -1,17 +1,15 @@
 ---
-title: Manual - Jajuk
+title: Manual - Table Of Contents
 layout: default
 ---
 
-# Jajuk User Guide
-
+# Jajuk Manual - table of contents
 This is the Jajuk help manual. Note that you also have tooltips on nearly every widget. For support, bug report or feature request, please use the Quality Agent (menu: Help, Report a bug or feature request). 
 
-**This manual targets Jajuk 1.10 alias \<Gute Laune\>**
+**This manual currently targets Jajuk 1.10 alias \<Gute Laune\>**
 
 ## Jajuk in a nutshell
-
-- [Features](/jajuk_manual_features.html)
+- [Features](/features.html)
 - [New features highlights](/new_features.html)
 - Perspectives and views
 - Devices
@@ -24,7 +22,6 @@ This is the Jajuk help manual. Note that you also have tooltips on nearly every 
 - Ambiences walkthrough 
 
 ## Using Jajuk
-
 - Jajuk rating system
 - Editing tags and properties
 - Displaying extra tags
@@ -42,7 +39,6 @@ This is the Jajuk help manual. Note that you also have tooltips on nearly every 
 - Prepare a Party 
 
 ## Views
-
 - Catalog view
 - Albums Table view
 - Artists view
@@ -54,7 +50,7 @@ This is the Jajuk help manual. Note that you also have tooltips on nearly every 
 - Lyrics view
 - Queue view
 - Playlists view
-- [Preferences view](/jajuk_manual_view_preferences.html)
+- Preferences view
 - Statistics view
 - Suggestions view
 - Title view
@@ -64,19 +60,9 @@ This is the Jajuk help manual. Note that you also have tooltips on nearly every 
 - Wikipedia view 
 
 ## Technical
-
-- [FAQ](/jajuk_faq.html)
-- [Using D-Bus (hotkeys / remote controls for Linux)](jajuk_manual_d_bus.html)
-- Hidden options
+- [FAQ](/faq.html)
+- Using D-Bus (hotkeys / remote controls for Linux)
+- [Hidden options](hidden_options.html)
 - [Performance tips](/jajuk_manual_performance_tips.html)
 - Supported formats 
 
-## Legals
-
-- Jajuk dependencies
-- Apache License
-- BSD License
-- Creative Commons License
-- Derivated License
-- GPL License
-- LGPL License

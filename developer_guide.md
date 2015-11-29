@@ -241,6 +241,9 @@ ObservationManager.notify(new JajukEvent(JajukEvents.DEVICE_MOUNT));
 Do not notify more than a single event for one action (for performances and to avoid difficult concurrency issues in views that registrated all these events, we cannot ensure events ordering)
 </div>
 
+### D-Bus
+See [these archives](/archives/D-Bus.html)
+
 ## Howtos
 
 ### How to get tracks for a given artist, album, year or genre ?

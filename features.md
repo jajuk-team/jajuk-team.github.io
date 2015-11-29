@@ -10,7 +10,7 @@ Jajuk fundamental principles are :
   * Maximum features: Jajuk is made for advanced users looking for powerful functionalities
   * Maximum portability and desktop integration 
 
-# Features
+# Newest features
 Check out [new features highlights](/new_features.html).
 
 # Media coverage

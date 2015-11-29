@@ -3,10 +3,9 @@ title: FAQ - Jajuk
 layout: default
 ---
 
+Go back to [TOC](/manual/main.html)
+
 # Performances Tips
-
-Go back to [manual](/jajuk_manual.html)
-
 Read that chapter if you encounter some performances drawbacks or if you want consume less memory, disk, CPU or Network bandwidth using Jajuk.
 
 ## CPU usage
@@ -61,4 +60,4 @@ JVM customization
 - You can set a -Xmx parameter to restrict memory usage to this value (example: -Xmx600M)
 - Use -Xloggc:<file name> to trace memory usage if needed. 
 
-Go back to [manual](/jajuk_manual.html)
+Go back to [TOC](/manual/main.html)
