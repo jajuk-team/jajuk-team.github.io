@@ -79,7 +79,7 @@ Please keep Eclipse standard level of warnings (imports, static context...) and 
 Check the [Sonar analysis](http://nemo.sonarqube.org/dashboard/index/org.jajuk:jajuk), you may want to install the local Sonar plugin as well.
 
 #### GUI threading conventions
-- Every widget creation or change has to be done inside the EDT (Event Dispatching Thread). For more details, check [|1](https://trac.jajuk.info/ticket/1422)] and [[2](http://en.wikipedia.org/wiki/Event_dispatching_thread)]. This is currently endorsed through the Substance look and feel.
+- Every widget creation or change has to be done inside the EDT (Event Dispatching Thread). For more details, check  [this page](http://en.wikipedia.org/wiki/Event_dispatching_thread). This is currently endorsed through the Substance look and feel.
 - Tasks that takes half a second or more to run (for a large collection) have to be done outside the EDT.
 - When an operation requires long operations (done outside the EDT) and GUI updates afterwards (like downloading a picture and then displaying it), you have to use a the SwingWorker class.
 - For views that provides a populate mechanism, use the Jajuk "TwoStepsDisplayable" pattern that abstracts the SwingWorker and makes code easier :
@@ -240,3 +240,147 @@ ObservationManager.notify(new JajukEvent(JajukEvents.DEVICE_MOUNT));
 <div class='warning'>
 Do not notify more than a single event for one action (for performances and to avoid difficult concurrency issues in views that registrated all these events, we cannot ensure events ordering)
 </div>
+
+## Howtos
+
+### How to get tracks for a given artist, album, year or genre ?
+{% highlight java %}
+TrackManager.getAssociatedTracks()
+{% endhighlight %}
+
+### How to get playable files for any item (logical or physical)?
+{% highlight java %}
+Util.getPlayableFiles()
+{% endhighlight %}
+
+### How to filter a list of items ?
+{% highlight java %}
+Filter.filterItems(&lt;list&gt;,&lt;property name&gt;,&lt;value&gt;)
+{% endhighlight %}
+
+### How to get the number of items (track, files...) ?
+{% highlight java %}
+[item type]Manager.getInstance().getElementCount()
+{% endhighlight %}
+
+### How to add a new option ?
+- Add the option name in ``org.jajuk.util.Const``:
+
+{% highlight java %}
+public static final String CONF_AUDIOSCROBBLER_ENABLE = "jajuk.network.audioscrobbler"; 
+{% endhighlight %}
+
+- don't forget to set a default value in ``org.jajuk.util.Conf`` :
+{% highlight java %}
+properties.put(CONF_AUDIOSCROBBLER_ENABLE, FALSE);
+{% endhighlight %}
+
+- Use ``setProperty()`` method to set it in the program and ``getBoolean()``, ``getProperty()``, ``getInt()``... methods to retrieve it. Options are automatically saved to the ``conf.properties`` file at shutdown and loaded at startup.
+
+### How are managed window startup sizes and positions ?
+- Default size is set using this algorithm:
+<pre>
+begin
+ width = screen width
+ if width &gt; 1400  
+   width = 1200  //deal with dual heads
+ else
+   width = screen width - 120
+ height = screen height
+ if height &gt; 1200  
+  height = 1000  //deal with dual heads
+ else
+  height = screen height - 120
+end
+</pre>
+
+- Then size is set at each startup using:
+<pre>
+begin
+ if we find a forced position in conf.properties (jajuk.frame.forced_position entry)
+  use this position/size (used to allow XGL users to force a position)
+ else
+  if window manager buggy
+    Apply (60,60,screen width - 120, screen height - 120)
+  else 
+    if stored position (jajuk.window_position) contains "max" (maximalize)
+      if window manager supports expand
+      	expand (the window manager then deal with task bars)
+      else
+   	Apply (60,60,screen width - 120, screen height - 120)
+    else
+     int x = configurated x
+     int y = configurated y
+     int width = configurated width
+     int height = configurated height
+     if x &lt; 0 or x &gt; screen width
+      x = 60
+     if y &lt; 0 or y &gt; screen height
+      y = 60
+     if width &lt;= 0 or width &gt; screen width
+      width = window width - 120
+     if height &lt;= 0 or height &gt; screen height 
+      height = screen height - 120
+     Apply (x,y,width,height)
+end
+</pre>
+
+### How to manage mouse events and right clicks ?
+- Do not override directly ``MouseAdapter`` to manage mouse clicks but use ``JajukMouseAdapter`` class instead (see its detailed javadoc for reasons, handling right click on every OS is a bit complicated)
+- Note that what makes all this a little complicated is the fact that most items can throw at the same time popup on right click and realize an action when the left click is recognized.
+
+### How to use the font manager ?
+- Please always use the ``FontManager`` class to deal with fonts for code factorization and performance
+- If you don't find a required font in ``JajukFont`` enum, please create a new one (set its properties in the ``registerFonts()`` method)
+- Fonts are accessed using  :
+{% highlight java %}
+FontManager.getInstance().getFont(&lt;a JajukFont&gt;)
+{% endhighlight %}
+
+### How to format dates ?
+- Use ``UtilString.getLocaleDateFormatter()`` and ``UtilString.getAdditionDateFormatter()`` date formatters. The first method return the default date formatter for the current user and is intended for human display purpose. The second is used to store dates to be stored, it is the format used to store the date when tracks have been discovered (YYYYMMDD format)
+
+### How to get good random value ?
+- Use only this method to get random value (use the Mersenne twister algorithm):
+{% highlight java %}
+UtilSystem.getRandom()
+{% endhighlight %}
+
+## Traps
+
+### Date format not thread safe
+- Keep in mind that several threads cannot use the same ``DateFormat`` object (can throws ``OutOfBoundsException``), this applies to locale and addition formatters provided by jajuk (see how to format dates)
+
+### canWrite() method
+- Do not use the ``java.io.File.canWrite()`` method. Under Windows, it may return always false. Prefer to catch ``IOException``.
+
+### SteppedComboBox fonts
+- Do not use custom font for stepped comboboxes : the stepping doesn't work anymore for unknown reason
+
+### Reading events properties
+- If an event contains an non-string property to read, use ``get(&lt;property&gt;)`` to retrieve it. When using ``getProperty()`` method, the ``Property`` class returns ``null``.
+
+### Trailing zeros
+Do not use trailing ``0`` in integers like in :
+{% highlight java %}
+throw new JajukException(005);
+{% endhighlight %}
+
+but instead :
+{% highlight java %}
+throw new JajukException(5);
+{% endhighlight %}
+
+because ``005`` != ``5`` (octal)
+
+### Char issue
+Avoid using chars in strings building because a char + int + string =&gt; (int) + string. Example:
+{% highlight java %}
+String s = '('+33+") foo)"
+{% endhighlight %}
+
+### How to avoid memory leaks ?
+- Use jconsole and/or visualvm to track class with high generations value (generations value is the number of concurrent generations alive). Use snapshots to compare generations values.
+- Avoid using static inner classes : once loaded, they are never unloaded and are kept on non-heap space.
+- Avoid using too much singletons pattern and static attributes
+- Always clear collections after use if these collections are classes attributes.
