@@ -4,7 +4,11 @@ layout: default
 ---
 
 # Jajuk Manual - table of contents
-This is the Jajuk help manual. Note that you also have tooltips on nearly every widget. For support, bug report or feature request, please use the Quality Agent (menu: Help, Report a bug or feature request). 
+<div class='info'>
+You also have tooltips on nearly every widget and tips of the days
+</div>
+
+For support, bug report or feature request, please use the Quality Agent (``Help top menu`` / ``Report a bug or feature request``). 
 
 **This manual currently targets Jajuk 1.10 alias \<Gute Laune\>**
 
@@ -14,7 +18,7 @@ This is the Jajuk help manual. Note that you also have tooltips on nearly every 
 - Perspectives and views
 - Devices
 - Files and tracks
-- Window commands
+- [Commands](commands.html)
 - Preferences
 - Menus
 - Fullscreen player mode
@@ -22,7 +26,7 @@ This is the Jajuk help manual. Note that you also have tooltips on nearly every 
 - Ambiences walkthrough 
 
 ## Using Jajuk
-- Jajuk rating system
+- [The ratings system](ratings.html)
 - Editing tags and properties
 - Displaying extra tags
 - Files organizer

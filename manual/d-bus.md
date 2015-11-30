@@ -3,6 +3,8 @@ title: D-bus - Jajuk
 layout: default
 ---
 
+Go back to the [TOC](/manual/main.html)
+
 # D-bus
 
 ## How to get D-Bus working
@@ -131,3 +133,5 @@ Just starting xbindkeys at the startup maps the keys and allows to use the multi
 
     8. Save the changes and test that it works!
 You can repeat this step for any keyboard combination that you would like to define.
+
+Go back to the [TOC](/manual/main.html)

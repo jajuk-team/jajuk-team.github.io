@@ -2,7 +2,7 @@
 title: Hidden options
 layout: default
 ---
-Go back to [TOC](/manual/main.html)
+Go back to the [TOC](/manual/main.html)
 
 # Hidden options
 This is a non-exhaustive list of special tuning options not accessible from the graphical interface, mainly used for troubleshooting purpose. 
@@ -22,4 +22,4 @@ These options are in the Java ``-Dkey=value`` form. They can be set in jajuk (Un
 
 - ``-Dworkspace=[absolute path]`` : Force the Jajuk configuration path from CLI (this directory should contain a ``.jajuk`` directory)
 
-Go back to [TOC](/manual/main.html)
+Go back to the [TOC](/manual/main.html)
