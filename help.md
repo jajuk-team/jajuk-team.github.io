@@ -7,7 +7,7 @@ layout: default
 * Check the [FAQ](/faq.html)
 
 # Jajuk Manual
-* [Jajuk Manual](/manual/main.html)
+* Check the [Jajuk Manual](/manual/main.html)
 
 # Legals
 * Find [here](/legals.html) licenses and dependencies

@@ -61,8 +61,7 @@ This is the Jajuk help manual. Note that you also have tooltips on nearly every 
 
 ## Technical
 - [FAQ](/faq.html)
-- Using D-Bus (hotkeys / remote controls for Linux)
+- [Using D-Bus (hotkeys / remote controls for Linux)](d-bus.html)
 - [Hidden options](hidden_options.html)
 - [Performance tips](/jajuk_manual_performance_tips.html)
-- Supported formats 
 
