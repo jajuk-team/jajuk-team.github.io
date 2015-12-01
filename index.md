@@ -8,19 +8,6 @@ layout: default
 [![Flattr Button](http://api.flattr.com/button/button-static-50x60.png "Flattr This!")](http://flattr.com/thing/88017/Jajuk-advanced-jukebox "Flattr donation to Jajuk project") **Jajuk** is a Java music organizer for all platforms. 
 The main goal of this project is to provide a fully-featured application to advanced users with large or scattered music collections.
 
-<div style='margin:5px;float: right;'>
-<script type="text/javascript">
-    google_ad_client = "ca-pub-8198721431533387";
-    google_ad_slot = "2765018948";
-    google_ad_width = 300;
-    google_ad_height = 600;
-</script>
-<!-- jajuk-vert -->
-<script type="text/javascript"
-src="//pagead2.googlesyndication.com/pagead/show_ads.js">
-</script>
-</div>
-
 **Jajuk** main principles are:
 
 * Maximum features - Jajuk is made firstly for advanced users looking for powerful functionalities;
@@ -32,6 +19,10 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
     google_ad_slot = "7195218542";
     google_ad_width = 728;
     google_ad_height = 90;
+</script>
+<!-- jajuk-horiz -->
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
 
 # Help make Jajuk rock!
@@ -66,13 +57,4 @@ Others great cross-platform players part of the [common-jukebox](http://www.asse
     8 bug fixes 
     [Release notes 1.10](/release_notes_1.10.html) 
 
-<script type="text/javascript">
-    google_ad_client = "ca-pub-8198721431533387";
-    google_ad_slot = "7195218542";
-    google_ad_width = 728;
-    google_ad_height = 90;
-</script>
-<!-- jajuk-horiz -->
-<script type="text/javascript"
-src="//pagead2.googlesyndication.com/pagead/show_ads.js">
-</script>
+
