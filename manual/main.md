@@ -3,7 +3,7 @@ title: Manual - Table Of Contents
 layout: default
 ---
 
-# Jajuk Manual - table of contents
+# Jajuk manual
 <div class='info'>
 You also have tooltips on nearly every widget and tips of the days
 </div>
@@ -16,18 +16,19 @@ For support, bug report or feature request, please use the Quality Agent (``Help
 - [Features](/features.html)
 - [New features highlights](/new_features.html)
 - Perspectives and views
-- Devices
+- [Devices](devices.html)
 - Files and tracks
 - [Commands](commands.html)
 - Preferences
 - Menus
-- Fullscreen player mode
-- Slimbar
-- Ambiences walkthrough 
+- [Fullscreen mode](fullscreen.html)
+- [Slimbar](slimbar.html)
+- [Ambiences](ambiences.html)
+- [Digital DJ](ddj.html)
 
 ## Using Jajuk
 - [The ratings system](ratings.html)
-- Editing tags and properties
+- [Editing tags and properties](editing_tags_and_properties.html)
 - Displaying extra tags
 - Files organizer
 - Keys shortcuts
@@ -48,7 +49,7 @@ For support, bug report or feature request, please use the Quality Agent (``Help
 - Artists view
 - CD scanner view
 - Cover view
-- Devices view
+- [Devices view](view_devices.html)
 - Files Table view
 - Files Tree view
 - Lyrics view

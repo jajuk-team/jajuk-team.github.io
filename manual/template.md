@@ -1,9 +1,9 @@
 ---
-title: Preferences view
+title: title
 layout: default
 ---
 Go back to the [TOC](/manual/main.html)
 
-# The Preferences view
+# Title
 
 Go back to the [TOC](/manual/main.html)
