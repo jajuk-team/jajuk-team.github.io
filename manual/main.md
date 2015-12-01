@@ -55,7 +55,7 @@ For support, bug report or feature request, please use the Quality Agent (``Help
 - Lyrics view
 - Queue view
 - Playlists view
-- Preferences view
+- [Preferences view](view_preferences.html)
 - Statistics view
 - Suggestions view
 - Title view

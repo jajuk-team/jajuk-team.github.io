@@ -2,6 +2,12 @@
 title: Java Advanced Jukebox
 layout: default
 ---
+<script type="text/javascript">
+    google_ad_client = "ca-pub-8198721431533387";
+    google_ad_slot = "7195218542";
+    google_ad_width = 728;
+    google_ad_height = 90;
+</script>
 
 <img src="/images/jajuk_screenshot.png" style="width:300px; float:right" title="Jajuk screenshot" alt="Jajuk_screenshot"/>
 
@@ -14,12 +20,7 @@ The main goal of this project is to provide a fully-featured application to adva
 * Maximum usability - Jajuk is designed to be intuitive, fast and provide multiple ways to perform the same operation;
 * Maximum portability and desktop integration. 
 
-<script type="text/javascript">
-    google_ad_client = "ca-pub-8198721431533387";
-    google_ad_slot = "7195218542";
-    google_ad_width = 728;
-    google_ad_height = 90;
-</script>
+
 <!-- jajuk-horiz -->
 <script type="text/javascript"
 src="//pagead2.googlesyndication.com/pagead/show_ads.js">
