@@ -19,7 +19,6 @@ For support, bug report or feature request, please use the Quality Agent (``Help
 - [Devices](devices.html)
 - Files and tracks
 - [Commands](commands.html)
-- Preferences
 - Menus
 - [Fullscreen mode](fullscreen.html)
 - [Slimbar](slimbar.html)
@@ -58,7 +57,7 @@ For support, bug report or feature request, please use the Quality Agent (``Help
 - [Preferences view](view_preferences.html)
 - Statistics view
 - Suggestions view
-- Title view
+- [Title view](view_title.html)
 - Tracks Table view
 - Tracks Tree view
 - Webradios view
