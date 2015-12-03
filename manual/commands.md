@@ -60,12 +60,13 @@ All these smart functions can be filtered using the ambience selector combo box.
 
 - ![Image:player_fwd_32x32.png](/images/Player_fwd_32x32.png) **Fast forward** in the current track
 
-### Rating current songs
 
-- <img src="/images/Inc_rating_16x16.png" style="padding: 0px;margin: 0px"> increase the rating of the current playing song (5 points by default, you can set the step using the drop-down arrow at the right of this button)
+### Rating current songs 
+![Image:Inc_rating_16x16.png](/images/Inc_rating_16x16.png) increase the rating of the current playing song (5 points by default, you can set the step using the drop-down arrow at the right of this button)
+
 
 ### Slim bar
-- <img src="/images/Full_window_16x16.png" style="padding: 0px;margin: 0px"> Essential Jajuk functions are available in the slim bar: History, favourite, rating, previous track, pause, stop, next track, mute/unmute. To enable/disable the slim bar, 
+![Image:Full_window_16x16.png](/images/Full_window_16x16.png) Essential Jajuk functions are available in the slim bar: History, favourite, rating, previous track, pause, stop, next track, mute/unmute. To enable/disable the slim bar, 
 use the icon  on the top right corner.
 
 Go back to the [TOC](/manual/main.html)

@@ -16,7 +16,8 @@ Full screen looks something like this:
 
 On the the top-right side of the screen, two buttons are available :
 
-- <img src="/images/Exit_16x16.png" style="padding: 0px;margin: 0px"> : Exit from jajuk
-- <img src="/images/Slim_window_16x16.png" style="padding: 0px;margin: 0px"> : Switch back to regular window mode (exit from the full screen mode)
+- ![Image](/images/Exit_16x16.png) : Exit from jajuk
+
+- ![Image](/images/Slim_window_16x16.png) : Switch back to regular window mode (exit from the full screen mode)
 
 Go back to the [TOC](/manual/main.html)

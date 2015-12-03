@@ -4,7 +4,7 @@ layout: default
 ---
 Go back to the [TOC](/manual/main.html)
 
-# The Devices view
+# Devices view
 This view displays devices you created and manages them. Please read the using devices to learn about devices principles.
 
 Note you can also create Folder devices using the quick start devices wizard (top menu, Device wizard).
