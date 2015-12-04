@@ -14,65 +14,72 @@ For support, bug report or feature request, please use the Quality Agent (``Help
 
 <table>
   <tr>
-  <td>
-  <h2>Jajuk in a nutshell</h2>
-  <li><a href="/features.html">Features</a></li>
-  <li><a href="/new_features.html">New features highlights</a></li>
-  <li><a href="perspectives.html">Perspectives and views</a></li>
-  <li><a href="devices.html">Devices</li>
-  <li>Files and tracks</li>
-  <li><a href="commands.html">Commands<a></li>
-  <li>Menus</li>
-  <li><a href="fullscreen.html">Fullscreen mode</a></li>
-  <li><a href="slimbar.html">Slimbar</a></li>
-  <li><a href="ambiences.html">Ambiences</a></li>
-  <li><a href="ddj.html">Digital DJ</a></li>
-  
-  <h2>Using Jajuk</h2>
-  <li><a href="ratings.html">The ratings system</a></li>
-  <li><a href="editing_tags_and_properties.html">Editing tags and properties</a></li>
-  <li>Displaying extra tags</li>
-  <li>Files organizer</li>
-  <li>Keys shortcuts</li>
-  <li>Using alarm clock</li>
-  <li>Using duplicate finder</li>
-  <li>Using custom properties</li>
-  <li>Using digital djs</li>
-  <li><a href="using_playlists.html">Using playlists</a></li>
-  <li>Using tables in views</li>
-  <li>Using the tray</li>
-  <li>Using web radios</li>
-  <li>Using the slimbar</li>
-  <li>Prepare a Party</li>
-  </td>
-  
-  <td>
-  <h2>Views</h2>
-  <li><a href="view_catalog.html">Albums catalog view</a></li>
-  <li><a href="view_albums_table.html">X Albums Table view</a></li>
-  <li><a href="view_artists.html">X Artists view</a></li>
-  <li><a href="view_cd_scanner.html">X CD scanner view</a></li>
-  <li><a href="view_cover.html">Cover view</a></li>
-  <li><a href="view_devices.html">Devices view</a></li>
-  <li><a href="view_files_table.html">X Files Table view</a></li>
-  <li><a href="view_files_tree.html">X Files Tree view</a></li>
-  <li><a href="view_lyrics.html">X Lyrics view</a></li>
-  <li><a href="view_queue.html">X Queue view</a></li>
-  <li><a href="view_playlists.html">Playlists view</a></li>
-  <li><a href="view_preferences.html">Preferences view</a></li>
-  <li><a href="view_stats.html">X Statistics view</a></li>
-  <li><a href="view_suggestions.html">Suggestions view</a></li>
-  <li><a href="view_title.html">Title view</a></li>
-  <li><a href="view_tracks_table.html">X Tracks Table view</a></li>
-  <li><a href="view_tracks_tree.html">X Tracks Tree view</a></li>
-  <li><a href="view_webradios.html">X Webradios view</a></li>
-  <li><a href="view_wikipedia.html">X Wikipedia view </a></li>
-  
-  <h2>Technical</h2>
-  <li><a href="/faq.html">FAQ</a></li>
-  <li><a href="d-bus.html">Using D-Bus (hotkeys / remote controls for Linux)</a></li>
-  <li><a href="hidden_options.html">Hidden options</a></li>
-  <li><a href="/jajuk_manual_performance_tips.html">Performance tips</a></li>
-  </td>
+    <td>
+      <h2>Jajuk in a nutshell</h2>
+      <ul>
+        <li><a href="/features.html">Features</a></li>
+        <li><a href="/new_features.html">New features highlights</a></li>
+        <li><a href="perspectives.html">Perspectives and views</a></li>
+        <li><a href="devices.html">Devices</a></li>
+        <li>Files and tracks</li>
+        <li><a href="commands.html">Commands</a></li>
+        <li>Menus</li>
+        <li><a href="fullscreen.html">Fullscreen mode</a></li>
+        <li><a href="slimbar.html">Slimbar</a></li>
+        <li><a href="ambiences.html">Ambiences</a></li>
+        <li><a href="ddj.html">Digital DJ</a></li>
+      </ul> 
+      
+      <h2>Using Jajuk</h2>
+      <ul>
+        <li><a href="ratings.html">The ratings system</a></li>
+        <li><a href="editing_tags_and_properties.html">Editing tags and properties</a></li>
+        <li>Displaying extra tags</li>
+        <li>Files organizer</li>
+        <li>Keys shortcuts</li>
+        <li>Using alarm clock</li>
+        <li>Using duplicate finder</li>
+        <li>Using custom properties</li>
+        <li>Using digital djs</li>
+        <li><a href="using_playlists.html">Using playlists</a></li>
+        <li>Using tables in views</li>
+        <li>Using the tray</li>
+        <li>Using web radios</li>
+        <li>Using the slimbar</li>
+        <li>Prepare a Party</li>
+      </ul>
+    </td>
+    <td>
+      <h2>Views</h2>
+      <ul>
+        <li><a href="view_catalog.html">Albums catalog view</a></li>
+        <li><a href="view_albums_table.html">X Albums Table view</a></li>
+        <li><a href="view_artists.html">X Artists view</a></li>
+        <li><a href="view_cd_scanner.html">X CD scanner view</a></li>
+        <li><a href="view_cover.html">Cover view</a></li>
+        <li><a href="view_devices.html">Devices view</a></li>
+        <li><a href="view_files_table.html">X Files Table view</a></li>
+        <li><a href="view_files_tree.html">X Files Tree view</a></li>
+        <li><a href="view_lyrics.html">X Lyrics view</a></li>
+        <li><a href="view_queue.html">X Queue view</a></li>
+        <li><a href="view_playlists.html">Playlists view</a></li>
+        <li><a href="view_preferences.html">Preferences view</a></li>
+        <li><a href="view_stats.html">X Statistics view</a></li>
+        <li><a href="view_suggestions.html">Suggestions view</a></li>
+        <li><a href="view_title.html">Title view</a></li>
+        <li><a href="view_tracks_table.html">X Tracks Table view</a></li>
+        <li><a href="view_tracks_tree.html">X Tracks Tree view</a></li>
+        <li><a href="view_webradios.html">X Webradios view</a></li>
+        <li><a href="view_wikipedia.html">X Wikipedia view </a></li>
+      </ul>
+      
+      <h2>Technical</h2>
+      <ul>
+        <li><a href="/faq.html">FAQ</a></li>
+        <li><a href="d-bus.html">Using D-Bus (hotkeys / remote controls for Linux)</a></li>
+        <li><a href="hidden_options.html">Hidden options</a></li>
+        <li><a href="/jajuk_manual_performance_tips.html">Performance tips</a></li>
+       </ul>
+    </td>
   </tr>  
 </table>
