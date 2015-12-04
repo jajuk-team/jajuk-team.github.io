@@ -42,7 +42,7 @@ For support, bug report or feature request, please use the Quality Agent (``Help
         <li>Using custom properties</li>
         <li>Using digital djs</li>
         <li><a href="using_playlists.html">Using playlists</a></li>
-        <li>Using tables in views</li>
+        <li><a href="using_tables_in_views.html">Using tables in views</a></li>
         <li>Using the tray</li>
         <li>Using web radios</li>
         <li>Using the slimbar</li>
@@ -53,14 +53,14 @@ For support, bug report or feature request, please use the Quality Agent (``Help
       <h2>Views</h2>
       <ul>
         <li><a href="view_catalog.html">Albums catalog view</a></li>
-        <li><a href="view_albums_table.html">X Albums Table view</a></li>
-        <li><a href="view_artists.html">X Artists view</a></li>
-        <li><a href="view_cd_scanner.html">X CD scanner view</a></li>
+        <li><a href="view_albums_table.html">Albums Table view</a></li>
+        <li><a href="view_artists.html">Artists view</a></li>
+        <li><a href="view_cd_scanner.html">CD scanner view</a></li>
         <li><a href="view_cover.html">Cover view</a></li>
         <li><a href="view_devices.html">Devices view</a></li>
-        <li><a href="view_files_table.html">X Files Table view</a></li>
-        <li><a href="view_files_tree.html">X Files Tree view</a></li>
-        <li><a href="view_lyrics.html">X Lyrics view</a></li>
+        <li><a href="view_files_table.html">Files Table view</a></li>
+        <li><a href="view_files_tree.html">Files Tree view</a></li>
+        <li><a href="view_lyrics.html">Lyrics view</a></li>
         <li><a href="view_queue.html">X Queue view</a></li>
         <li><a href="view_playlists.html">Playlists view</a></li>
         <li><a href="view_preferences.html">Preferences view</a></li>
