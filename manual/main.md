@@ -27,7 +27,6 @@ For support, bug report or feature request, please use the Quality Agent (``Help
         <li><a href="fullscreen.html">Fullscreen mode</a></li>
         <li><a href="slimbar.html">Slimbar</a></li>
         <li><a href="ambiences.html">Ambiences</a></li>
-        <li><a href="ddj.html">Digital DJ</a></li>
       </ul> 
       
       <h2>Using Jajuk</h2>
@@ -40,10 +39,9 @@ For support, bug report or feature request, please use the Quality Agent (``Help
         <li>Using alarm clock</li>
         <li>Using duplicate finder</li>
         <li>Using custom properties</li>
-        <li>Using digital djs</li>
+        <li><a href="ddj.html">Using the digital DJ</a></li>
         <li><a href="using_playlists.html">Using playlists</a></li>
         <li><a href="using_tables_in_views.html">Using tables in views</a></li>
-        <li>Using the tray</li>
         <li>Using web radios</li>
         <li>Using the slimbar</li>
         <li>Prepare a Party</li>
