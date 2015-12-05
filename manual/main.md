@@ -66,8 +66,8 @@ For support, bug report or feature request, please use the Quality Agent (``Help
         <li><a href="view_title.html">Title view</a></li>
         <li><a href="view_tracks_table.html">Tracks Table view</a></li>
         <li><a href="view_tracks_tree.html">Tracks Tree view</a></li>
-        <li><a href="view_webradios.html">X Webradios view</a></li>
-        <li><a href="view_wikipedia.html">X Wikipedia view </a></li>
+        <li><a href="view_webradios.html">Webradios view</a></li>
+        <li><a href="view_wikipedia.html">Wikipedia view </a></li>
       </ul>
       
       <h2>Technical</h2>
