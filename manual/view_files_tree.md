@@ -20,7 +20,7 @@ You can select any item in the tree, all contextual menu action will be applied 
 
 ## Dragging and dropping items
 At any time, you can drag one or more items (and drag them into the [Queue view](view_queue.html) or 
-the [Playlists view](view_playlist_editor.html).for instance). 
+the [Playlists view](view_playlists.html).for instance). 
 
 Press CTRL or SHIFT to select several items. A drop into the [Queue view](view_queue.html) will result into an immediate play of your selection. 
 

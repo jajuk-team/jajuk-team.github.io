@@ -43,7 +43,6 @@ For support, bug report or feature request, please use the Quality Agent (``Help
         <li><a href="using_playlists.html">Using playlists</a></li>
         <li><a href="using_tables_in_views.html">Using tables in views</a></li>
         <li>Using web radios</li>
-        <li>Using the slimbar</li>
         <li>Prepare a Party</li>
       </ul>
     </td>
@@ -59,14 +58,14 @@ For support, bug report or feature request, please use the Quality Agent (``Help
         <li><a href="view_files_table.html">Files Table view</a></li>
         <li><a href="view_files_tree.html">Files Tree view</a></li>
         <li><a href="view_lyrics.html">Lyrics view</a></li>
-        <li><a href="view_queue.html">X Queue view</a></li>
+        <li><a href="view_queue.html">Queue view</a></li>
         <li><a href="view_playlists.html">Playlists view</a></li>
         <li><a href="view_preferences.html">Preferences view</a></li>
-        <li><a href="view_stats.html">X Statistics view</a></li>
+        <li><a href="view_stats.html">Statistics view</a></li>
         <li><a href="view_suggestions.html">Suggestions view</a></li>
         <li><a href="view_title.html">Title view</a></li>
-        <li><a href="view_tracks_table.html">X Tracks Table view</a></li>
-        <li><a href="view_tracks_tree.html">X Tracks Tree view</a></li>
+        <li><a href="view_tracks_table.html">Tracks Table view</a></li>
+        <li><a href="view_tracks_tree.html">Tracks Tree view</a></li>
         <li><a href="view_webradios.html">X Webradios view</a></li>
         <li><a href="view_wikipedia.html">X Wikipedia view </a></li>
       </ul>

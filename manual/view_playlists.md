@@ -11,14 +11,16 @@ The Playlist view intends to create, change or read playlists.
 Jajuk manages two types of playlists :
 
 - Regular playlists (.m3u files only for now)
-- Smart build-in playlists (New, Best-of, Novelties, Bookmarks) automatically and dynamically created by Jajuk and that you can save or play. Further information about smart playlists is available on the [using playlists](Using_playlists.html) page.
+- Smart build-in playlists (New, Best-of, Novelties, Bookmarks) automatically and dynamically created by Jajuk and that you can save or play. Further information about smart playlists is available on the [using playlists](using_playlists.html) page.
 
 ### The two main parts of the Playlist view
-The view is composed of two main parts splited vertically.
+The view is composed of two main vertical parts.
+![Image](/images/View_playlist.png) 
 
 - The upper part shows smart playlists as icons and a table of regular playlists (can be filtered like in others Jajuk tables).
     - Like every where else in jajuk, you can launch a playlist by double clicking on the row or using contextual menu.
-    - Contextual menu on the table rows or on the smart playlists brings others features like delete, push, play repeat, play shuffle, properties or save. It features also the [Prepare Party](Prepare_Party.html) [![image:ext_drive_16x16.png](../images/3/34/Ext_drive_16x16.png)](File:Ext_drive_16x16.png.html).
+    
+    - Contextual menu on the table rows or on the smart playlists brings others features like delete, push, play repeat, play shuffle, properties or save. It features also the [Prepare Party](prepare_party.html) ![Image](/images/Ext_drive_16x16.png).
 
 - The lower part display a table containing the content of the selected playlist (at view startup, default playlist is a void "New" playlist)
 

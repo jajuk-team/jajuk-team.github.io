@@ -9,7 +9,7 @@ Go back to the [TOC](/manual/main.html)
 A playlist is a set of preselected tracks. Jajuk uses m3u format to read and write playlist files. 
 Note that files in playlists can be located outside any Jajuk device. In this case, Jajuk can read them but some limitations apply to them. For instance, they are not added in the history bar.
 
-You can manage playlist from the [Playlists view](view_playlist.html).
+You can manage playlist from the [Playlists view](view_playlists.html).
 
 ## Smart playlists
 Jajuk automatically and dynamically builds some "smart" playlists :
