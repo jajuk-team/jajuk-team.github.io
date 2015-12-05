@@ -23,7 +23,7 @@ For support, bug report or feature request, please use the Quality Agent (``Help
         <li><a href="devices.html">Devices</a></li>
         <li>Files and tracks</li>
         <li><a href="commands.html">Commands</a></li>
-        <li>Menus</li>
+        <li><a href="menus.html">Menus</a></li>
         <li><a href="fullscreen.html">Fullscreen mode</a></li>
         <li><a href="slimbar.html">Slimbar</a></li>
         <li><a href="ambiences.html">Ambiences</a></li>

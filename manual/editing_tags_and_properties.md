@@ -32,7 +32,7 @@ Property dialog contains these columns:
 - _Link_: If value is itself an item, click on the button to display associated property dialog.
 - _Type_: Property type.
 
-When all properties are set, click on _Apply_ to update properties and commit them in music files if tag properties.
+When all properties are set, click on ``Apply`` to update properties and commit them in music files if tag properties.
 
 ### Tags
 Some properties are stored in collection and in the music files itself (like ID3 tags) at the same time. These properties are: genre, artist, album, track name, year, comment and track #.
@@ -43,17 +43,5 @@ Note that tags are stored in Unicode (UTF-16LE) in files. This encoding is compa
 
 ### Get tags online
 Jajuk enables to change all tracks for an album using CDDB music online databases (like freedb). To use it, select "Get tag online" function on a directory node in Physical Files Tree view in contextual menu.
-
-### Extra tags
-![Image](/images/Extra_tag_configurations.png)
-
-By default, Jajuk only work with a small number of tags (artist, year...) but the music files may content many others. You can enable any tag into Jajuk using the "Extra Tag Configurations" dialog.
-
-If you want Jajuk to display extra tags, i.e. the composer of a mp3 file, you must add these extra tag to your Jajuk collection. You can do this easily with the new extra tag configurations. 
-
-You can start the configurator by clicking on the menu "Properties" / "Extra Tag Configurations".
-
-Extra tags can only be displayed. After you activated them, a deep refresh of your collection is performed. After that, you can enable the tag in every file table, where you want to display it.
-
 
 Go back to the [TOC](/manual/main.html)

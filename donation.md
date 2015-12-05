@@ -10,3 +10,5 @@ layout: default
 * If you are a Flattr user, you may want to flattr this project (see the Flattr icon on the home page of this website)
 
 * Bitcoin donation : ``1M1hLxNbKux81DQjdK9mTbMZv54vPvYDB5`` 
+
+Thank for your help !
