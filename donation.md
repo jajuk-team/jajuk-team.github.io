@@ -11,4 +11,4 @@ layout: default
 
 * Bitcoin donation : ``1M1hLxNbKux81DQjdK9mTbMZv54vPvYDB5`` 
 
-Thank for your help !
+Thanks for your help !

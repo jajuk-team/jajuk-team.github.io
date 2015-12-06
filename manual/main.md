@@ -21,7 +21,7 @@ For support, bug report or feature request, please use the Quality Agent (``Help
         <li><a href="/new_features.html">New features highlights</a></li>
         <li><a href="perspectives.html">Perspectives and views</a></li>
         <li><a href="devices.html">Devices</a></li>
-        <li>Files and tracks</li>
+        <li><a href="files_and_tracks.html">Files and tracks</a></li>
         <li><a href="commands.html">Commands</a></li>
         <li><a href="menus.html">Menus</a></li>
         <li><a href="fullscreen.html">Fullscreen mode</a></li>
@@ -32,17 +32,15 @@ For support, bug report or feature request, please use the Quality Agent (``Help
       <h2>Using Jajuk</h2>
       <ul>
         <li><a href="ratings.html">The ratings system</a></li>
-        <li><a href="editing_tags_and_properties.html">Editing tags and properties</a></li>
-        <li>Displaying extra tags</li>
+        <li><a href="tags_and_properties.html">Tags and properties</a></li>
         <li>Files organizer</li>
         <li>Keys shortcuts</li>
         <li>Using alarm clock</li>
         <li>Using duplicate finder</li>
-        <li>Using custom properties</li>
         <li><a href="ddj.html">Using the digital DJ</a></li>
         <li><a href="using_playlists.html">Using playlists</a></li>
         <li><a href="using_tables_in_views.html">Using tables in views</a></li>
-        <li>Using web radios</li>
+        <li><a href="using_webradios.html">Using web radios</a></li>
         <li>Prepare a Party</li>
       </ul>
     </td>

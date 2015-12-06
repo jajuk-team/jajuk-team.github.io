@@ -28,7 +28,7 @@ or DJ button in Command view or in the tray) will be filtered using this ambienc
 
 ### Tips
 - Tag correctly your tracks with genre attribute if you want to make this feature fully useful. 
-For example, you can use CDDB retag function to assist yourself. See [Editing tags and properties](editing_tags_and_properties.html).
+For example, you can use CDDB retag function to assist yourself. See [Editing tags and properties](tags_and_properties.html).
 - Don't use set Rating level to a value too high if your collection is young, otherwise, you will get very few tracks in you playlist.
 - For proportion DJs: don't set proportion with ambiences mapping too few tracks or you will get very few tracks.
 

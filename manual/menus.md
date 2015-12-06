@@ -17,9 +17,9 @@ Go back to the [TOC](/manual/main.html)
 - **Show view**: select a view to be added into the current perspective.
 
 ### Properties
-- **Create custom property**: add a custom attribute, see [using custom properties](custom_properties.html)
-- **Remove custom property**: remove a custom attribute, see [using custom properties](custom_properties.html)
-- **Extra Tags configuration** : add new tags for Jajuk to consider. See [Displaying extra tags](custom_properties.html).
+- **Create custom property**: add a custom attribute, see [using custom properties](tags_and_properties.md.html)
+- **Remove custom property**: remove a custom attribute, see [using custom properties](tags_and_properties.md.html)
+- **Extra Tags configuration** : add new tags for Jajuk to consider. See [Displaying extra tags](tags_and_properties.md.html).
 
 ### Modes
 See [Modes](commands.html#modes)

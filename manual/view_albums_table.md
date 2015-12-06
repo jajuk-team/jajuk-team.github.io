@@ -9,7 +9,7 @@ This view is located by default in the Albums Perspective. It lists the albums a
 
 It provides following features:
 
-- Column selection (Note: you can use [custom properties](custom_properties.html))
+- Column selection (Note: you can use [custom properties](tags_and_properties.md.html))
 - Album popup when moving mouse over rows (set ``Show album popups`` from the ``Configuration`` top menu to enable them)
 - Various actions on albums from the right click, e.g. play, push to queue, repeat, delete, album details, properties, ...
 - Filter on values
