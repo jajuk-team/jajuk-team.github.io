@@ -17,9 +17,11 @@ Go back to the [TOC](/manual/main.html)
 - **Show view**: select a view to be added into the current perspective.
 
 ### Properties
-- **Create custom property**: add a custom attribute, see [using custom properties](tags_and_properties.md.html)
-- **Remove custom property**: remove a custom attribute, see [using custom properties](tags_and_properties.md.html)
-- **Extra Tags configuration** : add new tags for Jajuk to consider. See [Displaying extra tags](tags_and_properties.md.html).
+- **Create custom property**: add a custom attribute.
+- **Remove custom property**: remove a custom attribute.
+- **Extra Tags configuration** : add new tags for Jajuk to consider. 
+
+See See [Tags and properties](tags_and_properties.html) for more details.
 
 ### Modes
 See [Modes](commands.html#modes)
@@ -37,18 +39,18 @@ See [Smart functions](commands.html#a-namesmartsmart-functions)
 - **Show album popups** [Default=false]: Show or hide album details popups when moving mouse over albums in various views (can be set in Preference view as well)
 - **Disable any Internet access from Jajuk** [Default=false]: Enable/disable Internet access (for lyrics, covers, lastfm etc.) from Jajuk. It can also be set from Preference view / Network tab.
 - **Manage DJs**: open DJ Wizard, see [using digital djs](ddj.html)
-- **Manage ambiences**: open Ambience Wizard, see [using digital djs](ddj.html)
-- **Configure web radio**: see [using web radio](using_web_radio.html)
+- **Manage ambiences**: open Ambience Wizard, see [using ambiences](ambiences.html)
+- **Configure web radio**: see [using web radio](using_webradios.html)
 - **Device wizard**: open the Device fast creation wizard, see [using devices](devices.html)
-- **Preferences**: open the [view preferences](view_preferences.html)
+- **Preferences**: open the [Preferences view](view_preferences.html)
 
 ### Help
-- **Help Contents** (F1): shows this manual in a web browser
+- **Help Contents** (F1): Open this manual in a web browser
 - **Tips of the Day**: display the Tips of the Day dialog
 - **Report a bug or feature request**: used to send pre-formatted bug, feature request, note report
 - **Show Debug Traces**: display last debug logs
 - **Check for Jajuk updates** : check for newer jajuk releases
-- **Donate** : opens the [jajuk donation page](/donation.html)
+- **Donate** : opens the [donation page](/donation.html)
 - **About**: show the 'About' dialog along with system information
 
 Go back to the [TOC](/manual/main.html)

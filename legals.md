@@ -597,12 +597,7 @@ This code is located in the ``ext`` and ``org.jajuk.util`` Java package.
  
  Used for : Executing external process 
  -------------------------------------------------------
- JXTrayIcon class
- Code modified from Alexander Potochkin's JXTray class at https://swinghelper.dev.java.net/source/browse/swinghelper/src/java/org/jdesktop/swinghelper/tray/JXTrayIcon.java?view=markup
- Copyright 2008 Sun Microsystems
  
- Used for : enhanced systray popup supporting swing widgets
- -------------------------------------------------------
  MersenneTwister class
  OSI-compatible license provided in the MersenneTwister.java file.
 

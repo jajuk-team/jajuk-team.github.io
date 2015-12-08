@@ -13,7 +13,7 @@ Jajuk fundamental principles are :
 # Newest features
 Check out [new features highlights](/new_features.html).
 
-# Media coverage
+# Press/medias coverage
 Check out the [Jajuk media coverage](/media_coverage.html)
 
 ## Player functions
@@ -106,7 +106,6 @@ Jajuk supports following tags formats:
 ## Graphical Interface
 
   * Dockable perspectives and views
-  * Tray support under Windows and Linux
   * Full keyboard controls
   * Look and Feel support
   * Files / Tracks separation: navigate into physical directories or into tags like genres, artists, albums...
@@ -116,7 +115,7 @@ Jajuk supports following tags formats:
   * Multi-language
   * Full-featured and ultra-light slimbar
   * Full screen mode
-  * Toast or baloon playing track notification 
+  * Toast or balloon playing track notification 
 
 ## Covers support
 
@@ -126,14 +125,14 @@ Jajuk supports following tags formats:
 ## Playlist support
 
   * Dynamic playlist creation by drag and drop
-  * Bestof automatic playlist
+  * Best-of automatic playlist
   * Bookmarks automatic playlist
   * Novelties automatic playlist 
 
 ## Requirements
 
   * Java 1.6 +
-  * MPlayer (auto-installed under Windows and OSX) 
+  * MPlayer (bundled with Jajuk under Windows and OSX) 
 
 ## Supported languages
 

@@ -38,3 +38,5 @@ The ``Sort by`` combobox at the top of the view allows to display tree by:
 ### Contextual menu
 
 Many actions (like **Play**, **Push**, **Create a report** or **Properties**) are available from the different items using contextual menu (right click). The features can depend on the nature of the item.
+
+Go back to the [TOC](/manual/main.html)

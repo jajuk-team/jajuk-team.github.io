@@ -18,9 +18,9 @@ Like anywhere, you can hide files from unavailable devices using the ``show onl
 
 - ![Image](/images/Push_16x16.png) **Push**: Don't stop current track but simply add the selection in the queue
 
-- ![Image](/images/Shuffle_16x16.png) **Play shuffle**: Stop current track and play selection randomly (note that this mode is automatically used when playing a track if you set Shuffle mode in the [Command view](view_command.html))
+- ![Image](/images/Shuffle_16x16.png) **Play shuffle**: Stop current track and play selection randomly (note that this mode is automatically used when playing a track if you set Shuffle mode in the [commands](commands.html))
 
-- ![Image](/images/Repeat_16x16.png) **Play repeat**: Stop current track and play selection in a loop (note that this mode is automatically used when playing a track if you set Repeat mode in [Command view](view_command.html))
+- ![Image](/images/Repeat_16x16.png) **Play repeat**: Stop current track and play selection in a loop (note that this mode is automatically used when playing a track if you set Repeat mode in the [commands](commands.html))
 
 - ![Image](/images/Bookmark_16x16.png) **Bookmark**: bookmark selection
 

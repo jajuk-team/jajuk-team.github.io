@@ -37,7 +37,7 @@ When all properties are set, click on ``Apply`` to update properties and commi
 ### Tags
 Some properties are stored in collection and in the music files itself (like ID3 tags) at the same time. These properties are: genre, artist, album, track name, year, comment and track number.
 
-If you change tags via another application, use "Perform a deep tag scan" option and launch a device refresh to take them into account in Jajuk (see [view preferences](view_preferences.html)).
+If you change tags via another application, use "Perform a deep tag scan" option and launch a device refresh to take them into account in Jajuk (see [Preferences view](view_preferences.html)).
 
 Note that tags are stored in Unicode (UTF-16LE) in files. This encoding is compatible with all players (Windows Media Player or Winamp for instance) and allows Asian people to correctly edit tags using Jajuk.
 

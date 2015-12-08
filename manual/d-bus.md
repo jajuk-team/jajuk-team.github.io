@@ -24,7 +24,7 @@ Go back to the [TOC](/manual/main.html)
     - mute
     - currentHTML - returns the current playing track as HTML snippet
     - current - returns the current playing track as simple string
-    - banCurrent (see [banning system](ratings.html))
+    - banCurrent (see [banning system](ratings.html#the-banning-system))
     - showCurrentlyPlaying
     - bookmarkCurrentlyPlaying
 

@@ -10,7 +10,7 @@ You also have tooltips on nearly every widget and you a "tips of the days" featu
 
 For support, bug report or feature request, please use the Quality Agent (``Help top menu`` / ``Report a bug or feature request``). 
 
-**This manual currently targets Jajuk 1.10 alias \<Gute Laune\>**
+**This manual currently targets Jajuk 1.10 aka \<Gute Laune\>**
 
 <table>
   <tr>
@@ -73,7 +73,7 @@ For support, bug report or feature request, please use the Quality Agent (``Help
         <li><a href="/faq.html">FAQ</a></li>
         <li><a href="d-bus.html">Using D-Bus (hotkeys / remote controls for Linux)</a></li>
         <li><a href="hidden_options.html">Hidden options</a></li>
-        <li><a href="/jajuk_manual_performance_tips.html">Performance tips</a></li>
+        <li><a href="performance_tips.html">Performance tips</a></li>
        </ul>
     </td>
   </tr>  

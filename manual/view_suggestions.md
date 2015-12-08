@@ -5,8 +5,9 @@ layout: default
 Go back to the [TOC](/manual/main.html)
 
 # Suggestions view
+This view provides assistance at selecting local albums (albums in your collection) and others information grabbed from the Internet like Last.FM services. The view is built of five tabs presented bellow:
 
-This view is intended to provide useful assistance at selecting local albums (albums in your collection) and others information grabbed from the Internet like Last.FM services. The view is built of five tabs presented bellow:
+![Image](/images/view_suggestions.png)
 
 ### Local albums information
 - **Preferred**: shows the albums you play to most (shuffled so you don't get always the same albums). This view is refreshed every 10 tracks launches

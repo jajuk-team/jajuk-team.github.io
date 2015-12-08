@@ -83,7 +83,7 @@ See also the [Jajuk rating system](ratings.html).
 - **Import ratings** button: Read in ratings that were exported from another installation of Jajuk. The rating of all matching files will be updated.
 
 ### Last.FM tab
-- **Enable Last.FM information queries**: Allow jajuk to make queries to Last.FM web services in order to display various information on playing artist like similar artists and others albms in the[view suggestions](view_suggestions.html)
+- **Enable Last.FM information queries**: Allow jajuk to make queries to Last.FM web services in order to display various information on playing artist like similar artists and others albms in the [Suggestions view](view_suggestions.html)
 - **Scrobble my listening**: Allow Jajuk to send information on titles you listen to Last.FM website in order to feed your Last.FM profile (check [http://last.fm](http://last.fm) website). Jajuk caches scrobbles when offline and submit them back at next online jajuk session startup.
 - **Last.FM user name**: Last.FM login name you used when creating your Last.FM profile
 - **Last.FM password**: Last.FM password you used when creating your Last.FM profile

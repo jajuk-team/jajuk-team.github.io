@@ -45,7 +45,7 @@ This DJ is very basic, indeed: it simply plays shuffle tracks of a given ambienc
 ### How to use DJs ?
 The entry point for DJ feature is the DJ button (see the [commands](commands.html)).
 
-- A single click on the DJ icon requires selected DJ to generate and launch a new playlist. Note that this feature is available from the systray as well.
+- A single click on the DJ icon requires selected DJ to generate and launch a new playlist.
 - You can select the default DJ by clicking on the drop down button and checking a DJ if you have some. Note that the selected DJ name is also displayed as a tooltip on the DJ button.
 
 ### The DJ Wizard

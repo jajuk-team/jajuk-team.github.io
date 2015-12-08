@@ -7,6 +7,8 @@ Go back to the [TOC](/manual/main.html)
 # Webradio view
 This view allows to play or organize [web radios](using_webradios.html).
 
+![Image](/images/view_webradios.png)
+
 - Custom and preset radios are distinguished. Preset radios are pre-selected on the [Common jukebox project](http://www.assembla.com/wiki/show/common-jukebox/Suggest_a_new_webradio_station). Custom radios is added by yourself. The "origin" column display the radio type : ``CUSTOM`` or ``PRESET``.
 - Many settings or information are available about radios, some are not displayed by default (like bitrate or URL). You can hide or show columns using the [column selector](using_tables_in_views.html).
 - The 'Genre' attribute can be selected among Jajuk collection known genres or any text can be typed. Note that some radio-oriented genres are available like ``News`` or ``Education``.

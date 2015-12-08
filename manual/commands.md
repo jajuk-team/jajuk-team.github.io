@@ -12,7 +12,8 @@ The commands are located at the bottom or the top of Jajuk window. They are alw
 ![Image:search_16x16.png](/images/Search_16x16.png) The search box can be used to find any file, track, genre, artist, album... for a given text. A result popup appears. Then launch the track by clicking on the list: the track will be played immediately.
 
 ### The history bar
-![Image:history_16x16.png](/images/History_16x16.png) The history bar shows all tracks you played (can be cleared and configured in the [view preferences](view_preferences.html)). Click on one track to launch it again. Note that tracks in the history bar may be on devices that are no more mounted. In this case, Jajuk will ask you to mount them if available.
+![Image:history_16x16.png](/images/History_16x16.png) The history bar shows all tracks you played (can be cleared and configured in the [Preferences view](view_preferences.html)). Click on one track to launch it again. Note that tracks in the history bar may be on devices that are no more mounted. 
+In this case, Jajuk will ask you to mount them if available.
 
 ### Modes
 
@@ -40,7 +41,7 @@ To avoid selecting tracks, you can use these high-level smart functions:
 
 - ![Image:Finish-32-32.png](/images/Finish-32-32.png) **Finish album**, useful when using shuffle mode and you find an album that you want to play completely
 
-- ![Image:ddj-32-32.png](/images/Ddj-32-32.png) **Launch DJ selection** (See [Using digital djs](ddjs.html))
+- ![Image:ddj-32-32.png](/images/Ddj-32-32.png) **Launch DJ selection** (See [Using digital djs](ddj.html))
 
 All these smart functions can be filtered using the ambience selector combo box. Select the ``Any`` ambience to stop filtering
 

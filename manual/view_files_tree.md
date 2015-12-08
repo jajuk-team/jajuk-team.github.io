@@ -41,14 +41,16 @@ contextual menu (right click). The features can depend on the nature of the item
 Items contextual menu includes :
 
 ### Devices only
+See [using devices](devices.html) for more details about devices.
+
 - **Configure**: Open Device wizard to configure device.
-- **Mount**: perform a mount (see [using devices](devices.html))
-- **Unmount**: perform an unmount (see [using devices](devices.html))
-- **Force Refresh**: Perform a device forced refresh to read tags again (see [using devices](devices.html))
-- **Synchronize**: Perform a synchronization (see [using devices](devices.html)). It is enabled only if the device is configured to be synchronized with another one.
+- **Mount**: perform a mount
+- **Unmount**: perform an unmount
+- **Force Refresh**: Perform a device forced refresh to read tags again
+- **Synchronize**: Perform a synchronization. It is enabled only if the device is configured to be synchronized with another one.
 - **Test**: check (or "ping") the device to check if it is really available
 - **Get tags online**: Search tags online (CDDB) for tracks found at device root
-- **Removed device** : Fast remove of a device from the collection without using the [view devices](View_devices.html)
+- **Removed device** : Fast remove of a device from the collection without using the devices view
 
 ### Directory only
 - **Force Refresh**: Perform a refresh for this directory and its sub-directories only (see [using devices](devices.html))
@@ -60,8 +62,8 @@ Items contextual menu includes :
 #### Any
 - **Play**: Stop current track and play selection
 - **Push**: Don't stop current track but simply add the selection into the queue
-- **Play shuffle**: Stop current track and play selection randomly (note that this mode is automatically used when playing a track if you set ``shuffle mode`` in [Commands view](commands.html))
-- **Play repeat**: Stop current track and play selection in a loop (note that this mode is automatically used when playing a track if you set ``repeat mode`` in [Command view](commands.html))
+- **Play shuffle**: Stop current track and play selection randomly (note that this mode is automatically used when playing a track if you set ``shuffle mode`` in [commands](commands.html))
+- **Play repeat**: Stop current track and play selection in a loop (note that this mode is automatically used when playing a track if you set ``repeat mode`` in [commands](commands.html))
 - **Copy**: copy selection
 - **Cut** : cut selection
 - **Paste**: paste selection

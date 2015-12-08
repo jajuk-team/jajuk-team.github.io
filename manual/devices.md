@@ -15,21 +15,21 @@ Jajuk plays music from devices. A device is a set of audio files, a drive. It ca
 - A Network drive (Netbios/Samba/NFS...). Under Windows, use drive letter path (like ``T:\...``) but not network favorites path or UNC paths (like : \\host\directory ).
 - A MP3 player (available only if it is seen by your operating system as an external drive).
 
-<div class='info'>In order to be readable from Jajuk, devices must be regular directories from the OS point of view but Jajuk uses this concept to deal with particularities (for instance, a CD-ROM is read-only or a network drive shouldn't be 
+<div class='info'>In order to be readable from Jajuk, devices must be seen as regular directories by the operating system but Jajuk uses this concept to deal with particularities (for instance, a CD-ROM is read-only or a network drive shouldn't be 
 scanned all over the day for performance reasons) and to provide a friendlier graphical interface (different icons by device type).</div>
 
 A device usually contains MP3, OGG and others supported audio files, M3U playlist files and JPG/ GIF/PNG image files for covers.
 
-What we name a collection is the sum of all the devices you created.
+A 'collection' is the sum of all the devices you created.
 
 If your music is distributed into several directories, you'll have to create a device by directory or create a device for a common parent directory of your music files. A good practice is to centralize all your music under a common directory (like "<home>/My Music" in most operating systems) and to create a single device from this directory.
 
 ## Creating and configuration devices
 Devices can be created either using the [Device view](view_devices.html) in the Configuration perspective or 
-using the quick start devices wizard (Top menu / Configuration / Devices wizard).
+using the quick start devices wizard (``Configuration`` top menu / ``Devices wizard``).
 
 <div class='info'>Note for Windows users: map your drives to a static Letter to make sure the drive letter 
-doesn't change, otherwise, the music will no more be available. See Microsoft documentation.</div>
+doesn't change, otherwise, the music will no more be available. See this [Microsoft documentation](http://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/dm_drive_letter.mspx?mfr=true).</div>
 
 ## Refreshing devices
 Jajuk uses an automatic indexing system: music files tags are not read again at each startup but Jajuk builds a collection to store their content 
@@ -57,7 +57,7 @@ When creating a device (see device view documentation for more information), you
 You can synchronize two devices from the physical perspective with "Synchronize" command from contextual menu on selected device or from the view_devices in the Configuration perspective.
 
 ## Collection backup and restore
-All your collection and properties on your tracks are stored in the collection files (``collection*.xml`` files). By default Jajuk performs a backup of this collection file (collection-{date}.xml files) until it takes 20MB on the disk. You can set maximum backup size in the [Preferences view](view_preferences.html) / Advanced tab.
+All your collection and properties on your tracks are stored in the collection files (``collection*.xml`` files). By default Jajuk performs a backup of this collection file (collection-{date}.xml files) until it takes 20MB on the disk. You can set maximum backup size in the [Preferences view /Advanced tab](view_preferences.html#advanced-tab).
 
 Restore: if you just made a manipulation error and still in Jajuk, close it. Then override collection.xml file with ``collection-{date}.xml``.
 

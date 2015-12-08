@@ -48,6 +48,6 @@ Others features:
 ### Selection / drag and drop
 
 - You can select all the rows using CTRL+A standard keystroke
-- You can drag one or more rows (and drag them into the [Queue view](view_queue.html) or the [Playlists view](view_playlist_editor.html) for instance). Press CTRL or SHIFT to select several rows.
+- You can drag one or more rows (and drag them into the [Queue view](view_queue.html) or the [Playlists view](view_playlists.html) for instance). Press CTRL or SHIFT to select several rows.
 
 Go back to the [TOC](/manual/main.html)

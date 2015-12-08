@@ -16,7 +16,7 @@ Jajuk is free software published under the <a href="http://www.gnu.org/licenses/
 
 ### Which formats are supported?
 
-Please find <a href="/features.html#Supported_formats" title="Features"> the full list</a>
+Please find <a href="/features.html#supported-formats" title="Features"> the full list</a>
 
 ### Do you plan to read DVD and pictures etc... with Jajuk and make it a media center&nbsp;?
 
@@ -43,7 +43,7 @@ No, Jajuk doesn't currently support Audio CDs read nor encode. Jajuk goal is pri
 
 ### How much resources does Jajuk use?
 
-<ul><li> Please read the <a href="/jajuk_manual_performance_tips.html" title="Performance tips">Performance tips</a> in the embedded help system
+<ul><li> Please read the <a href="/manual/performance_tips.html" title="Performance tips">Performance tips</a> in the embedded help system
 </li><li> On a recently manufactured PC, Jajuk uses less than 1 or 2&nbsp;% CPU and typically from 40 to 70 MB of memory for a 50 GB collection
 </li></ul>
 
@@ -55,7 +55,7 @@ No, Jajuk doesn't currently support Audio CDs read nor encode. Jajuk goal is pri
 
 ### I would like to remote control Jajuk 
 
-If you are running Linux, look at the functionality described at <a href="/jajuk_manual_d_bus.html" title="D-Bus">D-Bus</a>.
+If you are running Linux, look at the functionality described at <a href="/manual/d-bus.html" title="D-Bus">D-Bus</a>.
 
 
 ## Troubleshooting
@@ -105,7 +105,7 @@ By default, Jajuk can use from 35MB to 512MB of physical memory. That should be 
 
 
 #### What can I do if my collection looks *really* corrupted&nbsp;?
-Check out <a href="/jajuk_manual_using_devices.html#Collection_backup_and_restore" title="Using devices">Using_devices#Collection_backup_and_restore</a> the device page of the jajuk manual. Note that this case has never been reported so far as Jajuk provides an efficient built-in recovery system.
+Check out <a href="/manual/devices.html#collection-backup-and-restore" title="Using devices">Using_devices</a> the device page of the jajuk manual. Note that this case has never been reported so far as Jajuk provides an efficient built-in recovery system.
 
 
 #### Jajuk cannot read files with non-ASCII characters
@@ -147,15 +147,6 @@ windows shortcut that launches jajuk (the ``-Dsun.java2d.d3d=false`` option disa
 #### Cannot play files on a Network drive (NAS)
 <p>It is caused by the use of windows shortnames by mplayer (that are required to fix non-European filenames issues beside this). From 1.7, Jajuk automatically try both modes (short and long names) in case of failure.
 </p>
-
-
-#### A "pop" (think "standard windows 'pop' sound") is heard between tracks
-
-<p>It's a sound emitted by the system when opening the systray balloons. We can't disable this sound as it is managed by Windows itself. You can:
-</p>
-<ul><li> Either change from balloon to none or Toast notification mode in Jajuk (<a href="/jajuk_manual_view_preferences.html" title="Preferences view"> Preferences view</a> / GUI tab/ Notification). 
-</li><li> Or disable it manually from Windows Sounds Parameters wizards (Parameters / sound and multimedia / disable "notify new messages" sound)
-</li></ul>
 
 
 #### Firefox is set as default browser, I use JRE 1.6 Sun and I regularly get this message: "java.net.MalformedURLException: unknown protocol: socket"
@@ -254,7 +245,7 @@ If you still have the issue, it is probably an Alsa deamon problem, please read 
 
 #### I have some trouble getting D-Bus to work
 
-<p>Look at the items described at <a href="/jajuk_manual_d_bus.html#Troubleshooting" title="D-Bus">D-Bus#Troubleshooting</a>.
+<p>Look at the items described at <a href="/manual/d-bus.html#troubleshooting" title="D-Bus">D-Bus</a>.
 </p>
 
 
