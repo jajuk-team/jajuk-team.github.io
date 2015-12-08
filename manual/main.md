@@ -5,7 +5,7 @@ layout: default
 
 # Jajuk manual
 <div class='info'>
-You also have tooltips on nearly every widget and tips of the days
+You also have tooltips on nearly every widget and you a "tips of the days" feature.
 </div>
 
 For support, bug report or feature request, please use the Quality Agent (``Help top menu`` / ``Report a bug or feature request``). 
@@ -33,15 +33,15 @@ For support, bug report or feature request, please use the Quality Agent (``Help
       <ul>
         <li><a href="ratings.html">The ratings system</a></li>
         <li><a href="tags_and_properties.html">Tags and properties</a></li>
-        <li>Files organizer</li>
-        <li>Keys shortcuts</li>
-        <li>Using alarm clock</li>
-        <li>Using duplicate finder</li>
+        <li><a href="files_organizer.html">Files organizer</a></li>
+        <li><a href="keys.html">Keys shortcuts</a></li>
+        <li><a href="alarm_clock.html">Using alarm clock</a></li>
+        <li><a href="duplicate_finder.html">Using duplicate finder</a></li>
         <li><a href="ddj.html">Using the digital DJ</a></li>
         <li><a href="using_playlists.html">Using playlists</a></li>
         <li><a href="using_tables_in_views.html">Using tables in views</a></li>
         <li><a href="using_webradios.html">Using web radios</a></li>
-        <li>Prepare a Party</li>
+        <li><a href="prepare_party.html">Prepare a Party</a></li>
       </ul>
     </td>
     <td>

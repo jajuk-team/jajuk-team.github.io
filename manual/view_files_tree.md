@@ -55,7 +55,7 @@ Items contextual menu includes :
 - **Get tags online**: Search tags online (CDDB) for tracks found in this directory
 - **Desynchronize**: flag this selection so it will not taken into account at next synchronization
 - **Resynchronize**: reset desynchronize flag
-- **Organize files**: organize files according tags (see [files organizer](organizer.html))
+- **Organize files**: organize files according tags (see [files organizer](files_organizer.html))
 
 #### Any
 - **Play**: Stop current track and play selection
