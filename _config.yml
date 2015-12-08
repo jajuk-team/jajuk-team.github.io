@@ -1,7 +1,7 @@
 # Site settings
 title: Java Advanced Jukebox
 description: Jajuk Advanced Jukebox
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/" # the subpath of your site, e.g. /blog/
 
 # Build settings
 markdown: kramdown

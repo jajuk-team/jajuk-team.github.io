@@ -3,22 +3,25 @@ title: Help
 layout: default
 ---
 
-# Frequently Asked Questions
+
+# Help
+
+## Frequently Asked Questions
 * Check the [FAQ](/faq.html)
 
-# Jajuk Manual
+## Jajuk Manual
 * Check the [Jajuk Manual](/manual/main.html)
 
-# Legals
+## Legals
 * Find [here](/legals.html) licenses and dependencies
 
-# Contact us 
+## Contact us 
   * [Bugs / feature requests](https://github.com/jajuk-team/jajuk/issues) (see How to report a bug below)
   * [Developers mailing List](http://lists.sourceforge.net/mailman/listinfo/jajuk-developers)
   * [Google+ page](http://plus.google.com/116653776869968419005)
   * [Twitter feed](http://twitter.com/jajukproject)
   
-# How to report a bug properly ?
+## How to report a bug properly ?
 
 First of all, thanks to report bugs to Jajuk team, they are irreplaceable help for us..
 
@@ -27,7 +30,7 @@ First of all, thanks to report bugs to Jajuk team, they are irreplaceable help f
 * Jajuk is a pretty big piece of software with hundreds of features running on most operating systems. 
 In order to allow us to actually fix your problem we need a significant amount of details.
 
-## Provide any useful information
+### Provide any useful information
 * Please detail the exact actions you made (the use case) to help us reproducing the problem. 
 A good description is something like:
 ``In Files table view, filtering by artist has no effect``
@@ -40,7 +43,7 @@ player is locked displaying the message "time out"``
 ``I have problem playing files at d:\MyMusic\aDirectory\foo.mp3``
 * A very good way to report an issue is (in addition to logs) to provide a screencast, check (for instance) [Screenr](http://www.screenr.com) to produce a screencast in seconds and publish it.
 
-## Paste the logs
+### Paste the logs
 * Reproduce your problem
 * Create your bug using the Jajuk Debug-> Report a bug or feature request menu at the top of the frame
 * When your browser create a new ticket, please paste (CTRL-v or right click-> "Paste" on most operating systems) in the "Comments" text field, 
@@ -48,3 +51,4 @@ this will paste most of the information we need to get your operating system / j
 * Note that this logs are anonymized with "***" and should not contain any private information (you are yet encouraged to have a look on the logs)
 * Only one subject please
 * Please create a single ticket per bug or feature request. It is impossible to track and update information about different subjects in a single ticket so we would have to split the ticket by our self or consider only one of the subjects.
+

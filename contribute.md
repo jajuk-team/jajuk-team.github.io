@@ -3,20 +3,22 @@ title: Jajuk Team - Jajuk
 layout: default
 ---
 
-# Team members
+# Contribute
+
+## Team members
 Check the [list of contributors](/members.html) 
 
-# Want to donate ?
+## Want to donate ?
 Check the [Donation page](/donation.html) 
 
-# Want to translate Jajuk ?
+## Want to translate Jajuk ?
 Check the [Translation guide](/translator_guide.html) 
 
-# Want to hack Jajuk ?
+## Want to hack Jajuk ?
 Please provide your contributions from GitHub through pull requests. Ask us before implementing large features.
 Please read the [developer guide](/developer_guide.html).
 
-# Main websites at a glance
+## Main websites at a glance
 
 <table id="screenshots">
 <tr>
@@ -29,7 +31,7 @@ Please read the [developer guide](/developer_guide.html).
 </tr>
 </table>
 
-## Team rules
+### Team rules
 We ask members to follow these basic rules:
 
 - Members have to communicate in English
@@ -39,17 +41,17 @@ We ask members to follow these basic rules:
 - Every work is copyrighted under GPL license and due to 'Jajuk team', no individual copyrighting
 
 
-## Daily builds
+### Daily builds
 
 Jajuk daily builds and test coverage/results are available from the [Jajuk Continuous Integration website](http://integration.jajuk.info). 
 Please make sure you didn't broke the build. All unit tests should pass as well or fix them. 
 
-### Version rules
+#### Version rules
 -   Jajuk releases follow this version scheme: <major>.<minor>.<fix>. Example: 1.1.4 : Fourth fix release of second minor release of first major release.
 -   When starting a minor release testing process (about one or two months), we create a specific branch used for fixes (during this time, commiters can continue to work in the trunk). Example: one month before 1.1 official release, a "1.1" branch is created. All fixable bugs found against minor version are double-fixed in the release and in the trunk branches (fix against maintenance branch, then fixes are merged into trunk). For example, an issue discovered in 1.1 is fixed in the ''1_1 ''branch AND in the trunk (1.2 development release).
 -   Major and minor releases are maintained during a single minor releases (for example, 1.1 is maintained until 1.2 is released) and a fix pack release (x.y.z) is released ASAP if critical bug found or about every one or two weeks for minor issues.
 
-### Code names
+#### Code names
 
 Codenames in Jajuk refers to songs names that have been performed by different artists but this is not an absolute rule. No more than two or three words easy to remember and eventually to pronounce worldwide.
 
@@ -63,7 +65,7 @@ Codenames in Jajuk refers to songs names that have been performed by different a
 -    1.4: Aerodynamic by Daft Punk
 -    1.3: My Dear Country by Norah Jones 
     
-## Major release process
+### Major release process
 
 The Jajuk release process usually takes from 8 to 10 weeks.
 
@@ -73,12 +75,13 @@ The Jajuk release process usually takes from 8 to 10 weeks.
 -   When we find the last RC stable enough, it is released as a final on Sourceforge and a maintenance branch is created. We wait at least 2 days between last RC and final release
 -   The communication delegate sends the news in Freshmeat and other web sites after one week without critical issue
 
-## User documentation
+### User documentation
 
 Jajuk is now a pretty large software using a few relatively advanced concepts like perspectives & views, custom properties or devices. As a developer, you will obviously have to know and understand the application concepts. 
-All of them are described in the [User guide](/jajuk_manual.html), please make sure to read it in depth and to 
+All of them are described in the [User guide](/manual/main.html), please make sure to read it in depth and to 
 upgrade it required. 
 The documentation is done as a Jekyll website available from [https://github.com/jajuk-team/jajuk-team.github.io](https://github.com/jajuk-team/jajuk-team.github.io).
 
-## Integrator procedures
-Please find here [the procedures](/integration_procedures.html) when adding a library, when releasing or when adding a langpack. 
+### Integrator procedures
+Please find here [the procedures](/integration_procedures.html) when adding a library, when releasing or when adding a langpack.
+ 

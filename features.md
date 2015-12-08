@@ -3,20 +3,22 @@ title: Features - Jajuk
 layout: default
 ---
 
-# Main Principles
+# Features
+
+## Main Principles
 Jajuk fundamental principles are :
 
   * Maximum usability: Jajuk is designed to be intuitive, fast and provide multiple ways to perform the same operation
   * Maximum features: Jajuk is made for advanced users looking for powerful functionalities
   * Maximum portability and desktop integration 
 
-# Newest features
+## Newest features
 Check out [new features highlights](/new_features.html).
 
-# Press/medias coverage
+## Press/medias coverage
 Check out the [Jajuk media coverage](/media_coverage.html)
 
-## Player functions
+### Player functions
 
   * Digital DJ: Let Jajuk make your playlist based on your own rules
   * Ambience management: ask for a soft playlist in two clicks maximum!
@@ -37,7 +39,7 @@ Check out the [Jajuk media coverage](/media_coverage.html)
   * Intro from a track position and specified length
   * Repeat / Repeat all, shuffle, intro, fast forward/rewind, mute, karaoke etc. 
 
-# Supported formats
+## Supported formats
 
 Jajuk supports most audio formats (MP3, OGG, FLAC, AAC, WMA, APE, etc...) and tags.
 
@@ -59,17 +61,17 @@ Jajuk supports most audio formats (MP3, OGG, FLAC, AAC, WMA, APE, etc...) and ta
 
 (*) Under Linux, requires w32codec package along with mplayer.
 
-## Playlist formats
+### Playlist formats
 Jajuk uses M3U (.m3u) Playlist format.
 
-## Cover formats
+### Cover formats
 Jajuk supports following image formats for covers (limited to 1Mb):
 
   * PNG (.png)
   * JPEG (.jpg)
   * GIF (.gif)
 
-## Tags formats
+### Tags formats
 Jajuk supports following tags formats:
 
   * OGG
@@ -79,7 +81,7 @@ Jajuk supports following tags formats:
   * WMA
   * M4A / AAC (from Jajuk 1.7)
 
-## Engine
+### Engine
 
   * Automatic indexing: Jajuk uses an XML database to store collection tags. It allows a fast startup even for very large collections. Moreover, you can continue to use jajuk when the collection is refreshed in background.
   * Devices synchronization: unidirectional or bidirectional, full or partial
@@ -88,14 +90,14 @@ Jajuk supports following tags formats:
   * Collection reporting in HTML or XML
   * DBus support (Linux only) 
 
-## Search functions
+### Search functions
 
   * Web navigator-like history bar
   * Instant search box to perform quick searches
   * Table filters
   * Lyrics grabbing from the web, read/write to tags 
 
-## Tag support
+### Tag support
 
   * Most tags supported (Ogg,ID3 V1/V2, WMA, Flac...)
   * Tag edition (single and multiple tracks)
@@ -103,7 +105,7 @@ Jajuk supports following tags formats:
   * Collection reorganizer using tags and a pattern
   * Create your own tag using the custom properties 
 
-## Graphical Interface
+### Graphical Interface
 
   * Dockable perspectives and views
   * Full keyboard controls
@@ -117,24 +119,24 @@ Jajuk supports following tags formats:
   * Full screen mode
   * Toast or balloon playing track notification 
 
-## Covers support
+### Covers support
 
   * Visual catalog of all albums by covers
   * Auto-covers grabbing from the web with possibility to store them on your disk or make them your default cover 
 
-## Playlist support
+### Playlist support
 
   * Dynamic playlist creation by drag and drop
   * Best-of automatic playlist
   * Bookmarks automatic playlist
   * Novelties automatic playlist 
 
-## Requirements
+### Requirements
 
   * Java 1.6 +
   * MPlayer (bundled with Jajuk under Windows and OSX) 
 
-## Supported languages
+### Supported languages
 
 (Last update : Jajuk 1.10)
 

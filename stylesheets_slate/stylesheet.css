@@ -75,6 +75,12 @@ a {
   text-shadow: none;
 }
 
+.home {
+  text-decoration: none;
+  color: #ffffff;
+  text-shadow: none;
+}
+
 a:hover, a:focus {text-decoration: underline;}
 
 footer a {
@@ -235,7 +241,7 @@ Full-Width Styles
 
 #header_wrap {
   background: #212121;
-  height: 230px;
+  height: 190px;
 }
 
 #header_wrap .inner {
