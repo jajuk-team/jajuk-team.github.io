@@ -28,7 +28,7 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 
 # Help make Jajuk rock!
 
-This project is open for any type of contribution. To lend a hand, visit the [Team Page](/jajuk_team.html) 
+This project is open for any type of contribution. To lend a hand, visit the [Contribute Page](/contribute.html) 
 or make [a donation](/donation.html). 
 
 Others great cross-platform players part of the [common-jukebox](http://www.assembla.com/wiki/show/common-jukebox) collaboration: [aTunes](http://atunes.org/), [Jukes](http://melloware.com/products/jukes/index.html) Other good audio tagger : Jaikoz
