@@ -8,6 +8,28 @@ using this currency. Dollars are converted to euros using the operation
 day value*
 
 
+Year 2015
+=========
+Closed, last update : 2016/01/18. All times balance : **-1190.35€**.
+
+------------------------------------------------------------------------
+
+-   Revenues : 70.86 €
+    -   Google Ad Sense (actually paid): 70,86 € 
+    -   Donations:  0 €
+    -   Flattr: 0€ (total 32 flattrs)
+    -   Bitcoin : 0 ubits
+
+------------------------------------------------------------------------
+
+-   Expenses :  0€   
+    - Note : we now use Github pages
+    
+------------------------------------------------------------------------
+
+-   Year net income: **+70.86€**
+
+
 Year 2014
 =========
 Closed, last update : 2015/01/20. All times balance : **-1261.21€**.
