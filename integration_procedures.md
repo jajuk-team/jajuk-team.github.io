@@ -2,6 +2,8 @@
 title: Integration procedures
 layout: default
 ---
+* auto-gen TOC:
+{:toc}
 
 # Integration procedures
 
@@ -44,10 +46,10 @@ QDWizard specific :
 [RC] applies to release candidates
 </div>
 
-### [major] Legals
-- Update the Dependencies and Derivative sections in [Legals](/legals.html)
-- Paste the Dependencies and Derivative sections into ``src/legals`` txt files
-- Update ``AUTHORS.txt`` file sorted by commits numbers using :
+### Legals
+- [major] Update the Dependencies and Derivative sections in [Legals](/legals.html)
+- [major] Paste the Dependencies and Derivative sections into ``src/legals`` txt files
+- [major] Update ``AUTHORS.txt`` file sorted by commits numbers using :
 ``git log --format='%aN <%aE>' | awk '{arr[$0]++} END{for (i in arr){print arr[i], i;}}' | sort -rn | cut -d\  -f2-``
 
 ### Code
@@ -67,16 +69,13 @@ QDWizard specific :
 - [minor,major] Search for ``System.out`` (14 in ``src/main/java`` so far)
 - [major] Detect and drop useless labels from every langpack (``jajuk.properties`` files)
 - [major] Change release note URL in ``src/packaging/NSIS/jajuk.nsis``
-- - [major] Change README notes version in ``src/doc/README.html``
+- [major] Change README notes version in ``src/doc/README.html``
 - [RC] Merge fixes into develop branch (before bumping the release so we don't have to restore them in the develop branch):
 ``git rebase release/release-<release>``
-- [minor,major] Update the ``src/packaging/pad/jajuk_pad.xml`` file still in release branch (date + version:+ exe url; 5 lines to change).
-<div class='info'>The jajuk_pad.xml file to copied from master branch to <a href='http://repository.jajuk.info'>http://repository.jajuk.info</a> at each 
-build. Version check from users (if enabled) then uses our own server and doesn't charge the Gihub ones.</div>
 - [all] In ``build.xml`` and ``pom.xml`` of the hotfix[minor] or the release[major] branch, bump version :
-  - Set the last ``version``.
+  - Set the last ``version`` (remove ``dev``)
   - ``type='final'``
-  - Change version in ``pom.xml`` (remove ``dev``)
+  - Change version in ``pom.xml`` (remove ``-SNAPSHOT``)
   - Commit the bump : ``git commit -a -m "Bump version for release x.y.z"``
   - [major] ``git-flow release finish release-x_y``
   - [minor] ``git-flow hotfix finish release-x_y`` (Changes from hotfix branch will be merged back to master AND develop branches. It should be avoided but if you already reported the changes or you can't do the merge, you can make the merge, commit it (even with conflicts) and then revert it from develop branch using : ``git revert -m 1 HEAD`` )
@@ -85,7 +84,7 @@ build. Version check from users (if enabled) then uses our own server and doesn'
 - Disable the maintenance job from jenkins
 - [all] Test it a minima under several OS
 - [all] push tags (git-flow already tagged using the branch name) : ``git push origin --tags``
-- [all] Update pad file into the web server : ``setup_pad.sh``
+
  
 - [minor,major] Release on SF
   - Add files (6 files) from jajuk server :
@@ -111,6 +110,7 @@ exit
 - [all] Make annonce on G+ and twitter
 - [all] Send a message in the developer list
 - [major] If ``default_webradios.xml`` list changed, update file at [http://svn2.assembla.com/svn/common-jukebox/common-jukebox/src/main/resources/preset_radios.xml](http://svn2.assembla.com/svn/common-jukebox/common-jukebox/src/main/resources/preset_radios.xml)
+- [all] Update and publish Jajuk pad at [http://publisher.appvisor.com/](http://publisher.appvisor.com/) (date + version:+ exe url; 5 lines to change).
 
 ## Prepare the next version after a release
 These actions should be done before or just after a major release to create a new major version environment.

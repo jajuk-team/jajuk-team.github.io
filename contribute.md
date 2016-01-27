@@ -18,6 +18,9 @@ Check the [Translation guide](/translator_guide.html)
 Please provide your contributions from GitHub through pull requests. Ask us before implementing large features.
 Please read the [developer guide](/developer_guide.html).
 
+## Integrator procedures
+Find here [the procedures](/integration_procedures.html) when adding a library, when releasing or when adding a langpack.
+
 ## Main websites at a glance
 
 <table id="screenshots">
@@ -82,6 +85,5 @@ All of them are described in the [User guide](/manual/main.html), please make su
 upgrade it required. 
 The documentation is done as a Jekyll website available from [https://github.com/jajuk-team/jajuk-team.github.io](https://github.com/jajuk-team/jajuk-team.github.io).
 
-### Integrator procedures
-Please find here [the procedures](/integration_procedures.html) when adding a library, when releasing or when adding a langpack.
+
  
