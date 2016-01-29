@@ -29,7 +29,7 @@ Find here [the procedures](/integration_procedures.html) when adding a library, 
 	<td><img src="/images/website_github.png" style="width:350px;" title="Github" alt="Github"/> <a href="https://github.com/jajuk-team/jajuk">Github</a></td>
 </tr>
 <tr>
-	<td><img src="/images/website_hudson.png" style="width:350px;" title="Integration server" alt="Integration server"/> <a href="http://integration.jajuk.info">Integration server</a></td>
+	<td><img src="/images/website_hudson.png" style="width:350px;" title="Integration server" alt="Integration server"/> <a href="http://integration.jajuk.info:8080">Integration server</a></td>
 	<td><img src="/images/website_quality.png" style="width:350px;" title="Quality Center" alt="Quality Center"/> <a href="http://nemo.sonarqube.org/dashboard/index/org.jajuk:jajuk">Quality Center</a></td>
 </tr>
 </table>
