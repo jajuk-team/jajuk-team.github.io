@@ -46,7 +46,7 @@ We ask members to follow these basic rules:
 
 ### Daily builds
 
-Jajuk daily builds and test coverage/results are available from the [Jajuk Continuous Integration website](http://integration.jajuk.info). 
+Jajuk daily builds and test coverage/results are available from the [Jajuk Continuous Integration website](http://integration.jajuk.info:8080). 
 Please make sure you didn't broke the build. All unit tests should pass as well or fix them. 
 
 #### Version rules
