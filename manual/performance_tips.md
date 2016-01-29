@@ -24,7 +24,7 @@ Read that chapter if you encounter some performances drawbacks or if you want co
   - Don't open perspectives you don't use (perspective memory is used only once opened)
   - Limit size of Albums catalog view page size (Preference view / GUI tab / Catalog view)
   - Remove any view that you don't need all the time, they can be opened again quickly if needed. This should include the ones automatically minimized in some perspectives. Good candidates usually are Animation View, Album Catalog View, Wikipedia View, Statistics View.
-  - On 64-bit systems with 64-bit JVM, add the Java VM argument "-XX:+UseCompressedOops" to the startup script. This is available since 1.6.0_14, however make sure to use newer versions of the JDK, e.g. 1.6.0_20, as early versions had severe bugs with this option. See [1] for some description of this option. 
+  - On 64-bit systems with 64-bit JVM, add the Java VM argument "-XX:+UseCompressedOops" to the startup script. This is available since 1.6.0_14. See [1] for some description of this option. 
 
 **Note:** You will need to restart Jajuk to actually see reduction in memory usage for these suggestions as Java usually keeps allocated memory and does not free it any more.
 Bandwidth

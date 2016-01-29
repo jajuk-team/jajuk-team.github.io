@@ -16,7 +16,7 @@ See the [Git](git.html) page.
 - [Jajuk developer mailing list](mailto:jajuk-developers@lists.sourceforge.net) is the project main communication stream. Note that the Reply-to is directed to the original sender, not the list so please use the "Reply all" button from you e-mail client to reply to the list.
 
 ### Java version
-- Jajuk has to run on every JVM &gt;= 1.6
+- Jajuk has to run on every JVM &gt;= 1.7
 - Prefer using Java 5+ classes and features (like collection for instead of iterators or, autoboxing, enums). Using generics is mandatory.
 
 ### IDE

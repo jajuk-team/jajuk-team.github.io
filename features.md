@@ -133,7 +133,7 @@ Jajuk supports following tags formats:
 
 ### Requirements
 
-  * Java 1.6 +
+  * Java 1.7 +
   * MPlayer (bundled with Jajuk under Windows and OSX) 
 
 ### Supported languages

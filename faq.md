@@ -127,36 +127,8 @@ In some special cases including switch from a 32 to a 64 bits JVM, you get this 
 </pre>
 
 
-#### Some parts of the screen are not refreshed
-
-<p>
-This may happen with some JRE 1.6 releases along with some video drivers. A workaround is change the 
-windows shortcut that launches jajuk (the ``-Dsun.java2d.d3d=false`` option disables double buffering)&nbsp;:
-</p><p>from&nbsp;:
-</p>
-<pre>C:\WINDOWS\system32\javaw.exe -client -Xms20M -Xmx512M -XX:MinHeapFreeRatio=5 
--XX:MaxHeapFreeRatio=10 -jar "C:\Program Files\Jajuk-1.9dev/bin/jajuk.jar" -test
-</pre>
-<p>to:
-</p>
-<pre>C:\WINDOWS\system32\javaw.exe -client -Dsun.java2d.d3d=false -Xms20M -Xmx512M 
--XX:MinHeapFreeRatio=5 -XX:MaxHeapFreeRatio=10 -jar "C:\Program Files\Jajuk-1.9dev/bin/jajuk.jar" -test
-</pre>
-
-
 #### Cannot play files on a Network drive (NAS)
 <p>It is caused by the use of windows shortnames by mplayer (that are required to fix non-European filenames issues beside this). From 1.7, Jajuk automatically try both modes (short and long names) in case of failure.
-</p>
-
-
-#### Firefox is set as default browser, I use JRE 1.6 Sun and I regularly get this message: "java.net.MalformedURLException: unknown protocol: socket"
-
-<ul><li> See <a href="http://forum.java.sun.com/thread.jspa?threadID=5127788" class="external free" title="http://forum.java.sun.com/thread.jspa?threadID=5127788" rel="nofollow">http://forum.java.sun.com/thread.jspa?threadID=5127788</a>
-</li><li> This is a Sun JRE 1.6 issue dealing with proxy settings. To fix it&nbsp;:
-</li></ul>
-<p>1) go to Control Panel -&gt; Java
-2) click the Network Settings button
-3) Select Direct Connection, and click ok a couple of times to exit
 </p>
 
 
@@ -212,14 +184,6 @@ In these cases, we ignore previous session sizes and we set a fixed one that sho
 custom forced size by editing (jajuk closed) the ``&lt;home&gt;/.jajuk/conf.properties`` file and set a value in the ``jajuk.frame.forced_position`` line 
 (format:x,y,width,height, example: ``jajuk.frame.forced_position=50,50,1350,1000`` ).
 </li><li> This should <i>not</i> append under Windows, OSX and Linux with Xorg/Xfree, otherwise, please open an issue
-</li></ul>
-
-
-#### Jajuk blank frame and other various graphical issues using Beryl WM
-<p>This is caused by an incompatibility between Sun JRE and Beryl. If under JRE 1.6, you can use&nbsp;:
-</p>
-<ul><li> Either <a href="http://wiki.beryl-project.org/wiki/Java" class="external text" title="http://wiki.beryl-project.org/wiki/Java" rel="nofollow">this fix</a>
-</li><li> Or <a href="http://www.vikrammohan.com/blog/2006/12/31/how-to-make-java-swing-work-on-beryl-with-aiglx/|using" class="external text" title="http://www.vikrammohan.com/blog/2006/12/31/how-to-make-java-swing-work-on-beryl-with-aiglx/|using" rel="nofollow">nested X servers</a>
 </li></ul>
 
 
