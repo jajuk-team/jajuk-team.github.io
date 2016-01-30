@@ -77,8 +77,8 @@ QDWizard specific :
   - ``type='final'``
   - Change version in ``pom.xml`` (remove ``-SNAPSHOT``)
   - Commit the bump : ``git commit -a -m "Bump version for release x.y.z"``
-  - [major] ``git-flow release finish release-x_y``
-  - [minor] ``git-flow hotfix finish release-x_y`` (Changes from hotfix branch will be merged back to master AND develop branches. It should be avoided but if you already reported the changes or you can't do the merge, you can make the merge, commit it (even with conflicts) and then revert it from develop branch using : ``git revert -m 1 HEAD`` )
+  - [major] ``git-flow release finish release-x_y_z``
+  - [minor] ``git-flow hotfix finish release-x_y_z`` (Changes from hotfix branch will be merged back to master AND develop branches. It should be avoided but if you already reported the changes or you can't do the merge, you can make the merge, commit it (even with conflicts) and then revert it from develop branch using : ``git revert -m 1 HEAD`` )
 - Push : ``git push origin``
 - Launch the final build from the CI server
 - Disable the maintenance job from jenkins
@@ -106,7 +106,6 @@ exit
 - [all] Close bugs, known issues and Features
 
 ### Others
-- [all] Check pad url to the .exe ( http://repository.jajuk.info/jajuk_pad.xml )
 - [all] Make annonce on G+ and twitter
 - [all] Send a message in the developer list
 - [major] If ``default_webradios.xml`` list changed, update file at [http://svn2.assembla.com/svn/common-jukebox/common-jukebox/src/main/resources/preset_radios.xml](http://svn2.assembla.com/svn/common-jukebox/common-jukebox/src/main/resources/preset_radios.xml)
