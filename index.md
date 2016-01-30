@@ -11,7 +11,7 @@ layout: default
 
 <img src="/images/jajuk_screenshot.png" style="width:300px; float:right" title="Jajuk screenshot" alt="Jajuk_screenshot"/>
 
-[![Flattr Button](http://api.flattr.com/button/button-static-50x60.png "Flattr This!")](http://flattr.com/thing/88017/Jajuk-advanced-jukebox "Flattr donation to Jajuk project") **Jajuk** is a Java music organizer for all platforms. 
+**Jajuk** is a Java music organizer for all platforms. 
 The main goal of this project is to provide a fully-featured application to advanced users with large or scattered music collections.
 
 **Jajuk** main principles are:
