@@ -16,7 +16,7 @@ The main goal of this project is to provide a fully-featured application to adva
 
 **Jajuk** main principles are:
 
-* Maximum features - Jajuk is made firstly for advanced users looking for powerful functionalities;
+* Maximum features - Jajuk is made firstly for advanced users looking for powerful features;
 * Maximum usability - Jajuk is designed to be intuitive, fast and provide multiple ways to perform the same operation;
 * Maximum portability and desktop integration. 
 
@@ -45,17 +45,23 @@ Others great cross-platform players part of the [common-jukebox](http://www.asse
 — Adam Pash, Lifehacker
 
 # Major events
+Find all the news at the [Jajuk Google+ page](https://plus.google.com/u/0/116653776869968419005)
+<div class="g-follow" data-annotation="bubble" data-height="24" data-href="//plus.google.com/u/0/116653776869968419005" data-rel="publisher"></div>
 
-**Jajuk 1.10.7 released !** – August 25 2014
-    15 bug fixes, better shuffling, hotkeys support under 64bits Windows systems, Spanish langpack updated, new "Delete" option from the queue 
+**Jajuk 1.10.8 released !** – January 30 2016<br/>
+    12 bug fixes :  [Changelog](https://github.com/jajuk-team/jajuk/issues?q=milestone%3A1.10.8+is%3Aclosed)<br/>
     [Release notes 1.10](/release_notes_1.10.html)
 
-**Jajuk 1.10.6 released !** – May 25 2013
-    3 bug fixes, OSX release fixed up 
+**Jajuk 1.10.7 released !** – August 25 2014<br/>
+    15 bug fixes, better shuffling, hotkeys support under 64bits Windows systems, Spanish langpack updated, new "Delete" option from the queue <br/>
     [Release notes 1.10](/release_notes_1.10.html)
 
-**Jajuk 1.10.5 released !** – May 11 2013
-    8 bug fixes 
+**Jajuk 1.10.6 released !** – May 25 2013<br/>
+    3 bug fixes, OSX release fixed up <br/>
+    [Release notes 1.10](/release_notes_1.10.html)
+
+**Jajuk 1.10.5 released !** – May 11 2013<br/>
+    8 bug fixes <br/>
     [Release notes 1.10](/release_notes_1.10.html) 
 
 
