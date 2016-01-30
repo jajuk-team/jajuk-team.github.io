@@ -106,7 +106,8 @@ exit
 - [all] Close bugs, known issues and Features
 
 ### Others
-- [all] Make annonce on G+ and twitter
+- [all] Make annonce on G+
+- [all] Upgrade the version in the [version file](https://github.com/jajuk-team/jajuk-team.github.io/blob/master/repository/pad/jajuk_pad.xml)
 - [all] Send a message in the developer list
 - [major] If ``default_webradios.xml`` list changed, update file at [http://svn2.assembla.com/svn/common-jukebox/common-jukebox/src/main/resources/preset_radios.xml](http://svn2.assembla.com/svn/common-jukebox/common-jukebox/src/main/resources/preset_radios.xml)
 - [all] Update and publish Jajuk pad at [http://publisher.appvisor.com/](http://publisher.appvisor.com/) (date + version:+ exe url; 5 lines to change).
