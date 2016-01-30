@@ -46,7 +46,6 @@ Others great cross-platform players part of the [common-jukebox](http://www.asse
 
 # Major events
 Find all the news at the [Jajuk Google+ page](https://plus.google.com/u/0/116653776869968419005)
-<div class="g-follow" data-annotation="bubble" data-height="24" data-href="//plus.google.com/u/0/116653776869968419005" data-rel="publisher"></div>
 
 **Jajuk 1.10.8 released !** – January 30 2016<br/>
     12 bug fixes :  [Changelog](https://github.com/jajuk-team/jajuk/issues?q=milestone%3A1.10.8+is%3Aclosed)<br/>
