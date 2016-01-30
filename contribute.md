@@ -82,8 +82,7 @@ The Jajuk release process usually takes from 8 to 10 weeks.
 
 Jajuk is now a pretty large software using a few relatively advanced concepts like perspectives & views, custom properties or devices. As a developer, you will obviously have to know and understand the application concepts. 
 All of them are described in the [User guide](/manual/main.html), please make sure to read it in depth and to 
-upgrade it required. 
-The documentation is done as a Jekyll website available from [https://github.com/jajuk-team/jajuk-team.github.io](https://github.com/jajuk-team/jajuk-team.github.io).
+upgrade it required.
 
 
  
