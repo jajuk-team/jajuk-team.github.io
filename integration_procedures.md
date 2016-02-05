@@ -26,17 +26,14 @@ QDWizard specific :
 ### New library
 - Add jar in ``jajuk/jajuk/lib`` directory
 - Add jar in ``MANIFEST``
-- Change ``pom.xml`` maven file for dependencies
 - Update [Dependencies](/legals.html)
 
 ### Library upgrade
 - Change ``/packaging/MANIFEST`` (check new versions)
-- Change pom.xml maven file for dependencies
 
 ### Library removal
 - Remove file from ``lib`` directory
 - Change ``MANIFEST`` (check new versions)
-- Change ``pom.xml`` maven file for dependencies
 - Update [Dependencies](/legals.html)
 
 ## Build a release
@@ -72,10 +69,10 @@ QDWizard specific :
 - [major] Change README notes version in ``src/doc/README.html``
 - [RC] Merge fixes into develop branch (before bumping the release so we don't have to restore them in the develop branch):
 ``git rebase release/release-<release>``
-- [all] In ``build.xml`` and ``pom.xml`` of the hotfix[minor] or the release[major] branch, bump version :
+- [all] In ``build_all.xml`` of the hotfix[minor] or the release[major] branch, bump version :
   - Set the last ``version`` (remove ``dev``)
   - ``type='final'``
-  - Change version in ``pom.xml`` (remove ``-SNAPSHOT``)
+  - Change ``test_flag`` from ``test`` to ``notest``
   - Commit the bump : ``git commit -a -m "Bump version for release x.y.z"``
   - [major] ``git-flow release finish release-x_y_z``
   - [minor] ``git-flow hotfix finish release-x_y_z`` (Changes from hotfix branch will be merged back to master AND develop branches. It should be avoided but if you already reported the changes or you can't do the merge, you can make the merge, commit it (even with conflicts) and then revert it from develop branch using : ``git revert -m 1 HEAD`` )
@@ -106,7 +103,7 @@ exit
 - [all] Close bugs, known issues and Features
 
 ### Others
-- [all] Make annonce on G+
+- [all] Make announce on G+
 - [all] Upgrade the version in the [version file](https://github.com/jajuk-team/jajuk-team.github.io/blob/master/repository/pad/jajuk_pad.xml)
 - [all] Send a message in the developer list
 - [major] If ``default_webradios.xml`` list changed, update file at [http://svn2.assembla.com/svn/common-jukebox/common-jukebox/src/main/resources/preset_radios.xml](http://svn2.assembla.com/svn/common-jukebox/common-jukebox/src/main/resources/preset_radios.xml)
@@ -117,4 +114,4 @@ These actions should be done before or just after a major release to create a ne
  
 - Create a maintenance branch
 - Update ``Const.TEST_VERSION`` and ``Const.JAJUK_CODENAME`` constants
-- Change the POM version
+
