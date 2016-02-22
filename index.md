@@ -47,6 +47,10 @@ Others great cross-platform players part of the [common-jukebox](http://www.asse
 # Major events
 Find all the news at the [Jajuk Google+ page](https://plus.google.com/u/0/116653776869968419005)
 
+**Jajuk 1.10.9 released !** – February 22 2016<br/>
+    Libraries upgrades.
+    [Release notes 1.10](/release_notes_1.10.html)
+
 **Jajuk 1.10.8 released !** – January 30 2016<br/>
     12 bug fixes :  [Changelog](https://github.com/jajuk-team/jajuk/issues?q=milestone%3A1.10.8+is%3Aclosed)<br/>
     [Release notes 1.10](/release_notes_1.10.html)
