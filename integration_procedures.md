@@ -100,7 +100,8 @@ exit
 - [major] Create a README page : [http://jajuk.info/index.php/Release_notes_x.y](http://jajuk.info/index.php/Release_notes_x.y)
 - [minor,major] Change Download and Main page
 - [minor,major] Check website (links, pages...)
-- [all] Close bugs, known issues and Features
+- [all] Close bugs, known issues and Features at github
+- [all] Set the due date and close the milestone at github
 
 ### Others
 - [all] Make announce on G+
