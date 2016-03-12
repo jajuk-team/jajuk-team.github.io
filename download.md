@@ -49,7 +49,7 @@ See the [New Features Highlights](/new_features.html)
 <tr>
 	<td>Source (Full Jajuk sources repository)</td>
 	<td style="text-align:center">
-	 	<a href="http://sourceforge.net/projects/jajuk/files/jajuk/1.10.9/jajuk-sources-1.10.9.zip" title="jajuk-sources-1.10.9.zip" >
+	 	<a href="https://github.com/jajuk-team/jajuk/archive/release-1_10_9.tar.gz" title="jajuk-sources-1.10.9.zip" >
 		<img alt="Image:Download_sources.png" src="/images/download_sources.png" width="48" height="48" border="0" /><br/>Download</a>
 	</td>	
 </tr>
