@@ -367,6 +367,9 @@ These third party softwares used by Jajuk come with their own licenses as listed
 - LGPL	: ``LICENSE-LGPL.txt``
 - CeCILL :	``LICENSE_CeCILL_V2-en.txt``
 
+## Notices
+- This product includes software developed by the Group for User Interface Research at the University of California at Berkeley. 
+
 ## Jajuk dependencies
 <pre>
 --- Sound ---
@@ -546,9 +549,9 @@ This code is located in the ``ext`` and ``org.jajuk.util`` Java package.
  
  -------------------------------------------------------
  FlowScrollPanel
- No Legals information, Public domain code found at: 
- http://groups.google.fr/group/comp.lang.java.gui/browse_thread/thread/11403002a25da9a3/da4cea55cf283a52?q=%2BJscrollPane++%2Bflowlayout&rnum=2&hl=fr#da4cea55cf283a52
- Author: Chris Long...@cs.berkeley.edu http://www.cs.berkeley.edu/~allanl  
+ http://www.docjar.org/download.jsp?q=edu.berkeley.guir.quill.util.FlowScrollPanel
+ Copyright (c) 2001 Regents of the University of California.
+ Berkeley Software License
  
  Used for : Flow Scroll panel no provided in Swing API
  
