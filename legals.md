@@ -505,6 +505,13 @@ Used for : helper
 URL      : http://code.google.com/p/guava-libraries/
 License  : Apache 2
 
+Project  : lastfm.java
+By       : Johann Kovacs
+Used for : Getting Last.fm data
+URL      : https://github.com/jkovacs/lastfm-java
+License  : Custom Open source, https://github.com/jkovacs/lastfm-java/blob/master/license.txt (provided in the bundle as LICENSE-LASTFM-JAVA.txt)
+Copyright (c) 2012, the Last.fm Java Project and Committers, All rights reserved.
+
 </pre>
 
 # Derivated work
@@ -613,5 +620,6 @@ This code is located in the ``ext`` and ``org.jajuk.util`` Java package.
  Util class (org.jajuk.util package)
  This class contains various code extracts found on the web, the URL 
  is given in the method javadoc comment when it is the case.
+  
  
 </pre>
