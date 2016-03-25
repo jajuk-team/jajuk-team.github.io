@@ -517,109 +517,71 @@ Copyright (c) 2012, the Last.fm Java Project and Committers, All rights reserved
 # Derivated work
 This file list external code source that Jajuk incorporated with or without changes. 
 This code is located in the ``ext`` and ``org.jajuk.util`` Java package.
+All derivated work is copyright Jajuk team.
 
 <pre>
- -------------------------------------------------------
- Swingx (various dates)
- https://swingx.dev.java.net/
- The original codes are Copyright (C) 2006 Sun Microsystems, Inc.
- and are licensed under LGPL 2.1 license.
- 
- Used for: Swingx workarounds (reported to Swingx team), modified 'JVM' class
- 
- Files has been adapted to Jajuk by the Jajuk Team.
- Jajuk Copyright (C) 2007 The Jajuk Team
- 
- -------------------------------------------------------
- aTunes 1.6.0
- http://www.atunes.org
- http://sourceforge.net/projects/atunes
- 
- Used for: Lyrics search engine with fixes (reported to the atunes team)
-  and Jajuk integration, adapted Proxy code, adapted Last.FM API. 
- 
- Files has been adapted to Jajuk by the Jajuk Team.
- Jajuk Copyright (C) 2007 The Jajuk Team
- 
- The original codes are Copyright (C) 2006-2007 Alex Aranda (fleax)
- <alex.aranda@gmail.com> and are licensed under GPL 2.1 license.
- 
- -------------------------------------------------------
- DropDownButton
- No Legals information, Public domain code found at http://www.jroller.com/santhosh/date/20050528
- Author: Santhosh kumar - santhosh@in.fiorano.com 
- 
- Used for : Drop down button
- 
- Files has been adapted to Jajuk by the Jajuk Team.
- Jajuk Copyright (C) 2007 The Jajuk Team
- 
- -------------------------------------------------------
- FlowScrollPanel
- http://www.docjar.org/download.jsp?q=edu.berkeley.guir.quill.util.FlowScrollPanel
- Copyright (c) 2001 Regents of the University of California.
- Berkeley Software License
- 
- Used for : Flow Scroll panel no provided in Swing API
- 
- Files has been adapted to Jajuk by the Jajuk Team.
- Jajuk Copyright (C) 2007 The Jajuk Team
- 
- -------------------------------------------------------
- Part of Zeus API
- http://zeus-jscl.sourceforge.net/
- The original codes are Copyright (C) 2004,2005 Gregory 
- Kotsaftis gregkotsaftis@yahoo.com
- and are licensed under LGPL 2.1 license.
- 
- Used for: Splash screen
- 
- Files has been adapted to Jajuk by the Jajuk Team.
- Jajuk Copyright (C) 2007 The Jajuk Team
- 
- -------------------------------------------------------
- SliderMenuItem
- 
- No Legals information, Public domain code found at: 
- http://www.java2s.com/ExampleCode/Swing-JFC/AnexampleoftheJPopupMenuinaction.htm (the link is now broken)
- No author information
- 
- Used for : adding a slider as a menu item
- 
- Files has been adapted to Jajuk by the Jajuk Team.
- Jajuk Copyright (C) 2007 The Jajuk Team
- 
- -------------------------------------------------------
- Scrollable menus
- No Legals information, Public domain code found at: 
- http://www.beginner-java-tutorial.com/scrollable-jpopupmenu.html
- author: balajihe
- 
- Used for : adding scrollable behavior to menu items
- 
- Files has been adapted to Jajuk by the Jajuk Team.
- Jajuk Copyright (C) 2007 The Jajuk Team
- 
- -------------------------------------------------------
- ProcessLauncher class
- LGPL code found at http://ydisanto.ftp-developpez.com/tutoriels/j2se/runtime/fichiers/ProcessLauncher.java
- authors: Fabio MARAZZATO, Yann D'ISANTO
- 
- Used for : Executing external process 
- -------------------------------------------------------
- 
- MersenneTwister class
- OSI-compatible license provided in the MersenneTwister.java file.
+Project  : Swingx 
+By       : Johann Kovacs
+Used for : Swingx workarounds (reported to Swingx team), modified 'JVM' class
+URL      : https://swingx.dev.java.net/
+License  : LGPL 2.1
+Copyright (C) 2006 Sun Microsystems, Inc.
 
- Copyright (c) 2003 by Sean Luke. <br>
- * Portions copyright (c) 1993 by Michael Lecuyer. <br>
- * All rights reserved. <br>
+Project  : aTunes 1.6.0 
+By       : Alex Aranda
+Used for : Lyrics search engine with fixes (reported to the atunes team) and Jajuk integration, adapted Proxy code, adapted Last.FM API. 
+URL      : http://sourceforge.net/projects/atunes
+License  : GPL 2.1
+Copyright (C) 2006-2007 Alex Aranda (fleax) <alex.aranda@gmail.com>
+ 
+Project  : DropDownButton
+By       : Santhosh Kumar
+Used for : Drop down button
+URL      : https://github.com/santhosh-tekuri/MyBlog/tree/master/DropDownButton
+License  : Apache License
+Copyright (C) 2011 Santhosh Kumar - santhosh@in.fiorano.com 
 
- Used for : pseudo-random numbers generator
- -------------------------------------------------------
- Util class (org.jajuk.util package)
- This class contains various code extracts found on the web, the URL 
- is given in the method javadoc comment when it is the case.
+Project  : FlowScrollPanel
+By       : Regents of the University of California.
+Used for : Flow Scroll panel no provided in Swing API
+URL      : http://www.docjar.org/download.jsp?q=edu.berkeley.guir.quill.util.FlowScrollPanel
+License  : BSD
+Copyright (c) 2001 Regents of the University of California.
+   
+Project  : Zeus API (few classes)
+By       : Gregory Kotsaftis
+Used for : Splash screen
+URL      : http://zeus-jscl.sourceforge.net/
+License  : LGPL 2.1
+Copyright 2004,2005 Gregory Kotsaftis gregkotsaftis@yahoo.com
+   
+Project  : Scrollable popup menus
+By       : "balajihe"
+Used for : adding scrollable behavior to menu items
+URL      : http://www.beginner-java-tutorial.com/scrollable-jpopupmenu.html
+License  : No Legals information, Public domain code
+Copyright: public domain
   
- 
+Project  : ProcessLauncher class
+By       : Fabio MARAZZATO, Yann D'ISANTO
+Used for : Executing external process 
+URL      : http://ydisanto.ftp-developpez.com/tutoriels/j2se/runtime/fichiers/ProcessLauncher.java
+License  : LGPL
+Copyright: (C) 2006  Fabio MARAZZATO, Yann D'ISANTO
+  
+Project  : MersenneTwister class
+By       : Sean Luke
+Used for : pseudo-random numbers generator
+URL      : -
+License  : BSD
+Copyright: (c) 2003 by Sean Luke, portions copyright (c) 1993 by Michael Lecuyer, All rights reserved.
+
+Project  : JScrollingText
+By       : "herve91" and others
+Used for : scrolling text
+URL      : http://www.developpez.net/forums/d41622/java/interfaces-graphiques-java/awt-swing/strategie-defilement-automatique-texte/
+License  : public domain
+Copyright: -
+
+  
 </pre>
