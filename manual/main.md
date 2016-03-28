@@ -26,6 +26,7 @@ For support, bug report or feature request, please use the Quality Agent (``Help
         <li><a href="menus.html">Menus</a></li>
         <li><a href="fullscreen.html">Fullscreen mode</a></li>
         <li><a href="slimbar.html">Slimbar</a></li>
+        <li><a href="tray.html">Tray</a></li>
         <li><a href="ambiences.html">Ambiences</a></li>
       </ul> 
       
