@@ -556,11 +556,11 @@ License  : LGPL 2.1
 Copyright 2004,2005 Gregory Kotsaftis gregkotsaftis@yahoo.com
    
 Project  : Scrollable popup menus
-By       : "balajihe"
+By       : Darryl Burke 
 Used for : adding scrollable behavior to menu items
-URL      : http://www.beginner-java-tutorial.com/scrollable-jpopupmenu.html
-License  : No Legals information, Public domain code
-Copyright: public domain
+URL      : https://svn.apache.org/repos/asf/jmeter/trunk/src/jorphan/org/apache/jorphan/gui/MenuScroller.java
+License  : ASF (Apache Software Foundation)
+Copyright: 2012, JMeter project
   
 Project  : ProcessLauncher class
 By       : Fabio MARAZZATO, Yann D'ISANTO
@@ -576,12 +576,6 @@ URL      : -
 License  : BSD
 Copyright: (c) 2003 by Sean Luke, portions copyright (c) 1993 by Michael Lecuyer, All rights reserved.
 
-Project  : JScrollingText
-By       : "herve91" and others
-Used for : scrolling text
-URL      : http://www.developpez.net/forums/d41622/java/interfaces-graphiques-java/awt-swing/strategie-defilement-automatique-texte/
-License  : public domain
-Copyright: -
 
   
 </pre>
