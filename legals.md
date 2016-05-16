@@ -515,7 +515,7 @@ Copyright (c) 2012, the Last.fm Java Project and Committers, All rights reserved
 </pre>
 
 # Derivated work
-This file list external code source that Jajuk incorporated with or without changes. 
+External code source that Jajuk incorporated with or without changes. 
 This code is located in the ``ext`` and ``org.jajuk.util`` Java package.
 All derivated work is copyright Jajuk team.
 
@@ -576,6 +576,52 @@ URL      : -
 License  : BSD
 Copyright: (c) 2003 by Sean Luke, portions copyright (c) 1993 by Michael Lecuyer, All rights reserved.
 
+</pre>
 
-  
+# Packaging
+Tools or wrappers used to build jajuk. See src/packaging/ant/build_all.xml ant script.
+<pre>
+
+Project  : ant
+By       : The Apache Software Foundation.
+Used for : Build java projects
+URL      : https://ant.apache.org/
+License  : Apache V2
+Copyright: Copyright © 1999-2016, The Apache Software Foundation.
+
+Project  : NSIS
+By       : NSIS team
+Used for : Create Windows installer
+URL      : http://nsis.sourceforge.net/Main_Page
+License  : zlib/libpng license, see embedded LICENSE-zlib-libpng.txt notice
+Copyright: (c) 1999-2016 NSIS Contributors 
+
+Project  : nsisant
+By       : Daniel Reese
+Used for : NSIS ant wrapper
+URL      : http://danielreese.com/nsis-ant/
+License  : Specific, see embedded LICENSE-nsisant.txt notice
+Copyright: Copyright © 2004 Wayne Grant. Relicensed with permission. Copyright © 2005-2010 Daniel Reese
+
+Project  : jarbundler
+By       : Seth J. Morabito
+Used for : OSX package (.app) builder
+URL      : http://informagen.com/JarBundler/
+License  : GPL V2
+Copyright: Copyright 2002 - 2006, Seth J. Morabito. All rights reserved.
+
+Project  : jdeb
+By       : Torsten Curdt
+Used for : Debian package (.deb) builder
+URL      : https://github.com/tcurdt/jdeb
+License  : Apache V2
+Copyright: Copyright 2016 The jdeb developers.
+
+Project  : launch4j
+By       : Grzegorz Kowal
+Used for : Cross-platform Java executable wrapper
+URL      : http://launch4j.sourceforge.net/
+License  : BSD 3-Clause License, the head subproject (the code which is attached to the wrapped jars) is licensed under the MIT License
+Copyright: Copyright © 2005-2015 Grzegorz Kowal 
+
 </pre>
