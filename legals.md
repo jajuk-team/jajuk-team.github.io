@@ -346,9 +346,8 @@ Public License instead of this License.
 
 </pre>
 
-# Jajuk Dependencies 
-This page is the primary page listing Jajuk dependencies. A copy of this page can be found in each Jajuk packages and in the SVN repository under the name of DEPENDENCIES.TXT.
-This page lists APIs, web services, frameworks or packaging tools (jars) included in Jajuk. We would like to thank their teams for making Jajuk possible.
+# Currently used projects 
+Thanks to all their teams for making Jajuk possible. A copy of their licenses is include in the ``src/legals`` directory.
 
 ## Online services
 - Google Images (covers) : http://images.google.com
@@ -356,21 +355,7 @@ This page lists APIs, web services, frameworks or packaging tools (jars) include
 - LyricsFly.com (lyrics) : http://lyricsfly.com/
 - LyricWiki (lyrics) : http://lyrics.wikia.com
 
-## License type
-These third party softwares used by Jajuk come with their own licenses as listed out below. A copy of the following licenses is include in src/legals directory.
-
-- Apache : ``LICENSE-Apache.txt``
-- BSD :	``LICENSE-BSD.txt``
-- Creative Commons	: ``LICENSE-CREATIVE-COMMONS.txt``
-- Derivated	:	``DERIVATED.txt``
-- GPL	: ``LICENSE-GPL.txt``
-- LGPL	: ``LICENSE-LGPL.txt``
-- CeCILL :	``LICENSE_CeCILL_V2-en.txt``
-
-## Notices
-- This product includes software developed by the Group for User Interface Research at the University of California at Berkeley. 
-
-## Jajuk dependencies
+## Libraries
 <pre>
 --- Sound ---
 Project  : Javalayer, BasicPlayer, Tritonus, mp3spi
@@ -514,10 +499,10 @@ Copyright (c) 2012, the Last.fm Java Project and Committers, All rights reserved
 
 </pre>
 
-# Derivated work
+# Derivative work
 External code source that Jajuk incorporated with or without changes. 
 This code is located in the ``ext`` and ``org.jajuk.util`` Java package.
-All derivated work is copyright Jajuk team.
+All derivative work is copyright Jajuk team.
 
 <pre>
 Project  : Swingx 
