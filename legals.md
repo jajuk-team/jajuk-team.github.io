@@ -346,6 +346,11 @@ Public License instead of this License.
 
 </pre>
 
+# Legal notices
+<pre>
+This product includes software developed by the Group for User Interface Research at the University of California at Berkeley.
+</pre>
+
 # Currently used projects 
 Thanks to all their teams for making Jajuk possible. A copy of their licenses is include in the ``src/legals`` directory.
 
