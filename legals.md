@@ -579,7 +579,7 @@ Copyright: (c) 2003 by Sean Luke, portions copyright (c) 1993 by Michael Lecuyer
 </pre>
 
 # Packaging
-Tools or wrappers used to build jajuk. See src/packaging/ant/build_all.xml ant script.
+Tools or wrappers used to build jajuk. See ``src/packaging/ant/build_all.xml`` ant script.
 <pre>
 
 Project  : ant
