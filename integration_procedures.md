@@ -23,18 +23,18 @@ QDWizard specific :
 
 ## About the packaging
 * Packaging scripts are in the ``src/packaging`` directory
-* All the packaging is now performed from the build_all.xml ant script (no more Maven, alien...)
+* All the packaging is now performed from the build_full.xml ant script (no more Maven, alien...)
 * We don't use Maven because:
- # some of the dependencies are not available from maven central ;
- # most OS-specific build tools only under ant, not maven ;
- # most Linux distribution (like Debian) uses ant to package java projects and not maven.
+  * some of the dependencies are not available from maven central ;
+  * most OS-specific build tools only under ant, not maven ;
+  * most Linux distribution (like Debian) uses ant to package java projects and not maven.
 * The junit tests are now launched from the ant scripts
-* The build_all.xml prepares the build_enduser.xml ant script (set the version, rename it to build.xml and put it into the source package so the end user that downloaded the source package has just to perform an 'ant' command to build Jajuk)
-* The compilation, jajuk.jar creation and tests code is factorized into the build_enduser.xml ant script, the build_all.xml ant script call it for these purposes so the same ant code is used by the global build and the end-user build.
+* The build_full.xml prepares the build_enduser.xml ant script (set the version, rename it to build.xml and put it into the source package so the end user that downloaded the source package has just to perform an 'ant' command to build Jajuk)
+* The compilation, jajuk.jar creation and tests code is factorized into the build_enduser.xml ant script, the build_full.xml ant script call it for these purposes so the same ant code is used by the global build and the end-user build.
 * We no more use executable jajuk.jar (with a MANIFEST), but only -cp (-classpath) options with '*' wildcard. This has several advantages :
- # simpler ant script ;
- # no more MANIFEST file to maintain when removing/adding or changing a lib version ;
- # possibility to change lib relative path from jajuk.jar from an OS to another (for a better match of each OS or Linux distribution conventions).
+  * simpler ant script ;
+  * no more MANIFEST file to maintain when removing/adding or changing a lib version ;
+  * possibility to change lib relative path from jajuk.jar from an OS to another (for a better match of each OS or Linux distribution conventions).
 * The Debian package is now platform independent as we no more bring the dbus native library (libunixsocket-java). This library is already available under Debian so we now have an optional package dependency.
 * Most RPM-flavor distribution (except Fedora) doesn't come with libunixsocket-java livrary, so we had to bring it into our RPM. But we had to build a 32 and a 64 bits version of the RPM that comes with the 32 bit or the 64 bits version of the libunixsocket-java lib.
 
