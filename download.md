@@ -35,7 +35,7 @@ See the [New Features Highlights](/new_features.html)
 <tr>
 	<td>Linux Debian / Ubuntu package</td>
 	<td style="text-align:center">
-		<a href="http://sourceforge.net/projects/jajuk/files/jajuk/1.10.9/jajuk_1.10.9-3_all.deb" title="jajuk_1.10.9-3_all.deb" >
+		<a href="http://sourceforge.net/projects/jajuk/files/jajuk/1.10.9/jajuk_1.10.9-2_all.deb" title="jajuk_1.10.9-2_all.deb" >
 		<img alt="Image:download_deb.png" src="/images/download_deb.png" width="39" height="49" border="0" /><br/>Download</a>
 	</td>
 </tr>
