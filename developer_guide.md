@@ -16,7 +16,7 @@ See the [Git](git.html) page.
 - [Jajuk developer mailing list](mailto:jajuk-developers@lists.sourceforge.net) is the project main communication stream. Note that the Reply-to is directed to the original sender, not the list so please use the "Reply all" button from you e-mail client to reply to the list.
 
 ### Java version
-- Jajuk has to run on every JVM &gt;= 1.7
+- Jajuk has to run on every JVM >= 1.7
 - Prefer using Java 5+ classes and features (like collection for instead of iterators or, autoboxing, enums). Using generics is mandatory.
 
 ### IDE
@@ -53,7 +53,7 @@ To launch jajuk from Eclipse, create a run configuration with :
 
 #### String externalization
 
-- All application labels have to be externalized (see [Translator Guide](/translator_guide.html)) with key names : &lt;Class name&gt;.&lt;number from 0&gt; .
+- All application labels have to be externalized (see [Translator Guide](/translator_guide.html)) with key names : <Class name>.<number from 0> .
 - For common labels like OK, Cancel... we use generic externalized labels (see ``jajuk.properties``). Please keep number of generic labels to minimum and when creating new generic labels, keep in mind that some language (French, German...) are gender-specific in opposition to English.
 - Do not reuse existing label ids but always increment a new number for new strings because removed labels can still be present in out-of-date langpacks. For the same reason, leave a comment in the English langpack if your remove the last label of a class (to avoid another developer to use the same ID). For exemple if a class ``Foo`` contains 15 labels ``Foo.0``, ``Foo.1``... ``Foo.14`` and if you have to remove ``Foo.14``, leave a comment #Do not use ``Foo.14``, continue to ``Foo.15``.
 - Make sure to cleanup useless labels to reduce translators work.
@@ -190,7 +190,7 @@ allows to iterate only on items of given age.
 - New predicates should be centralized into the ``JajukPredicates`` class
 
 #### Accessing to configuration files
-- The Jajuk workspace (the directory where Jajuk stores all configuration files and indexes) is variable (by default ~/.jajuk in production and ~/.jajuk_test_&lt;version&gt; in developement mode - ie using the -test option). This is why you have to access configuration files this way:
+- The Jajuk workspace (the directory where Jajuk stores all configuration files and indexes) is variable (by default ~/.jajuk in production and ~/.jajuk_test_<version> in developement mode - ie using the -test option). This is why you have to access configuration files this way:
 
 {% highlight java %}
 File fConfig = Util.getConfFileByPath(FILE_xxx);
@@ -258,7 +258,7 @@ Util.getPlayableFiles()
 
 ### How to filter a list of items ?
 {% highlight java %}
-Filter.filterItems(&lt;list&gt;,&lt;property name&gt;,&lt;value&gt;)
+Filter.filterItems(<list>,<property name>,<value>)
 {% endhighlight %}
 
 ### How to get the number of items (track, files...) ?
@@ -285,12 +285,12 @@ properties.put(CONF_AUDIOSCROBBLER_ENABLE, FALSE);
 <pre>
 begin
  width = screen width
- if width &gt; 1400  
+ if width > 1400  
    width = 1200  //deal with dual heads
  else
    width = screen width - 120
  height = screen height
- if height &gt; 1200  
+ if height > 1200  
   height = 1000  //deal with dual heads
  else
   height = screen height - 120
@@ -316,13 +316,13 @@ begin
      int y = configurated y
      int width = configurated width
      int height = configurated height
-     if x &lt; 0 or x &gt; screen width
+     if x < 0 or x > screen width
       x = 60
-     if y &lt; 0 or y &gt; screen height
+     if y < 0 or y > screen height
       y = 60
-     if width &lt;= 0 or width &gt; screen width
+     if width <= 0 or width > screen width
       width = window width - 120
-     if height &lt;= 0 or height &gt; screen height 
+     if height <= 0 or height > screen height 
       height = screen height - 120
      Apply (x,y,width,height)
 end
@@ -337,7 +337,7 @@ end
 - If you don't find a required font in ``JajukFont`` enum, please create a new one (set its properties in the ``registerFonts()`` method)
 - Fonts are accessed using  :
 {% highlight java %}
-FontManager.getInstance().getFont(&lt;a JajukFont&gt;)
+FontManager.getInstance().getFont(<a JajukFont>)
 {% endhighlight %}
 
 ### How to format dates ?
@@ -361,7 +361,7 @@ UtilSystem.getRandom()
 - Do not use custom font for stepped comboboxes : the stepping doesn't work anymore for unknown reason
 
 ### Reading events properties
-- If an event contains an non-string property to read, use ``get(&lt;property&gt;)`` to retrieve it. When using ``getProperty()`` method, the ``Property`` class returns ``null``.
+- If an event contains an non-string property to read, use ``get(<property>)`` to retrieve it. When using ``getProperty()`` method, the ``Property`` class returns ``null``.
 
 ### Trailing zeros
 Do not use trailing ``0`` in integers like in :
@@ -377,7 +377,7 @@ throw new JajukException(5);
 because ``005`` != ``5`` (octal)
 
 ### Char issue
-Avoid using chars in strings building because a char + int + string =&gt; (int) + string. Example:
+Avoid using chars in strings building because a char + int + string => (int) + string. Example:
 {% highlight java %}
 String s = '('+33+") foo)"
 {% endhighlight %}
