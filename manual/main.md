@@ -73,7 +73,8 @@ For support, bug report or feature request, please use the Quality Agent (``Help
       <ul>
         <li><a href="/faq.html">FAQ</a></li>
         <li><a href="d-bus.html">Using D-Bus (hotkeys / remote controls for Linux)</a></li>
-        <li><a href="hidden_options.html">Hidden options</a></li>
+        <li><a href="build.html">Building Jajuk</li>
+	<li><a href="hidden_options.html">Hidden options</a></li>
         <li><a href="performance_tips.html">Performance tips</a></li>
        </ul>
     </td>
