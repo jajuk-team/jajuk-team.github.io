@@ -52,7 +52,7 @@ QDWizard specific :
 ``git log --format='%aN <%aE>' | awk '{arr[$0]++} END{for (i in arr){print arr[i], i;}}' | sort -rn | cut -d\  -f2-``
 
 ### Code
-<div class='info'>We assume that we are about to release branches created using [git-flow](http://jeffkreeftmeijer.com/2010/why-arent-you-using-git-flow/).</div>
+<div class='info'>We assume that we are about to release branches created using <a href='http://jeffkreeftmeijer.com/2010/why-arent-you-using-git-flow/'>git-flow</a></div>
 
 - [all] Refresh workspace, make sure to pull every commit
 - [all] Check copyright year in ``Const.java``
