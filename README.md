@@ -1,2 +1,1 @@
-gkerdal.github.io
-=================
+This is the Jajuk.info website
