@@ -67,4 +67,11 @@ Find all the news at the [Jajuk Google+ page](https://plus.google.com/u/0/116653
     8 bug fixes <br/>
     [Release notes 1.10](/release_notes_1.10.html) 
 
+![Downloadatlas.png](images/Downloadatlas.png)
+![softoxi.png](images/Softoxi.png)
+![review2_5_Jajuk_award.png](images/Review2_5_Jajuk_award.png)
+![sp_editor_excellent_s.gif](images/Sp_editor_excellent_s.gif)
+![uptodown.png](images/Uptodown.png)
+![downloadtubes.gif](images/Downloadtubes.gif)
+![dodownload_approved_88.png](images/Dodownload_approved_88.png)
 
