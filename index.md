@@ -74,4 +74,4 @@ Find all the news at the [Jajuk Google+ page](https://plus.google.com/u/0/116653
 ![uptodown.png](images/Uptodown.png)
 ![downloadtubes.gif](images/Downloadtubes.gif)
 ![dodownload_approved_88.png](images/Dodownload_approved_88.png)
-
+[<img src="http://taimienphi.vn/Images/bn/reviewed/tmp2.png" title="awarded 5 Stars at Taimienphi" alt="download">](http://taimienphi.vn/download-jajuk-68080)
