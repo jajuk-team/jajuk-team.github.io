@@ -55,3 +55,8 @@ See the [New Features Highlights](/new_features.html)
 </tr>
 </table>
 
+## Test unstable releases
+Unstable daily builds are available [here](http://integration.jajuk.info:8080/job/unstable/) 
+
+<div class='info'>
+An unstable releases creates a separated collection in `~/.jajuk_test_<release>` as final releases collections are stored in `~/.jajuk`. If you're happy with this release, changing (being root) in `/usr/bin/jajuk` (linux/OSX) or `jajuk.bat` (Windows) `-test` to `-notest` should force it to use your current collection. 
