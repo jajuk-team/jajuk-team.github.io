@@ -35,7 +35,7 @@ To launch jajuk from Eclipse, create a run configuration with :
 - Name : ``jajuk``
 - Main class : ``org.jajuk.Main``
 - Program arguments : ``-test`` 
-- VM arguments are currently: `` -client -Xms20M -Xmx512M -XX:MinHeapFreeRatio=5 -XX:MaxHeapFreeRatio=10 -Djava.library.path=lib``
+- VM arguments are currently: ``-Xms20M -Xmx512M -XX:MinHeapFreeRatio=5 -XX:MaxHeapFreeRatio=10 -Djava.library.path=lib``
 
 <div class='info'>
  <li>-test argument tells jajuk to use the ~/.jajuk_debug repository and not the ~/.jajuk, reserved for stable releases (this way a jajuk developer can use a stable release of jajuk when working on a new release) .</li>
