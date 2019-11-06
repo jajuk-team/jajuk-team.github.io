@@ -24,19 +24,19 @@ QDWizard specific :
 ## About the packaging
 * Packaging scripts are in the ``src/packaging`` directory
 * All the packaging is now performed from the build_full.xml ant script (no more Maven, alien...)
-* We don't use Maven because:
+* We no more use Maven because:
   * some of the dependencies are not available from maven central ;
   * most OS-specific build tools only under ant, not maven ;
   * most Linux distribution (like Debian) uses ant to package java projects and not maven.
 * The junit tests are now launched from the ant scripts
-* The build_full.xml prepares the build_enduser.xml ant script (set the version, rename it to build.xml and put it into the source package so the end user that downloaded the source package has just to perform an 'ant' command to build Jajuk)
+* The build_full.xml prepares the build_enduser.xml ant script (it set the version, renames it to build.xml and put it into the source package so the end user that downloaded the source package has just to perform an 'ant' command to build Jajuk)
 * The compilation, jajuk.jar creation and tests code is factorized into the build_enduser.xml ant script, the build_full.xml ant script call it for these purposes so the same ant code is used by the global build and the end-user build.
 * We no more use executable jajuk.jar (with a MANIFEST), but only -cp (-classpath) options with '*' wildcard. This has several advantages :
   * simpler ant script ;
   * no more MANIFEST file to maintain when removing/adding or changing a lib version ;
   * possibility to change lib relative path from jajuk.jar from an OS to another (for a better match of each OS or Linux distribution conventions).
 * The Debian package is now platform independent as we no more bring the dbus native library (libunixsocket-java). This library is already available under Debian so we now have an optional package dependency.
-* Most RPM-flavor distribution (except Fedora) doesn't come with libunixsocket-java livrary, so we had to bring it into our RPM. But we had to build a 32 and a 64 bits version of the RPM that comes with the 32 bit or the 64 bits version of the libunixsocket-java lib.
+* Most RPM-flavor distribution (except Fedora) doesn't come with libunixsocket-java livrary, so we had to bring it into our RPM. 
 
 ## Build a release
 <div class='info'>
@@ -47,7 +47,6 @@ QDWizard specific :
 
 ### Legals
 - [major] Update the Dependencies and Derivative sections in [Legals](/legals.html)
-- [major] Paste the Dependencies and Derivative sections into ``src/legals`` txt files
 - [major] Update ``AUTHORS.txt`` file sorted by commits numbers using :
 ``git log --format='%aN <%aE>' | awk '{arr[$0]++} END{for (i in arr){print arr[i], i;}}' | sort -rn | cut -d\  -f2-``
 
@@ -67,11 +66,7 @@ QDWizard specific :
 - [major] Cleanup code (imports, formating and clean-up)
 - [minor,major] Search for ``System.out`` (14 in ``src/main/java`` so far)
 - [major] Detect and drop useless labels from every langpack (``jajuk.properties`` files)
-- [major] Change release note URL in ``src/packaging/NSIS/jajuk.nsis``
-- [major] Change README notes version in ``src/doc/README.html``
-- [RC] Merge fixes into develop branch (before bumping the release so we don't have to restore them in the develop branch):
-``git rebase release/release-<release>``
-- [all] In ``build_all.xml`` of the hotfix[minor] or the release[major] branch, bump version :
+- [all] In ``build_full.xml`` of the hotfix[minor] or the release[major] branch, bump version :
   - Set the last ``version`` (remove ``dev``)
   - ``type='final'``
   - Change ``test_flag`` from ``test`` to ``notest``

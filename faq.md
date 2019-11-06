@@ -148,6 +148,12 @@ In some special cases including switch from a 32 to a 64 bits JVM, you get this 
 --------------
 
 
+### Cannot start Jajuk
+Jajuk requires a Java Runtime Environment (JRE) 1.8 or later (tested successfully with openjdk 11 and 13).
+
+If you get an error similar to `java.lang.UnsatisfiedLinkError: Can't load library: /usr/lib/jvm/java-11-openjdk-11.0.5.10-0.fc29.x86_64/lib/libawt_xawt.so`, you use a headless JRE. Try to install a full JRE (`java-11-openjdk-devel.x86_64` for instance).
+
+
 ### Some webradios don't work
 
 <p>If some webradios doesn't work, try to upgrade your mplayer version. For example, version SVN-r34777-snapshot-4.6.1 from feb 2012 is known to work. Note that if you can't get a newer mplayer version package for your distro, you can still build mplayer yourself in a directory and use this mplayer executable from Jajuk Preferences view / Advanced tab / Mplayer path (full path to the executable).
@@ -218,8 +224,4 @@ If you still have the issue, it is probably an Alsa deamon problem, please read 
 </p>
 
 
-#### I use OS X 10.4 and I have no Java 6 available for my system, what's the last supported version of jajuk running under Java 5&nbsp;?
-
-<p>The last Jajuk version to run under Java 5 is 1.5.3. Please check <a href="http://downloads.sourceforge.net/jajuk/jajuk-macos-1.5.3.zip" class="external free" title="http://downloads.sourceforge.net/jajuk/jajuk-macos-1.5.3.zip" rel="nofollow">http://downloads.sourceforge.net/jajuk/jajuk-macos-1.5.3.zip</a> . This version is no more supported by the Jajuk team.
-</p>
 
