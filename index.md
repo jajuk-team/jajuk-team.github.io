@@ -45,7 +45,6 @@ Others great cross-platform players part of the [common-jukebox](http://www.asse
 — Adam Pash, Lifehacker
 
 # Major events
-Find all the news at the [Jajuk Google+ page](https://plus.google.com/u/0/116653776869968419005)
 
 **Jajuk 1.10.9 released !** – February 22 2016<br/>
     Libraries upgrades.
