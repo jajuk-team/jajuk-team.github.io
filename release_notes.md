@@ -1,7 +1,14 @@
 ---
-title: Release Notes 1.10 - Jajuk
+title: Release Notes - Jajuk
 layout: default
 ---
+
+# Release Notes - Jajuk 11
+- Jajuk now use a X.Y version scheme, so Jajuk 11 is Jajuk 1.11
+- Jajuk requires Java 8+ to run
+- A deep refresh will be proposed to you to take into account changes to tags and album covers if you upgrade from a pre-1.9 release. You can perform it manually from Devices view / right click / Force Refresh / Deep.
+- [Linux] It is strongly recommended to install mplayer if not already done to support every audio formats and to get a better sound. 
+
 
 # Release Notes - Jajuk 1.10
 
