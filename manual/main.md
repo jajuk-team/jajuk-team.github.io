@@ -5,7 +5,7 @@ layout: default
 
 # Jajuk manual
 <div class='info'>
-You also have tooltips on nearly every widget and you a "tips of the days" feature.
+You also have tooltips on nearly every widget and a "tips of the days" feature.
 </div>
 
 For support, bug report or feature request, please use the Quality Agent (``Help top menu`` / ``Report a bug or feature request``). 
