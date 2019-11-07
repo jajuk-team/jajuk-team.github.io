@@ -2,12 +2,6 @@
 title: Java Advanced Jukebox
 layout: default
 ---
-<script type="text/javascript">
-    google_ad_client = "ca-pub-8198721431533387";
-    google_ad_slot = "7195218542";
-    google_ad_width = 728;
-    google_ad_height = 90;
-</script>
 
 <img src="/images/jajuk_screenshot.png" style="width:300px; float:right" title="Jajuk screenshot" alt="Jajuk_screenshot"/>
 
@@ -19,12 +13,6 @@ The main goal of this project is to provide a fully-featured application to adva
 * Maximum features - Jajuk is made firstly for advanced users looking for powerful features;
 * Maximum usability - Jajuk is designed to be intuitive, fast and provide multiple ways to perform the same operation;
 * Maximum portability and desktop integration. 
-
-
-<!-- jajuk-horiz -->
-<script type="text/javascript"
-src="//pagead2.googlesyndication.com/pagead/show_ads.js">
-</script>
 
 # Help make Jajuk rock!
 
@@ -46,25 +34,29 @@ Others great cross-platform players part of the [common-jukebox](http://www.asse
 
 # Major events
 
+**Jajuk 11.0 released !** – November 07 2019<br/>
+    Support for Java 11 and 13
+    [Release notes](/release_notes)
+
 **Jajuk 1.10.9 released !** – February 22 2016<br/>
     Libraries upgrades.
-    [Release notes 1.10](/release_notes_1.10.html)
+    [Release notes 1.10](/release_notes)
 
 **Jajuk 1.10.8 released !** – January 30 2016<br/>
     12 bug fixes :  [Changelog](https://github.com/jajuk-team/jajuk/issues?q=milestone%3A1.10.8+is%3Aclosed)<br/>
-    [Release notes 1.10](/release_notes_1.10.html)
+    [Release notes 1.10](/release_notes.html)
 
 **Jajuk 1.10.7 released !** – August 25 2014<br/>
     15 bug fixes, better shuffling, hotkeys support under 64bits Windows systems, Spanish langpack updated, new "Delete" option from the queue <br/>
-    [Release notes 1.10](/release_notes_1.10.html)
+    [Release notes 1.10](/release_notes.html)
 
 **Jajuk 1.10.6 released !** – May 25 2013<br/>
     3 bug fixes, OSX release fixed up <br/>
-    [Release notes 1.10](/release_notes_1.10.html)
+    [Release notes 1.10](/release_notes.html)
 
 **Jajuk 1.10.5 released !** – May 11 2013<br/>
     8 bug fixes <br/>
-    [Release notes 1.10](/release_notes_1.10.html) 
+    [Release notes 1.10](/release_notes.html) 
 
 ![Downloadatlas.png](images/Downloadatlas.png)
 ![softoxi.png](images/Softoxi.png)

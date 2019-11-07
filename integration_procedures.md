@@ -55,10 +55,6 @@ QDWizard specific :
 
 - [all] Refresh workspace, make sure to pull every commit
 - [all] Check copyright year in ``Const.java``
-- [major] If mplayer binary changed
-  - update file on jajuk.info server at ``/var/www/repository.jajuk.info`` (used by the ant script to build OSX and Windows packages)
-  - Update the urls in ``build.xml`` / "Download_mplayer" target
-  - Change ``MPLAYER_WINDOWS_EXE_SIZE`` constant value in ``Const`` class
 - [all] Commit and push all changes in jajuk project
 - [all] Check stashed code
   - ``git stash list``
@@ -68,7 +64,6 @@ QDWizard specific :
 - [major] Detect and drop useless labels from every langpack (``jajuk.properties`` files)
 - [all] In ``build_full.xml`` of the hotfix[minor] or the release[major] branch, bump version :
   - Set the last ``version`` (remove ``dev``)
-  - ``type='final'``
   - Change ``test_flag`` from ``test`` to ``notest``
   - Commit the bump : ``git commit -a -m "Bump version for release x.y.z"``
   - [major] ``git-flow release finish release-x_y_z``
@@ -80,28 +75,15 @@ QDWizard specific :
 - [all] push tags (git-flow already tagged using the branch name) : ``git push origin --tags``
 
  
-- [minor,major] Release on SF
-  - Add files (6 files) from jajuk server :
-<pre>
-cd /tmp/jajuk-dist/packages
-sftp bflorat,jajuk@frs.sourceforge.net
-cd  /home/pfs/project/j/ja/jajuk/jajuk/
-mkdir {release}
-cd {release}
-put *
-exit
-</pre>
-
-- Change default OS for each SF file at [http://sourceforge.net/projects/jajuk/files/jajuk/](http://sourceforge.net/projects/jajuk/files/jajuk/)
+- [minor,major] Create a release on Github
 - [major] Update the manual
-- [major] Create a README page : [http://jajuk.info/index.php/Release_notes_x.y](http://jajuk.info/index.php/Release_notes_x.y)
+- [major] Create a README page : [http://jajuk.info/index.php/Release_notes_x.y](http://jajuk.info/index.php/Release_notes)
 - [minor,major] Change Download and Main page
 - [minor,major] Check website (links, pages...)
 - [all] Close bugs, known issues and Features at github
 - [all] Set the due date and close the milestone at github
 
 ### Others
-- [all] Make announce on G+
 - [all] Upgrade the version in the [version file](https://github.com/jajuk-team/jajuk-team.github.io/blob/master/repository/pad/jajuk_pad.xml)
 - [all] Send a message in the developer list
 - [major] If ``default_webradios.xml`` list changed, update file at [http://svn2.assembla.com/svn/common-jukebox/common-jukebox/src/main/resources/preset_radios.xml](http://svn2.assembla.com/svn/common-jukebox/common-jukebox/src/main/resources/preset_radios.xml)
@@ -109,7 +91,6 @@ exit
 
 ## Prepare the next version after a release
 These actions should be done before or just after a major release to create a new major version environment.
- 
-- Create a maintenance branch
+- Create a support branch
 - Update ``Const.TEST_VERSION`` and ``Const.JAJUK_CODENAME`` constants
 
