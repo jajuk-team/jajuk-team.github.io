@@ -10,7 +10,7 @@ You also have tooltips on nearly every widget and you a "tips of the days" featu
 
 For support, bug report or feature request, please use the Quality Agent (``Help top menu`` / ``Report a bug or feature request``). 
 
-**This manual currently targets Jajuk 1.10 aka \<Gute Laune\>**
+**This manual currently targets Jajuk 11.0 aka \<Deep Blue\>**
 
 <table>
   <tr>
