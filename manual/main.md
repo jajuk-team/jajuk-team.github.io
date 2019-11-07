@@ -10,7 +10,7 @@ You also have tooltips on nearly every widget and a "tips of the days" feature.
 
 For support, bug report or feature request, please use the Quality Agent (``Help top menu`` / ``Report a bug or feature request``). 
 
-**This manual currently targets Jajuk 11.0 aka \<Deep Blue\>**
+**This manual currently targets Jajuk 11.0 aka \<Deepest Blue\>**
 
 <table>
   <tr>
