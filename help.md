@@ -6,6 +6,9 @@ layout: default
 
 # Help
 
+## Installation
+* Check the [Installation guide](/installation.html)
+
 ## Frequently Asked Questions
 * Check the [FAQ](/faq.html)
 

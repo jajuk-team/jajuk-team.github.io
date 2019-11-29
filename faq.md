@@ -115,16 +115,8 @@ Check out <a href="/manual/devices.html#collection-backup-and-restore" title="Us
 ### Windows Only
 
 
-#### 32/64 bits JVM mess-up
-
-In some special cases including switch from a 32 to a 64 bits JVM, you get this message when launching Jajuk from the shortcut&nbsp;:
-</p>
-<pre>The item 'javaw.exe' that this shortcut refers to has been changed or moved, so this shortcut will no longer work properly. Do you want to delete this shortcut?
-</pre>
-<p>Workaround&nbsp;: use the path instead&nbsp;:
-</p>
-<pre>C:\Windows\SysWOW64\javaw.exe
-</pre>
+#### Jajuk doesn't work with AdoptOpenJDK or OpenJDK
+See [installation guide](installer.html), you may need to enable some options when installing OpenJDK.
 
 
 #### Cannot play files on a Network drive (NAS)
