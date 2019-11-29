@@ -44,7 +44,7 @@ player is locked displaying the message "time out"``
 * If you feel the problem comes from the file itself, you can send us them. The best way for that is to use an upload free service like http://wikisend.com .You'll get a http url linked to your uploaded file. Paste this url in the "Comments" text field.
 * If a problem occurs with specific files, please send their full path. Example :
 ``I have problem playing files at d:\MyMusic\aDirectory\foo.mp3``
-* A very good way to report an issue is (in addition to logs) to provide a screencast, check (for instance) [Screenr](http://www.screenr.com) to produce a screencast in seconds and publish it.
+* A very good way to report an issue is (in addition to logs) to provide a screencast.
 
 ### Paste the logs
 * Reproduce your problem
