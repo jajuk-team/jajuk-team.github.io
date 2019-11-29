@@ -33,7 +33,7 @@ No, Jajuk doesn't currently support Audio CDs read nor encode. Jajuk goal is pri
 
 ## Technical
 
-###How to select sound device in case of multiple sound cards&nbsp;?
+### How to select sound device in case of multiple sound cards&nbsp;?
 
 <ul>
 <li> [Linux users] Configure your default sound card in ``$HOME/.mplayer/config`` (e.g.: ``ao=alsa:device=hw=0.3``). You can use ``aplay -l`` to list your sound devices.
