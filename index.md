@@ -35,7 +35,7 @@ Others great cross-platform players part of the [common-jukebox](http://www.asse
 # Major events
 
 **Jajuk 11.0 \<Deepest Blue\> released !** – November 07 2019<br/>
-    Support for Java 11 and 13
+    Support for Java 11 and 13.
     [Release notes](/release_notes)
 
 **Jajuk 1.10.9 released !** – February 22 2016<br/>
