@@ -16,8 +16,8 @@ See the [Git](git.html) page.
 - [Jajuk developer mailing list](mailto:jajuk-developers@lists.sourceforge.net) is the project main communication stream. Note that the Reply-to is directed to the original sender, not the list so please use the "Reply all" button from you e-mail client to reply to the list.
 
 ### Java version
-- Jajuk has to run on every JVM >= 1.7
-- Prefer using Java 5+ classes and features (like collection for instead of iterators or, autoboxing, enums). Using generics is mandatory.
+- Jajuk has to run on every JVM >= 1.8
+- Prefer using Java 8+ classes and features (like collection for instead of iterators or, autoboxing, enums). Using generics is mandatory.
 
 ### IDE
 We recommend the [Eclipse](http://www.eclipse.org/) platform. All following documentation is applicable to Eclipse only.
@@ -46,7 +46,7 @@ To launch jajuk from Eclipse, create a run configuration with :
 #### Eclipse formatter and templates
 
 - Defaults templates are provided as Eclipse preference with the project. They are mainly Eclipse defaults templates with the Jajuk header for new files
-- Defaults code formatter configuration is provided as well with the Eclipse project preferences. It is the Eclipse default template except a 100 for line max length.
+- Defaults code formatter configuration is provided as well with the Eclipse project preferences. It is the Eclipse default template with two spaces indentation and lines of 100 caracters max.
 - Don't use one line statement without braces: use ``if (){..one line..}``, not ``if (...)`` on a single line
 - Note that the release packager applies source and import formatting over all the code at each release to make sure the formatting is always applied
 
