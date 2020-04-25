@@ -215,5 +215,25 @@ If you still have the issue, it is probably an Alsa deamon problem, please read 
 <p>From Montain Lion, Apple forces developers to be "verified". You can still launch Jajuk using several workarounds, see <a href="http://www.wikihow.com/Install-Software-from-Unsigned-Developers-on-a-Mac" class="external text" title="http://www.wikihow.com/Install-Software-from-Unsigned-Developers-on-a-Mac" rel="nofollow">this page</a> for instance. Note that Jajuk is a Free software (as in "Free speech" but also as in "Free beer") and that we don't plan to deal with this kind of software restriction policy nor to pay or spend time and privacy to be 'identified' by Apple. 
 </p>
 
+#### On Ubuntu 18.04 I encounter an issue trying to get a cover for an album.
 
+<p>If you see in "Show Debug Traces" the following error<br> 
+java.security.InvalidAlgorithmParameterException: the trustAnchors parameter must be non-empty
 
+You can try the solution below from stackoverflow
+<a href="https://stackoverflow.com/questions/6784463/error-trustanchors-parameter-must-be-non-empty">https://stackoverflow.com/questions/6784463/error-trustanchors-parameter-must-be-non-empty</a>
+</p>
+
+```
+# 1. Save an empty JKS file with the default 'changeit' password for Java cacerts.
+#    Use 'printf' instead of 'echo' for Dockerfile RUN compatibility.
+/usr/bin/printf '\xfe\xed\xfe\xed\x00\x00\x00\x02\x00\x00\x00\x00\xe2\x68\x6e\x45\xfb\x43\xdf\xa4\xd9\x92\xdd\x41\xce\xb6\xb2\x1c\x63\x30\xd7\x92' > /etc/ssl/certs/java/cacerts
+
+# if you get a "permission denied" error with the lattest command, do  
+# sudo chown <youruser> /etc/ss/certs/cacerts
+# redo the command #1 
+# sudo chown root /etc/ss/certs/cacerts
+
+# 2. Re-add all the CA certs into the previously empty file.
+/var/lib/dpkg/info/ca-certificates-java.postinst configure
+```
