@@ -7,12 +7,12 @@ layout: default
 
 * If you use Jajuk and want to help the project to be financially balanced, please use the donate Paypal form below or QR code to send money to the project. See the [project budget](/budget.html).
 
-<table style="border:none">
+<table style="border:none;">
 <tr>
-<td>
+<td style="vertical-align:middle;padding:0px">
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top"><input type="hidden" name="cmd" value="_donations" /><input type="hidden" name="business" value="6VHQC74K3S4DJ" /><input type="hidden" name="currency_code" value="EUR" /><input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" /><img alt="" border="0" src=" https://www.paypal.com/en_FR/i/scr/pixel.gif" width="1" height="1" /></form>
 </td>
-<td>
+<td style="vertical-align:middle;padding:0px">
 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAEX
 UlEQVR4nO2Ty5IkIQwD+/9/evc2h3kYWchUVXc6ghNgSSZ5vV6vf5OrU+q9ae2JrBP3QgsA
 UoN2+0/7AoCm9scCkKqq5/QwXe3qnOPF1a7upQoAAAAAAAAAAGAFQGLQ04FUjzur0kv4VO+
