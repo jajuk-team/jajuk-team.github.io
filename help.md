@@ -21,7 +21,6 @@ layout: default
 ## Contact us 
   * [Bugs / feature requests](https://github.com/jajuk-team/jajuk/issues) (see How to report a bug below)
   * [Developers mailing List](http://lists.sourceforge.net/mailman/listinfo/jajuk-developers)
-  * [Google+ page](http://plus.google.com/116653776869968419005)
   * [Twitter feed](http://twitter.com/jajukproject)
   
 ## How to report a bug properly ?
