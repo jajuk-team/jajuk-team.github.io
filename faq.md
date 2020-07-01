@@ -116,7 +116,7 @@ Check out <a href="/manual/devices.html#collection-backup-and-restore" title="Us
 
 
 #### Jajuk doesn't work with AdoptOpenJDK or OpenJDK
-See [installation guide](installer.html), you may need to enable some options when installing OpenJDK.
+See [installation guide](installation.html), you may need to enable some options when installing OpenJDK.
 
 
 #### Cannot play files on a Network drive (NAS)
