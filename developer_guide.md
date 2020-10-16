@@ -9,7 +9,22 @@ layout: default
 See the [Git](git.html) page.
 
 ### Building the code
+
+#### Requirements
+
+* Java JDK 8 or newer
+* Apache Ant
+
+#### Building from the source package distribution
 See the instructions in [BUILD.txt](https://github.com/centic9/jajuk/blob/master/src/packaging/ant/BUILD.txt).
+
+#### Building from the Github checkout
+
+Checkout the code from Github and simply run the following to compile the code locally
+
+```
+ant
+```
 
 ### Copyright
 - We have a single moral entity named "The Jajuk Team" that owns the copyright on all sources, please do not set your name in the file headers (BTW, make sure to use the provided code generation template, see bellow).
