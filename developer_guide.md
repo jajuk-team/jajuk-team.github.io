@@ -16,14 +16,14 @@ See the [Git](git.html) page.
 * Apache Ant
 
 #### Building from the source package distribution
-See the instructions in [BUILD.txt](https://github.com/centic9/jajuk/blob/master/src/packaging/ant/BUILD.txt).
+See the instructions in [BUILD.txt](https://github.com/jajuk-team/jajuk/blob/master/src/packaging/ant/BUILD.txt).
 
 #### Building from the Github checkout
 
 Checkout the code from Github and simply run the following to compile the code locally
 
 ```
-ant
+ant -Dbasedir=`pwd` -f ./src/packaging/ant/build_enduser.xml
 ```
 
 ### Copyright
