@@ -50,7 +50,7 @@ No, Jajuk doesn't currently support Audio CDs read nor encode. Jajuk goal is pri
 ### (Windows) How to map statically a letter to a drive&nbsp;?
 
 <ul><li> This can be useful to create jajuk devices mapped to a drive letter one time for ever (example: first external hard drive = M:, second external hard drive = N:)
-</li><li> Check this <a href="http://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/dm_drive_letter.mspx?mfr=true" class="external text" title="http://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/dm_drive_letter.mspx?mfr=true" rel="nofollow">Microsoft page</a>
+</li><li> Check this <a href="https://support.microsoft.com/en-us/windows/map-a-network-drive-in-windows-10-29ce55d1-34e3-a7e2-4801-131475f9557d" class="external text" title="https://support.microsoft.com/en-us/windows/map-a-network-drive-in-windows-10-29ce55d1-34e3-a7e2-4801-131475f9557d" rel="nofollow">Microsoft page</a>
 </li></ul>
 
 ### I would like to remote control Jajuk 
@@ -105,7 +105,7 @@ By default, Jajuk can use from 35MB to 512MB of physical memory. That should be 
 
 
 #### What can I do if my collection looks *really* corrupted&nbsp;?
-Check out <a href="/manual/devices.html#collection-backup-and-restore" title="Using devices">Using_devices</a> the device page of the jajuk manual. Note that this case has never been reported so far as Jajuk provides an efficient built-in recovery system.
+Check out <a href="/manual/devices.html#collection-backup-and-restore" title="Using devices">Using devices</a> the device page of the jajuk manual. Note that this case has never been reported so far as Jajuk provides an efficient built-in recovery system.
 
 
 #### Jajuk cannot read files with non-ASCII characters
@@ -127,7 +127,7 @@ Please check the [installation guide](/installation.md), you may need to enable 
 
 #### Cannot run Jajuk on Vista 64 bits (cannot execute 32 bits dll)
 
-<p>(Thanks elefkof) You need to install both a 32-bit and 64-bits JRE. It will allow you to have a 64-bit and 32-bit versions alongside each other. It will use the 32-bit JRE for 32 bit apps and 64 bit JRE for 64 bit apps. See <a href="http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=4802695" class="external free" title="http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=4802695" rel="nofollow">http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=4802695</a>
+<p>(Thanks elefkof) You need to install both a 32-bit and 64-bits JRE. It will allow you to have a 64-bit and 32-bit versions alongside each other. It will use the 32-bit JRE for 32 bit apps and 64 bit JRE for 64 bit apps. See <a href="https://bugs.java.com/bugdatabase/view_bug.do?bug_id=4802695" class="external free" title="https://bugs.java.com/bugdatabase/view_bug.do?bug_id=4802695" rel="nofollow">https://bugs.java.com/bugdatabase/view_bug.do?bug_id=4802695</a>
 </p>
 
 
