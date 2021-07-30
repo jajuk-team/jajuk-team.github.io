@@ -20,7 +20,6 @@ This tab contains some general options:
 - **Push on drop** [default=false]: If checked, Jajuk default behavior when drag and dropping a track is to push it into the queue, not to play it.
 - **Enable Hotkeys**[Windows only] [default=false]: If set, keystrokes (see list in [keys shortcuts](keys.html)) like ``F8`` work even when jajuk window has not the focus.
 - **Use parent directory as album name** [default=true]: If the album tag is not available, take parent directory name as album name.
-- **Show videos** [default=false]: If unset, jajuk don't take video-types files into account in the collection.
 - **Preserve file date** [default=false]: Preserve files "last modification date", even when setting tags.
 
 ### Modes tab

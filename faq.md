@@ -22,10 +22,6 @@ Please find <a href="/features.html#supported-formats" title="Features"> the ful
 
 It is very unlikely. We want to make a jukebox with as many features as we can for advanced users. We want to manage Music and make it right.
 
-### Can Jajuk play only the audio of a video? (Jajuk &gt; 1.6) 
-
-In the <i>Configuration, Preferences view</i>, use "-novideo" in <i>Mplayers argument</i>.
-
 ### Can Jajuk play / encode Audio CDs&nbsp;?
 
 No, Jajuk doesn't currently support Audio CDs read nor encode. Jajuk goal is primary to play existing audio files like MP3, not to create them. To encode/rip your CDs, we suggest using dedicated programs like the excellent <a href="http://cdexos.sourceforge.net/" class="external text" title="http://cdexos.sourceforge.net/" rel="nofollow">CDex</a>.
