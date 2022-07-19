@@ -40,6 +40,5 @@ Iqrm143ztQAAAABJRU5ErkJggg==">
 </tr>
 </table>
 
-* Bitcoin donation : ``1M1hLxNbKux81DQjdK9mTbMZv54vPvYDB5`` 
 
 Thanks for your help !
