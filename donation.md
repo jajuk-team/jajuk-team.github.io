@@ -3,6 +3,7 @@ title: Donation
 layout: default
 ---
 
+
 # Donations
 
 * If you use Jajuk and want to help the project to be financially balanced, please use the donate Paypal form below or QR code to send money to the project. See the [project budget](/budget.html).
